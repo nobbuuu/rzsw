@@ -48,7 +48,7 @@
     <com.blackview.search.widget.LineView
         android:id="@+id/lineView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent" />
 
     <ImageView
         android:id="@+id/img1"
@@ -87,41 +87,41 @@
         app:layout_constraintStart_toEndOf="@+id/img3"
         app:layout_constraintTop_toTopOf="@+id/img3" />
 
-    <com.blackview.search.widget.ToggleImageView
+    <ImageView
         android:id="@+id/step1Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/dp_8"
         android:layout_marginBottom="@dimen/dp_62"
+        android:src="@mipmap/img_building_block_2"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/img1"
-        app:srcImg="@mipmap/img_building_block_2" />
+        app:layout_constraintStart_toStartOf="@+id/img1" />
 
-    <com.blackview.search.widget.ToggleImageView
+    <ImageView
         android:id="@+id/step2Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/dp_48"
+        android:src="@mipmap/img_picture_book_2"
         app:layout_constraintStart_toEndOf="@+id/step1Iv"
-        app:layout_constraintTop_toTopOf="@+id/step1Iv"
-        app:srcImg="@mipmap/img_picture_book_2" />
+        app:layout_constraintTop_toTopOf="@+id/step1Iv" />
 
-    <com.blackview.search.widget.ToggleImageView
+    <ImageView
         android:id="@+id/step3Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/dp_48"
+        android:src="@mipmap/img_doll_2"
         app:layout_constraintStart_toEndOf="@+id/step2Iv"
-        app:layout_constraintTop_toTopOf="@+id/step2Iv"
-        app:srcImg="@mipmap/img_doll_2" />
+        app:layout_constraintTop_toTopOf="@+id/step2Iv" />
 
-    <com.blackview.search.widget.ToggleImageView
+    <ImageView
         android:id="@+id/step4Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/dp_48"
+        android:src="@mipmap/img_puppet_2"
         app:layout_constraintStart_toEndOf="@+id/step3Iv"
-        app:layout_constraintTop_toTopOf="@+id/step3Iv"
-        app:srcImg="@mipmap/img_puppet_2" />
+        app:layout_constraintTop_toTopOf="@+id/step3Iv" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

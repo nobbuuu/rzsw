@@ -11,6 +11,11 @@ class ExerciseEmotionFourFragment : BaseExerciseFragment<StudyExerciseViewModel,
         return mutableListOf(mBinding.step2Iv,mBinding.step1Iv)
     }
 
+    override fun onResume() {
+        super.onResume()
+        mBinding.step2Iv.resetPosition()
+        mBinding.step1Iv.resetPosition()
+    }
     override fun getForewordRaw(): Int = R.raw.l216dr
 
     override fun getContentRaw(): IntArray {
