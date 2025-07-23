@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_birthday_party_back3">
+
+    <com.ruffian.library.widget.RTextView
+        android:id="@+id/selectTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_25"
+        android:layout_marginBottom="@dimen/dp_8"
+        android:paddingStart="@dimen/dp_88"
+        android:paddingTop="@dimen/dp_13"
+        android:paddingEnd="@dimen/dp_88"
+        android:paddingBottom="@dimen/dp_13"
+        android:text="@string/hht_dress_game"
+        android:textSize="18sp"
+        app:background_normal="#FF952B"
+        app:corner_radius="@dimen/dp_88"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:text_color_normal="@color/white" />
+
+    <TextView
+        android:id="@+id/titleTv"
+        style="@style/exerciseTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_8"
+        android:layout_marginBottom="@dimen/dp_27"
+        android:background="@mipmap/bg_subject_title"
+        android:gravity="center"
+        android:text="@string/exercise_birthday_three_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selectTv" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="@dimen/dp_1"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <ImageView
+        android:id="@+id/imgChild3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="@dimen/dp_21"
+        android:src="@mipmap/img_child_3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleTv" />
+
+    <ImageView
+        android:id="@+id/imgChild2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_75"
+        android:layout_marginTop="@dimen/dp_10"
+        android:src="@mipmap/img_child_2"
+        app:layout_constraintStart_toStartOf="@+id/titleTv"
+        app:layout_constraintTop_toBottomOf="@+id/titleTv" />
+
+    <ImageView
+        android:id="@+id/imgChild1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_16"
+        android:layout_marginEnd="@dimen/dp_3"
+        android:src="@mipmap/img_child_1"
+        app:layout_constraintEnd_toEndOf="@+id/titleTv"
+        app:layout_constraintTop_toBottomOf="@+id/titleTv" />
+
+    <ImageView
+        android:id="@+id/imgGift4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dp_4"
+        android:layout_marginBottom="@dimen/dp_17"
+        android:src="@mipmap/img_gift_4"
+        app:layout_constraintBottom_toBottomOf="@+id/imgChild3"
+        app:layout_constraintEnd_toStartOf="@+id/imgChild2" />
+
+    <ImageView
+        android:id="@+id/imgGift3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dp_2"
+        android:layout_marginBottom="@dimen/dp_12"
+        android:src="@mipmap/img_gift_3"
+        app:layout_constraintBottom_toBottomOf="@+id/imgChild1"
+        app:layout_constraintEnd_toStartOf="@+id/imgChild1" />
+
+    <ImageView
+        android:id="@+id/cakeIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_1"
+        android:layout_marginTop="@dimen/dp_18"
+        android:src="@mipmap/img_birthday_cake_2"
+        app:layout_constraintStart_toEndOf="@+id/imgGift4"
+        app:layout_constraintTop_toTopOf="@+id/imgGift4" />
+
+    <ImageView
+        android:id="@+id/imgGift1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_60"
+        android:layout_marginBottom="@dimen/dp_1"
+        android:src="@mipmap/img_gift_1"
+        app:layout_constraintBottom_toBottomOf="@+id/cakeIv"
+        app:layout_constraintStart_toStartOf="@+id/imgChild3" />
+
+    <ImageView
+        android:id="@+id/imgGift5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/img_gift_5"
+        app:layout_constraintBottom_toBottomOf="@+id/imgGift1"
+        app:layout_constraintStart_toEndOf="@+id/imgGift3" />
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/step1Iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_41"
+        android:layout_marginEnd="@dimen/dp_74"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/titleTv"
+        app:srcImg="@mipmap/img_ribbon_ex" />
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/step2Iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_4"
+        app:layout_constraintEnd_toEndOf="@+id/step1Iv"
+        app:layout_constraintStart_toStartOf="@+id/step1Iv"
+        app:layout_constraintTop_toBottomOf="@+id/step1Iv"
+        app:srcImg="@mipmap/img_wand_ex" />
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/step3Iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_3"
+        app:layout_constraintEnd_toEndOf="@+id/step2Iv"
+        app:layout_constraintStart_toStartOf="@+id/step2Iv"
+        app:layout_constraintTop_toBottomOf="@+id/step2Iv"
+        app:srcImg="@mipmap/img_mask_ex" />
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/step4Iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_3"
+        app:layout_constraintEnd_toEndOf="@+id/step3Iv"
+        app:layout_constraintStart_toStartOf="@+id/step3Iv"
+        app:layout_constraintTop_toBottomOf="@+id/step3Iv"
+        app:srcImg="@mipmap/img_crown_2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

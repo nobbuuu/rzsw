@@ -1,0 +1,80 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+    id 'com.blackview.version'
+    id 'kotlin-kapt'
+}
+
+android {
+    namespace = "com.blackview.base"
+    compileSdkVersion BuildConfig.compileSdkVersion
+
+    defaultConfig {
+        minSdkVersion BuildConfig.minSdkVersion
+        targetSdkVersion BuildConfig.targetSdkVersion
+        versionCode BuildConfig.versionCode
+        versionName BuildConfig.versionName
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+    lintOptions {
+        quiet true
+        abortOnError false
+        ignoreWarnings true
+        checkReleaseBuilds false
+    }
+}
+
+dependencies {
+    api fileTree(dir: "libs", include: ["*.jar"])
+    implementation project(path: ':localrepo')
+    api Kotlin.kotlinStdlib
+    api AndroidX.appcompat
+
+    api AndroidX.lifecyle.viewModelKtx
+    api AndroidX.activityKtx
+    api AndroidX.navigation.fragmentKtx
+    api AndroidX.lifecyle.lifecycle_ext
+    api ThreeParty.tencent.Mmkv
+
+    api Google.coil
+    api Google.coil_gif
+    api Google.material
+
+    api ThreeParty.blankj
+    api ThreeParty.baseRecyclerViewAdapterHelper
+    api ThreeParty.rxhttp.base
+    api ThreeParty.OkHttp //rxhttp v2.2.2版本起，需要手动依赖okhttp
+    api ThreeParty.rxhttp.coroutine
+//    api ThreeParty.liveEventBus
+    api ThreeParty.titleBar
+    api ThreeParty.LOTTIE
+
+    api ThreeParty.RWidgetHelper
+    api ThreeParty.luBan
+    api ThreeParty.Glide
+    api ThreeParty.dokit.dokitx
+
+    api ThreeParty.mdDialog.materialDialogsLifecycle
+    api ThreeParty.mdDialog.materialDialogsCore
+
+}

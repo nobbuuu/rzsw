@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_emotions_and_feelings_front4">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="@dimen/dp_1"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <TextView
+        android:id="@+id/titleTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_80"
+        android:background="@mipmap/bg_subject_title"
+        android:gravity="center"
+        style="@style/exerciseTitle"
+        android:text="@string/study_emotion_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/oneIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_43"
+        android:layout_marginEnd="@dimen/dp_60"
+        android:src="@mipmap/img_cold"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/titleTv" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dp_35"
+        android:layout_marginTop="@dimen/dp_40"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/oneIv"
+        app:layout_constraintEnd_toStartOf="@+id/oneIv"
+        app:layout_constraintTop_toTopOf="@+id/oneIv">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hht_cold_ch"
+            android:textColor="@color/text_color_221815"
+            android:textSize="@dimen/sp_21" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hht_cold_en"
+            android:textColor="@color/text_color_221815"
+            android:textSize="@dimen/sp_21" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/twoIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_90"
+        android:layout_marginTop="@dimen/dp_43"
+        android:src="@mipmap/img_hot"
+        app:layout_constraintStart_toEndOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/titleTv" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_46"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp_40"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/twoIv"
+        app:layout_constraintStart_toEndOf="@+id/twoIv"
+        app:layout_constraintTop_toTopOf="@+id/twoIv">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hht_hot_ch"
+            android:textColor="@color/text_color_221815"
+            android:textSize="@dimen/sp_21" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hht_hot_en"
+            android:textColor="@color/text_color_221815"
+            android:textSize="@dimen/sp_21" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/threeIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dp_80"
+        android:layout_marginBottom="@dimen/dp_90"
+        android:src="@mipmap/img_full"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dp_54"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/threeIv"
+        android:layout_marginBottom="@dimen/dp_20"
+        app:layout_constraintEnd_toStartOf="@+id/threeIv">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hht_full_ch"
+            android:textColor="@color/text_color_221815"
+            android:textSize="@dimen/sp_21" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hht_full_en"
+            android:textColor="@color/text_color_221815"
+            android:textSize="@dimen/sp_21" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/fourIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_75"
+        android:layout_marginBottom="@dimen/dp_90"
+        android:src="@mipmap/img_hungry"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/guideline" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_23"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/fourIv"
+        android:layout_marginBottom="@dimen/dp_20"
+        app:layout_constraintStart_toEndOf="@+id/fourIv">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hht_hungry_ch"
+            android:textColor="@color/text_color_221815"
+            android:textSize="@dimen/sp_21" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hht_hungry_en"
+            android:textColor="@color/text_color_221815"
+            android:textSize="@dimen/sp_21" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

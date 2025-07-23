@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.hjq.bar.TitleBar
+        android:id="@+id/titleBar"
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="火火兔识字"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="小朋友，一起来了解我们的身体吧！"
+        android:textColor="@color/main_text_color"
+        android:layout_marginStart="@dimen/dp_16"
+        android:layout_marginTop="@dimen/dp_50"
+        android:layout_height="wrap_content"/>
+
+
+    <LinearLayout
+        android:id="@+id/eyeLay"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp_60"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@mipmap/img_eye"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="眼睛"
+            android:layout_width="wrap_content"
+            android:textColor="@color/main_text_color"
+            android:layout_marginTop="@dimen/dp_8"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="eye"
+            android:layout_width="wrap_content"
+            android:textColor="@color/main_text_color"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mouthLay"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp_40"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@mipmap/ic_mouth"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="嘴巴"
+            android:layout_width="wrap_content"
+            android:textColor="@color/main_text_color"
+            android:layout_marginTop="@dimen/dp_8"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="mouth"
+            android:layout_width="wrap_content"
+            android:textColor="@color/main_text_color"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>

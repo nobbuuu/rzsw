@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+  <!-- bv wangquanlong modify for translation 20230614 start -->
+  <string name="dk_about">"O produkcie"</string>
+  <string name="dk_add_device">"Dodaj urządzenie"</string>
+  <string name="dk_all_picture">"Wszystkie zdjęcia"</string>
+  <string name="dk_btn_edit">"Edytuj"</string>
+  <string name="dk_cancel">"Anuluj"</string>
+  <string name="dk_choose_all">"Zaznacz wszystkie"</string>
+  <string name="dk_confirm">"Potwierdź"</string>
+  <string name="dk_connect_disconnect">"Rozłączono"</string>
+  <string name="dk_contacts">"Książka adresowa"</string>
+  <string name="dk_continue">"Kontynuuj"</string>
+  <string name="dk_data_error">"Wyjątek danych. Zamknij i spróbuj ponownie"</string>
+  <string name="dk_delete_content">"Czy na pewno chcesz usunąć nagrania (%s)?"</string>
+  <string name="dk_delete_record">"Usuń nagranie"</string>
+  <string name="dk_delete_record_and_file">"Usuń nagrania i pliki"</string>
+  <string name="dk_disconnect_confirm">"Czy na pewno chcesz rozłączyć?"</string>
+  <string name="dk_files">"Pliki"</string>
+  <string name="dk_invite_friend">"Zaproś znajomych do instalacji EasyShare"</string>
+  <string name="dk_me">"Ja"</string>
+  <string name="dk_music">"Audio"</string>
+  <string name="dk_no_select_any_file">"Nie wybrano plików"</string>
+  <string name="dk_no_select_file">"Nie wybrano pliku"</string>
+  <string name="dk_pause">"Pauza"</string>
+  <string name="dk_phone_storage">"Pamięć telefonu"</string>
+  <string name="dk_receive_file_phone">"Odbierz pliki z telefonu"</string>
+  <string name="dk_receive_self">"Odebrano"</string>
+  <string name="dk_recent_receive">"Niedawno odebrano"</string>
+  <string name="dk_save_location">"Lokalizacja magazynu"</string>
+  <string name="dk_scan_connect">"Zeskanuj kod QR, aby połączyć"</string>
+  <string name="dk_scan_install">"Zeskanuj kod QR, aby zainstalować EasyShare"</string>
+  <string name="dk_scan_qr">"Zeskanuj kod QR"</string>
+  <string name="dk_scan_step">"W przypadku innych urządzeń wybierz „EasyShare &gt; Chcę odebrać” i wyszukaj to urządzenie albo zeskanuj ten kod QR."</string>
+  <string name="dk_scan_success">"Skanowanie powiodło się"</string>
+  <string name="dk_scan_trans_qr">"Zeskanuj aplikację EasyShare, aby wygenerować kod QR"</string>
+  <string name="dk_send_apps">"Aplikacja"</string>
+  <string name="dk_send_contacts">"Kontakt"</string>
+  <string name="dk_send_file_phone">"Wyślij pliki na telefon"</string>
+  <string name="dk_send_media">"Multimedia"</string>
+  <string name="dk_send_pictures">"Zdjęcia"</string>
+  <string name="dk_send_to">"Wyślij do"</string>
+  <string name="dk_sent_self">"Wysłane"</string>
+  <string name="dk_settings">"Ustawienia"</string>
+  <string name="dk_share_other">"Udostępnij innym"</string>
+  <string name="dk_share_tips">"Druga strona nie ma zainstalowanej aplikacji EasyShare Udostępnij innym"</string>
+  <string name="dk_summary_scan_install">"Zeskanuj kod QR przy użyciu przeglądarki, aby pobrać i zainstalować aplikację „EasyShare”"</string>
+  <string name="dk_task_cancel">"Zadanie anulowane"</string>
+  <string name="dk_to_open">"Włącz"</string>
+  <string name="dk_to_receive">"Chcę odebrać"</string>
+  <string name="dk_to_send">"Chcę wysłać"</string>
+  <string name="dk_trans_fail">"Przesyłanie nie powiodło się"</string>
+  <string name="dk_trans_no_free_space">"Zbyt mało wolnego miejsca"</string>
+  <string name="dk_trans_pause">"Wstrzymane przez drugą stronę"</string>
+  <string name="dk_trans_record">"Prześlij nagranie"</string>
+  <string name="dk_unit_a">" "</string>
+  <string name="dk_un_choose_all">"Wszystkie niewybrane"</string>
+  <string name="dk_video">"Wideo"</string>
+  <string name="dk_wait_connect">"Oczekiwanie na połączenie się odbiorcy..."</string>
+  <string name="dk_wifi_unable">"Wi-Fi wyłączone"</string>
+  <string name="title_area">"W pobliżu"</string>
+  <string name="title_message">"Wiadomość"</string>
+  <string name="title_mine">"Moje"</string>
+  <string name="title_square">"Społeczność"</string>
+  <!-- bv wangquanlong modify for translation 20230614 end -->
+  <!-- bv wangquanlong modify for translation 20230826 start -->
+  <string name="dk_trans_interrupt">"Transmisja przerwana"</string>
+  <string name="dk_trans_complete_view">"Wyświetl tylko po ukończeniu transmisji"</string>
+  <string name="dk_device_connecting">"Łączenie z urządzeniem..."</string>
+  <string name="dk_file_not_exists">"Plik niedostępny"</string>
+  <string name="dk_server_not_exists">"Nadawca niedostępny"</string>
+  <string name="dk_install_app">"Zainstaluj"</string>
+  <string name="dk_launch_app">"Otwórz"</string>
+  <string name="dk_trans_some_fail">"Częściowe niepowodzenie"</string>
+  <string name="dk_easy_trans">"EasyShare"</string>
+  <string name="dk_send">"Wyślij"</string>
+  <string name="dk_select_files">"Wybierz plik"</string>
+  <string name="dk_wait_receive_file">"Oczekiwanie na odebranie pliku..."</string>
+  <string name="dk_connected">"Połączono"</string>
+  <string name="dk_search_devices">"Wyszukiwanie urządzenia..."</string>
+  <string name="dk_selected_files">"Wybrano plik"</string>
+  <string name="dk_remove_all">"Usuń wszystkie"</string>
+  <string name="dk_target_un_space">"Druga strona nie ma wystarczającej ilości miejsca"</string>
+  <string name="dk_un_space">"Niewystarczająca ilość miejsca"</string>
+  <string name="dk_no_easy_trans">"Druga strona nie ma zainstalowanej aplikacji EasyShare?"</string>
+  <string name="dk_sd_card">"Karta SD"</string>
+  <string name="dk_send_file_device">"Wyślij pliki na inne urządzenia"</string>
+  <string name="dk_receive_file_device">"Odbierz pliki z innych urządzeń"</string>
+  <string name="now_loading">"Ładowanie..."</string>
+  <!-- bv wangquanlong modify for translation 20230826 end -->
+</resources>

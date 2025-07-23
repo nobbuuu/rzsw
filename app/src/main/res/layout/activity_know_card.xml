@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_zs_1">
+
+    <ImageView
+        android:id="@+id/backIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_40"
+        android:layout_marginTop="@dimen/dp_18"
+        android:src="@mipmap/ic_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/LRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_90"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/backIv"
+        app:layout_constraintStart_toEndOf="@+id/backIv"
+        app:layout_constraintTop_toTopOf="@+id/backIv">
+
+        <RadioButton
+            android:id="@+id/rbl1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_model_l1"
+            android:button="@null"
+            android:checked="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/ic_model_line" />
+
+        <RadioButton
+            android:id="@+id/rbl2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_model_l2"
+            android:button="@null" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/ic_model_line" />
+
+        <RadioButton
+            android:id="@+id/rbl3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_model_l3"
+            android:button="@null"
+            android:paddingTop="@dimen/dp_4"
+            android:paddingBottom="@dimen/dp_4" />
+    </RadioGroup>
+
+    <com.ruffian.library.widget.RTextView
+        android:id="@+id/starsTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_57"
+        android:layout_marginEnd="@dimen/dp_49"
+        android:paddingStart="@dimen/dp_27"
+        android:paddingEnd="@dimen/dp_27"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:background_normal="#4d000000"
+        app:corner_radius="@dimen/dp_48"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="12" />
+
+    <ImageView
+        android:id="@+id/starsIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp_16"
+        android:src="@mipmap/ic_star_big"
+        app:layout_constraintBottom_toBottomOf="@+id/starsTv"
+        app:layout_constraintEnd_toEndOf="@+id/starsTv"
+        app:layout_constraintStart_toStartOf="@+id/starsTv" />
+
+    <com.ruffian.library.widget.RFrameLayout
+        android:id="@+id/cardLay"
+        android:layout_width="770dp"
+        android:layout_height="440dp"
+        android:layout_marginTop="@dimen/dp_30"
+        app:border_color_normal="@color/white"
+        app:border_width_normal="@dimen/dp_10"
+        app:corner_radius="@dimen/dp_20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backIv" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

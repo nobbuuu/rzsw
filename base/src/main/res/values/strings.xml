@@ -1,0 +1,17 @@
+<resources>
+    <string name="now_loading">Loading…</string>
+    <string name="get_verify_code">Get verification code</string>
+    <string name="network_error">Currently no network, please check your network Settings</string>
+    <string name="notify_no_network">The network connection is unavailable, please try again later!</string>
+    <string name="esky_service_exception">The network is not strong, please try again later!</string>
+    <string name="time_out_please_try_again_later">The connection timed out. Please try again later</string>
+    <string name="upgradeForYou">You will soon be upgraded to the latest version</string>
+    <string name="cancel2">cancel</string>
+    <string name="no_relevant_information_was_found">No relevant information ~</string>
+    <string name="pick_year">/</string>
+    <string name="pick_month">/</string>
+    <string name="pick_day"></string>
+    <string name="btn_cancel">cancel</string>
+    <string name="btn_done">confirm</string>
+
+</resources>

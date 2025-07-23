@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+  <!-- bv wangquanlong modify for translation 20230614 start -->
+  <string name="now_loading">"جارٍ التحميل..."</string>
+  <!-- bv wangquanlong modify for translation 20230826 end -->
+</resources>

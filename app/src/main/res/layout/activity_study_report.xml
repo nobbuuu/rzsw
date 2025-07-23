@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/backIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_40"
+        android:layout_marginTop="@dimen/dp_18"
+        android:src="@mipmap/ic_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ipIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_45"
+        android:src="@mipmap/img_ip_study_report"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backIv" />
+
+    <ImageView
+        android:id="@+id/imgFileIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_62"
+        android:layout_marginTop="@dimen/dp_20"
+        android:src="@mipmap/imag_file"
+        app:layout_constraintStart_toEndOf="@+id/ipIv"
+        app:layout_constraintTop_toBottomOf="@+id/backIv" />
+
+    <View
+        android:id="@+id/guideline"
+        android:layout_width="@dimen/dp_1"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/dp_35"
+        app:layout_constraintStart_toStartOf="@+id/imgFileIv" />
+
+    <include
+        android:id="@+id/headLay"
+        layout="@layout/item_report_exercise_head"
+        android:layout_width="0dp"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintEnd_toEndOf="@+id/studyReportRv"
+        app:layout_constraintBottom_toTopOf="@+id/studyReportRv"
+        android:layout_height="wrap_content" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/studyReportRv"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toBottomOf="@+id/imgFileIv"
+        app:layout_constraintEnd_toEndOf="@+id/imgFileIv"
+        app:layout_constraintStart_toEndOf="@+id/guideline"
+        android:layout_marginBottom="@dimen/dp_63"
+        android:layout_marginEnd="@dimen/dp_85"
+        android:layout_marginTop="140dp"
+        app:layout_constraintTop_toTopOf="@+id/imgFileIv" />
+
+    <RadioGroup
+        android:id="@+id/LRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_28"
+        android:gravity="end"
+        app:layout_constraintBottom_toBottomOf="@+id/imgFileIv"
+        app:layout_constraintEnd_toStartOf="@+id/studyReportRv"
+        app:layout_constraintTop_toTopOf="@+id/imgFileIv">
+
+        <RadioButton
+            android:id="@+id/rbl1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_report_study"
+            android:button="@null"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/rbl2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_report_exercise"
+            android:button="@null" />
+
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

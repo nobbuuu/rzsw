@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/home_bg">
+
+    <ImageView
+        android:id="@+id/backIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_40"
+        android:layout_marginTop="@dimen/dp_18"
+        android:src="@mipmap/ic_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/LRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_90"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/backIv"
+        app:layout_constraintStart_toEndOf="@+id/backIv"
+        app:layout_constraintTop_toTopOf="@+id/backIv">
+
+        <RadioButton
+            android:id="@+id/rbl1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_model_l1"
+            android:button="@null"
+            android:checked="true" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@mipmap/ic_model_line"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"/>
+
+        <RadioButton
+            android:id="@+id/rbl2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_model_l2"
+            android:button="@null" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@mipmap/ic_model_line"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/rbl3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_model_l3"
+            android:button="@null"
+            android:paddingTop="@dimen/dp_4"
+            android:paddingBottom="@dimen/dp_4" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/reportIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginEnd="@dimen/dp_40"
+        android:src="@mipmap/icon_report"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/learningSystemIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dp_10"
+        android:src="@mipmap/icon_learning_system"
+        app:layout_constraintEnd_toStartOf="@+id/reportIv"
+        app:layout_constraintTop_toTopOf="@+id/reportIv" />
+
+    <ImageView
+        android:id="@+id/knowCardIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dp_10"
+        android:src="@mipmap/ic_know_card"
+        app:layout_constraintEnd_toStartOf="@+id/learningSystemIv"
+        app:layout_constraintTop_toTopOf="@+id/learningSystemIv" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/l1Rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp_38"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintTop_toBottomOf="@+id/knowCardIv"/>
+
+    <com.blackview.search.widget.RecyclerViewScrollBar
+        android:id="@+id/scrollBar"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp_60"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

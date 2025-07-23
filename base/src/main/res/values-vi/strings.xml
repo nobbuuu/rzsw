@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+    <!-- bv wangquanlong modify for translation 20240125 start -->
+    <string name="get_verify_code">"Nhận mã xác minh"</string>
+    <string name="btn_done">"xác nhận"</string>
+    <string name="network_error">"Hiện tại không có mạng, vui lòng kiểm tra Cài đặt mạng của bạn"</string>
+    <string name="upgradeForYou">"Bạn sẽ sớm được nâng cấp lên phiên bản mới nhất"</string>
+    <string name="pick_year">"/"</string>
+    <string name="time_out_please_try_again_later">"Kết nối đã hết thời gian chờ. Vui lòng thử lại sau"</string>
+    <string name="notify_no_network">"Kết nối mạng không khả dụng, vui lòng thử lại sau!"</string>
+    <string name="pick_month">"/"</string>
+    <string name="esky_service_exception">"Mạng không mạnh, vui lòng thử lại sau!"</string>
+    <string name="no_relevant_information_was_found">"Không có thông tin liên quan ~"</string>
+    <string name="cancel2">"Hủy bỏ"</string>
+    <string name="btn_cancel">"Hủy bỏ"</string>
+    <string name="now_loading">"Đang tải…"</string>
+    <!-- bv wangquanlong modify for translation 20240125 end -->
+</resources>

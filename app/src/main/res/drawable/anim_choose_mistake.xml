@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+    <item android:drawable="@drawable/ic_choose_mistake_00000" android:duration="100" />
+    <item android:drawable="@drawable/ic_choose_mistake_00001" android:duration="100" />
+    <item android:drawable="@drawable/ic_choose_mistake_00002" android:duration="100" />
+    <item android:drawable="@drawable/ic_choose_mistake_00003" android:duration="100" />
+    <item android:drawable="@drawable/ic_choose_mistake_00004" android:duration="100" />
+    <item android:drawable="@drawable/ic_choose_mistake_00005" android:duration="100" />
+    <item android:drawable="@drawable/ic_choose_mistake_00006" android:duration="100" />
+    <item android:drawable="@drawable/ic_choose_mistake_00007" android:duration="100" />
+    <item android:drawable="@drawable/ic_choose_mistake_00008" android:duration="100" />
+    <item android:drawable="@drawable/ic_choose_mistake_00009" android:duration="100" />
+    <item android:drawable="@drawable/ic_choose_mistake_00010" android:duration="100" />
+    <item android:drawable="@drawable/ic_choose_mistake_00011" android:duration="100" />
+    <item android:drawable="@drawable/ic_choose_mistake_00012" android:duration="100" />
+    <item android:drawable="@drawable/ic_choose_mistake_00013" android:duration="100" />
+    <item android:drawable="@drawable/ic_choose_mistake_00014" android:duration="100" />
+    <item android:drawable="@drawable/ic_choose_mistake_00015" android:duration="100" />
+    <item android:drawable="@drawable/ic_choose_mistake_00016" android:duration="100" />
+    <item android:drawable="@drawable/ic_choose_mistake_00017" android:duration="100" />
+    <item android:drawable="@drawable/ic_choose_mistake_00018" android:duration="100" />
+    <item android:drawable="@drawable/ic_choose_mistake_00019" android:duration="100" />
+    <item android:drawable="@drawable/ic_choose_mistake_00020" android:duration="100" />
+</animation-list>

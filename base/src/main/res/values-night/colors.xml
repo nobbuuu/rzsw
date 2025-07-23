@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_333">#FEFEFE</color>
+    <color name="main_text_color">#FEFEFE</color>
+    <color name="page_bg">#333333</color>
+    <color name="color_choose_btn">#0A58F6</color>
+    <color name="color_choose_btn_text">#FEFEFE</color>
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/starIv"
+        android:layout_width="208dp"
+        android:layout_height="300dp"
+        android:src="@drawable/anim_star1"
+        android:layout_marginTop="@dimen/dp_20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        app:layout_constraintBottom_toBottomOf="@+id/starIv"
+        app:layout_constraintTop_toTopOf="@+id/starIv" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/img_ip"
+        app:layout_constraintBottom_toBottomOf="@+id/img_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/img_bg_complete"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/line" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_bg">
+
+        <ImageView
+            android:id="@+id/btn_retry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/bat_retry" />
+
+        <ImageView
+            android:id="@+id/btn_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_13"
+            android:src="@mipmap/bat_next" />
+    </LinearLayout>
+
+    <com.ruffian.library.widget.RTextView
+        android:id="@+id/starsTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="94dp"
+        android:paddingStart="@dimen/dp_27"
+        android:paddingEnd="@dimen/dp_27"
+        android:layout_marginEnd="@dimen/dp_10"
+        tools:text="12"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/starAddIv"
+        app:layout_constraintTop_toTopOf="@+id/starIv"
+        app:background_normal="#4d000000"
+        app:corner_radius="@dimen/dp_48"
+        />
+
+    <ImageView
+        android:id="@+id/starsIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp_16"
+        android:src="@mipmap/ic_have_stars"
+        app:layout_constraintBottom_toBottomOf="@+id/starsTv"
+        app:layout_constraintEnd_toEndOf="@+id/starsTv"
+        app:layout_constraintStart_toStartOf="@+id/starsTv" />
+
+    <ImageView
+        android:id="@+id/starAddIv"
+        android:layout_width="352dp"
+        android:layout_height="250dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/starIv"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

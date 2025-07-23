@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="organ_two_ch">
+        <item>手</item>
+        <item>胳膊</item>
+        <item>手腕</item>
+        <item>手指</item>
+    </string-array>
+    <string-array name="organ_two_en">
+        <item>hand</item>
+        <item>arm</item>
+        <item>wrist</item>
+        <item>finger</item>
+    </string-array>
+    <integer-array name="organ_two_img_ids">
+        <item>@mipmap/img_hand_2</item>
+        <item>@mipmap/img_arm</item>
+        <item>@mipmap/img_wrist</item>
+        <item>@mipmap/img_finger1</item>
+    </integer-array>
+</resources>

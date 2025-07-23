@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+    <item android:drawable="@drawable/gif_xingxing_0100001" android:duration="100" />
+    <item android:drawable="@drawable/gif_xingxing_0100002" android:duration="100" />
+    <item android:drawable="@drawable/gif_xingxing_0100003" android:duration="100" />
+    <item android:drawable="@drawable/gif_xingxing_0100004" android:duration="100" />
+    <item android:drawable="@drawable/gif_xingxing_0100005" android:duration="100" />
+    <item android:drawable="@drawable/gif_xingxing_0100006" android:duration="100" />
+    <item android:drawable="@drawable/gif_xingxing_0100007" android:duration="100" />
+    <item android:drawable="@drawable/gif_xingxing_0100008" android:duration="100" />
+    <item android:drawable="@drawable/gif_xingxing_0100009" android:duration="100" />
+    <item android:drawable="@drawable/gif_xingxing_0100010" android:duration="100" />
+    <item android:drawable="@drawable/gif_xingxing_0100011" android:duration="100" />
+    <item android:drawable="@drawable/gif_xingxing_0100012" android:duration="100" />
+    <item android:drawable="@drawable/gif_xingxing_0100013" android:duration="100" />
+    <item android:drawable="@drawable/gif_xingxing_0100014" android:duration="100" />
+    <item android:drawable="@drawable/gif_xingxing_0100015" android:duration="100" />
+    <item android:drawable="@drawable/gif_xingxing_0100016" android:duration="100" />
+    <item android:drawable="@drawable/gif_xingxing_0100017" android:duration="100" />
+    <item android:drawable="@drawable/gif_xingxing_0100018" android:duration="100" />
+    <item android:drawable="@drawable/gif_xingxing_0100019" android:duration="100" />
+    <item android:drawable="@drawable/gif_xingxing_0100020" android:duration="100" />
+    <item android:drawable="@drawable/gif_xingxing_0100021" android:duration="100" />
+    <item android:drawable="@drawable/gif_xingxing_0100022" android:duration="100" />
+    <item android:drawable="@drawable/gif_xingxing_0100023" android:duration="100" />
+    <item android:drawable="@drawable/gif_xingxing_0100024" android:duration="100" />
+    <item android:drawable="@drawable/gif_xingxing_0100025" android:duration="100" />
+</animation-list>
