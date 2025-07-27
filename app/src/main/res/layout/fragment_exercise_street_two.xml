@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_on_the_street_back2">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="@dimen/dp_1"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <TextView
+        android:id="@+id/titleTv"
+        style="@style/exerciseTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_80"
+        android:background="@mipmap/bg_subject_title"
+        android:gravity="center"
+        android:text="@string/exercise_exercise_two_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/step1Iv"
+        android:layout_width="121dp"
+        android:layout_height="119dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="160dp"
+        app:srcImg="@mipmap/img_pharmacy"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintHorizontal_bias="0.647"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/step3Iv"
+        android:layout_width="121dp"
+        android:layout_height="133dp"
+        android:layout_marginEnd="276dp"
+        app:srcImg="@mipmap/img_bakery"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleTv" />
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/threeIv"
+        android:layout_width="110dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="8dp"
+        app:srcImg="@mipmap/img_bookstore"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleTv" />
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/step4Iv"
+        android:layout_width="143dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginBottom="8dp"
+        app:srcImg="@mipmap/img_hotel"
+        app:layout_constraintBottom_toBottomOf="@+id/step1Iv"
+        app:layout_constraintStart_toEndOf="@+id/step1Iv" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

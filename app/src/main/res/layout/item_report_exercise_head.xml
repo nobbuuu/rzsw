@@ -31,7 +31,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/dp_20"
-        android:text="阶段"
+        android:text="@string/stage"
         android:textColor="@color/text_color_a47255"
         android:textSize="21sp"
         android:textStyle="bold"
@@ -41,7 +41,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="主题"
+        android:text="@string/topic"
         android:textColor="@color/text_color_a47255"
         android:textSize="21sp"
         android:textStyle="bold"
@@ -52,7 +52,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="成绩"
+        android:text="@string/score"
         android:textColor="@color/text_color_a47255"
         android:textSize="21sp"
         android:textStyle="bold"
@@ -63,7 +63,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="操作"
+        android:text="@string/operation"
         android:textColor="@color/text_color_a47255"
         android:textSize="21sp"
         android:textStyle="bold"

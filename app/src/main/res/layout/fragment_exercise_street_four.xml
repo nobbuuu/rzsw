@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_on_the_street_back6">
+
+
+    <TextView
+        android:id="@+id/titleTv"
+        style="@style/exerciseTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_80"
+        android:background="@mipmap/bg_subject_title"
+        android:gravity="center"
+        android:text="@string/exercise_exercise_four_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/step3Iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="44dp"
+        app:srcImg="@mipmap/img_traffic_light"
+        app:layout_constraintEnd_toEndOf="@+id/titleTv"
+        app:layout_constraintHorizontal_bias="0.639"
+        app:layout_constraintStart_toStartOf="@+id/titleTv"
+        app:layout_constraintTop_toBottomOf="@+id/titleTv"
+        app:layout_editor_absoluteX="535dp" />
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/step2Iv"
+        android:layout_width="126dp"
+        android:layout_height="185dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="12dp"
+        app:srcImg="@mipmap/img_streetlight"
+        app:layout_constraintStart_toEndOf="@+id/step1Iv"
+        app:layout_constraintTop_toBottomOf="@+id/titleTv"
+        app:layout_editor_absoluteX="384dp"
+        app:layout_editor_absoluteY="144dp" />
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/step1Iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="204dp"
+        android:layout_marginTop="156dp"
+        app:srcImg="@mipmap/img_tree"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleTv"
+        app:layout_editor_absoluteY="254dp" />
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/step4Iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="208dp"
+        android:layout_marginBottom="84dp"
+        app:srcImg="@mipmap/img_road_sign"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -13,7 +13,7 @@
         <item>finger</item>
     </string-array>
     <integer-array name="organ_two_img_ids">
-        <item>@mipmap/img_hand_2</item>
+        <item>@mipmap/img_hand_2_2</item>
         <item>@mipmap/img_arm</item>
         <item>@mipmap/img_wrist</item>
         <item>@mipmap/img_finger1</item>

@@ -100,7 +100,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/dp_43"
         android:layout_marginBottom="@dimen/dp_84"
-        android:src="@mipmap/img_hand_2"
+        android:src="@mipmap/img_hand_2_2"
         app:layout_constraintBottom_toBottomOf="@+id/childIv"
         app:layout_constraintStart_toStartOf="@+id/childIv" />
 </androidx.constraintlayout.widget.ConstraintLayout>

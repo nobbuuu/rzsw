@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_on_the_street_back4">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="@dimen/dp_1"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <TextView
+        android:id="@+id/titleTv"
+        style="@style/exerciseTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_80"
+        android:background="@mipmap/bg_subject_title"
+        android:gravity="center"
+        android:text="@string/exercise_exercise_three_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/step1Iv"
+        android:layout_width="121dp"
+        android:layout_height="119dp"
+        android:layout_marginBottom="76dp"
+        app:srcImg="@mipmap/img_camera_2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/step5Iv" />
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/step2Iv"
+        android:layout_width="133dp"
+        android:layout_height="152dp"
+        android:layout_marginStart="32dp"
+        app:srcImg="@mipmap/img_handbag_1"
+        app:layout_constraintBottom_toBottomOf="@+id/step5Iv"
+        app:layout_constraintStart_toEndOf="@+id/step5Iv" />
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/step3Iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        app:srcImg="@mipmap/img_camera_1"
+        app:layout_constraintBottom_toBottomOf="@+id/step2Iv"
+        app:layout_constraintStart_toEndOf="@+id/step2Iv"
+        app:layout_constraintVertical_bias="0.69" />
+
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/step4Iv"
+        android:layout_width="114dp"
+        android:layout_height="141dp"
+        android:layout_marginStart="32dp"
+        app:srcImg="@mipmap/img_umbrella_1"
+        app:layout_constraintBottom_toBottomOf="@+id/step2Iv"
+        app:layout_constraintStart_toEndOf="@+id/step3Iv" />
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/step5Iv"
+        android:layout_width="110dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="28dp"
+        app:srcImg="@mipmap/img_cellphone_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleTv" />
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/step6Iv"
+        android:layout_width="134dp"
+        android:layout_height="135dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="8dp"
+        app:srcImg="@mipmap/img_umbrella_2"
+        app:layout_constraintBottom_toBottomOf="@+id/step1Iv"
+        app:layout_constraintStart_toEndOf="@+id/step1Iv" />
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/step7Iv"
+        android:layout_width="116dp"
+        android:layout_height="142dp"
+        android:layout_marginStart="52dp"
+        app:srcImg="@mipmap/img_handbag_2"
+        app:layout_constraintBottom_toBottomOf="@+id/step6Iv"
+        app:layout_constraintStart_toEndOf="@+id/step6Iv" />
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/step8Iv"
+        android:layout_width="96dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="40dp"
+        app:srcImg="@mipmap/img_cellphone_2"
+        app:layout_constraintBottom_toBottomOf="@+id/step7Iv"
+        app:layout_constraintStart_toEndOf="@+id/step7Iv" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
