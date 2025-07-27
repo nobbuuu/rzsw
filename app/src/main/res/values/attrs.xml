@@ -3,6 +3,14 @@
     <declare-styleable name="toggleView">
         <attr name="srcImg" format="reference" />
         <attr name="isDrag" format="boolean" />
+        <attr name="toggleGravity">
+            <enum name="top" value="0" />
+            <enum name="start" value="1" />
+            <enum name="end" value="2" />
+            <enum name="bottom" value="3" />
+            <enum name="center" value="4" />
+        </attr>
+        <attr name="toggleMargin" format="dimension" />
     </declare-styleable>
 
     <declare-styleable name="CustomProgressBar">

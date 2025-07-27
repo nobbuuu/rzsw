@@ -45,6 +45,11 @@
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.5" />
 
+    <com.blackview.search.widget.LineView
+        android:id="@+id/lineView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
     <ImageView
         android:id="@+id/switchIv"
         android:layout_width="wrap_content"
@@ -82,41 +87,41 @@
         app:layout_constraintEnd_toStartOf="@+id/controlIv"
         app:layout_constraintTop_toTopOf="@+id/controlIv" />
 
-    <com.blackview.search.widget.ToggleImageView
+    <ImageView
         android:id="@+id/step2Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="@dimen/dp_93"
         android:layout_marginBottom="@dimen/dp_79"
+        android:src="@mipmap/img_remote_control_2"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:srcImg="@mipmap/img_remote_control_2" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
-    <com.blackview.search.widget.ToggleImageView
+    <ImageView
         android:id="@+id/step1Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="@dimen/dp_61"
+        android:src="@mipmap/img_calendar_2"
         app:layout_constraintBottom_toBottomOf="@+id/step2Iv"
-        app:layout_constraintEnd_toStartOf="@+id/step2Iv"
-        app:srcImg="@mipmap/img_calendar_2" />
+        app:layout_constraintEnd_toStartOf="@+id/step2Iv" />
 
-    <com.blackview.search.widget.ToggleImageView
+    <ImageView
         android:id="@+id/step4Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="@dimen/dp_61"
+        android:src="@mipmap/img_floor_lamp_2"
         app:layout_constraintBottom_toBottomOf="@+id/step1Iv"
-        app:layout_constraintEnd_toStartOf="@+id/step1Iv"
-        app:srcImg="@mipmap/img_floor_lamp_2" />
+        app:layout_constraintEnd_toStartOf="@+id/step1Iv" />
 
-    <com.blackview.search.widget.ToggleImageView
+    <ImageView
         android:id="@+id/step3Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="@dimen/dp_61"
+        android:src="@mipmap/img_switch_2"
         app:layout_constraintBottom_toBottomOf="@+id/step4Iv"
-        app:layout_constraintEnd_toStartOf="@+id/step4Iv"
-        app:srcImg="@mipmap/img_switch_2" />
+        app:layout_constraintEnd_toStartOf="@+id/step4Iv" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -29,7 +29,7 @@ class HomeActivity : BaseActivity<HomeViewModel, ActivityHomeBinding>() {
         R.mipmap.img_body_item_eg2,
         R.mipmap.img_body_item_eg4
     )
-    private val homeItemStrList = listOf<String>(
+    private val l1StrList = listOf<String>(
         "我的身体",
         "情绪和感觉",
         "我的动作",
@@ -42,6 +42,37 @@ class HomeActivity : BaseActivity<HomeViewModel, ActivityHomeBinding>() {
         "浴室",
         "洗衣房",
         "生日派对"
+    )
+    private val l2StrList = listOf<String>(
+        "街道",
+        "交通",
+        "建筑工地",
+        "医院",
+        "学校",
+        "职业",
+        "超市",
+        "超市-蔬菜",
+        "超市-水果",
+        "超市-坚果",
+        "音乐会",
+        "游乐场",
+        "安全标识"
+    )
+    private val l3StrList = listOf<String>(
+        "天气",
+        "农场",
+        "乡村",
+        "露营",
+        "爬山",
+        "植物园",
+        "动物园",
+        "海洋馆",
+        "天文馆",
+        "海滩",
+        "体育馆",
+        "港口",
+        "机场",
+        "建筑"
     )
     private val mAdapter = HomeSubjectAdapter()
     override fun initView(savedInstanceState: Bundle?) {
@@ -81,6 +112,7 @@ class HomeActivity : BaseActivity<HomeViewModel, ActivityHomeBinding>() {
         rbl3LayParams.height = 35.dp.toInt()
         mBinding.rbl3.layoutParams = rbl3LayParams
         curLevel = "L1"
+        setData()
     }
 
     private fun resetModelL2() {
@@ -94,6 +126,7 @@ class HomeActivity : BaseActivity<HomeViewModel, ActivityHomeBinding>() {
         rbl3LayParams.height = 35.dp.toInt()
         mBinding.rbl3.layoutParams = rbl3LayParams
         curLevel = "L2"
+        setData()
     }
 
     private fun resetModelL3() {
@@ -107,6 +140,7 @@ class HomeActivity : BaseActivity<HomeViewModel, ActivityHomeBinding>() {
         rbl1LayParams.height = 35.dp.toInt()
         mBinding.rbl1.layoutParams = rbl1LayParams
         curLevel = "L3"
+        setData()
     }
 
     override fun initData() {
@@ -123,10 +157,36 @@ class HomeActivity : BaseActivity<HomeViewModel, ActivityHomeBinding>() {
             finish()
         }
         viewModel.subjects.observe(this) {
+            setData()
+        }
+        mBinding.reportIv.ktClick {
+            ktStartActivity(StudyReportActivity::class)
+        }
+        mBinding.knowCardIv.ktClick {
+            ktStartActivity(KnowCardActivity::class)
+        }
+    }
+
+    fun setData() {
+        viewModel.subjects.value?.let {
             val homeList = mutableListOf<HomeItemBean>()
+            val homeStrList = mutableListOf<String>()
             homeList.add(HomeItemBean(type = Const.VIEW_TYPE_TODAY_SEEK))
             homeList.add(HomeItemBean(type = Const.VIEW_TYPE_DIVIDER_CONNECT))
-            homeItemStrList.forEachIndexed { parentIndex, parentName ->
+            when (curLevel) {
+                Const.KEY_LEVEL_ONE -> {
+                    homeStrList.addAll(l1StrList)
+                }
+
+                Const.KEY_LEVEL_TWO -> {
+                    homeStrList.addAll(l2StrList)
+                }
+
+                Const.KEY_LEVEL_THREE -> {
+                    homeStrList.addAll(l3StrList)
+                }
+            }
+            homeStrList.forEachIndexed { parentIndex, parentName ->
                 val subjects = mutableListOf<SubjectBean>()
                 resIds.forEachIndexed { index, resId ->
                     val origin = index + 1
@@ -142,7 +202,7 @@ class HomeActivity : BaseActivity<HomeViewModel, ActivityHomeBinding>() {
                         type = SubjectType.STUDY,
                         level = curLevel,
                         origin = origin,
-                        star = it?.find { it.id == studyId }?.starNum ?: 0
+                        star = it.find { it.id == studyId }?.starNum ?: 0
                     )
                     val subjectExercise = SubjectBean(
                         id = exerciseId,
@@ -152,7 +212,7 @@ class HomeActivity : BaseActivity<HomeViewModel, ActivityHomeBinding>() {
                         type = SubjectType.EXERCISE,
                         level = curLevel,
                         origin = origin,
-                        star = it?.find { it.id == exerciseId }?.starNum ?: 0
+                        star = it.find { it.id == exerciseId }?.starNum ?: 0
                     )
                     viewModel.insert(subjectStudy)
                     viewModel.insert(subjectExercise)
@@ -162,17 +222,11 @@ class HomeActivity : BaseActivity<HomeViewModel, ActivityHomeBinding>() {
                 val homeItem =
                     HomeItemBean(parentName, subjects, Const.VIEW_TYPE_SUBJECT, id = parentIndex)
                 homeList.add(homeItem)
-                if (parentIndex != homeItemStrList.size - 1) {
+                if (parentIndex != l1StrList.size - 1) {
                     homeList.add(HomeItemBean(type = Const.VIEW_TYPE_DIVIDER_CONNECT))
                 }
             }
             mAdapter.setList(homeList)
-        }
-        mBinding.reportIv.ktClick {
-            ktStartActivity(StudyReportActivity::class)
-        }
-        mBinding.knowCardIv.ktClick {
-            ktStartActivity(KnowCardActivity::class)
         }
     }
 

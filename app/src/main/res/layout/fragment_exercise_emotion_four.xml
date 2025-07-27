@@ -63,7 +63,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/dp_30"
-        app:isDrag="true"
         app:layout_constraintBottom_toTopOf="@+id/step1Iv"
         app:layout_constraintEnd_toEndOf="@+id/step1Iv"
         app:layout_constraintStart_toStartOf="@+id/step1Iv"
@@ -75,7 +74,6 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="@dimen/dp_79"
         android:layout_marginBottom="@dimen/dp_75"
-        app:isDrag="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcImg="@mipmap/img_hot_drinks" />
