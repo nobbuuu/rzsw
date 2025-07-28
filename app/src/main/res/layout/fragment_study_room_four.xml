@@ -39,11 +39,11 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="@dimen/dp_8"
         android:gravity="center_horizontal"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="@+id/oneIv"
-        app:layout_constraintEnd_toStartOf="@+id/oneIv"
+        app:layout_constraintEnd_toEndOf="@+id/threeLl"
+        app:layout_constraintStart_toStartOf="@+id/threeLl"
         app:layout_constraintTop_toTopOf="@+id/oneIv">
 
         <TextView
@@ -72,11 +72,11 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/dp_30"
         android:gravity="center_horizontal"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="@+id/twoIv"
-        app:layout_constraintStart_toEndOf="@+id/twoIv"
+        app:layout_constraintEnd_toEndOf="@+id/fourLl"
+        app:layout_constraintStart_toStartOf="@+id/fourLl"
         app:layout_constraintTop_toTopOf="@+id/twoIv">
 
         <TextView
@@ -104,9 +104,10 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <LinearLayout
+        android:id="@+id/threeLl"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="@dimen/dp_14"
+        android:layout_marginEnd="@dimen/dp_36"
         android:gravity="center_horizontal"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="@+id/threeIv"
@@ -137,9 +138,10 @@
         app:layout_constraintStart_toEndOf="@+id/threeIv" />
 
     <LinearLayout
+        android:id="@+id/fourLl"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/dp_14"
+        android:layout_marginStart="@dimen/dp_37"
         android:layout_marginBottom="@dimen/dp_20"
         android:gravity="center_horizontal"
         android:orientation="vertical"

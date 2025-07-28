@@ -7,6 +7,7 @@ import android.view.MotionEvent
 import android.view.View
 import android.widget.FrameLayout
 import android.widget.ImageView
+import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.view.isVisible
 import com.blackview.search.R
 
@@ -22,8 +23,53 @@ class ToggleImageView @JvmOverloads constructor(
         inflate(context, R.layout.view_toggle, this)
         val styles = context.obtainStyledAttributes(attrs, R.styleable.toggleView)
         val imgRes = styles.getResourceId(R.styleable.toggleView_srcImg, 0)
-        isDrag = styles.getBoolean(R.styleable.toggleView_isDrag, false)
         findViewById<ImageView>(R.id.originBgIv).setImageResource(imgRes)
+        isDrag = styles.getBoolean(R.styleable.toggleView_isDrag, false)
+        val toggleGravity = styles.getInt(R.styleable.toggleView_toggleGravity, 4)
+        // 获取边距设置
+        val toggleMargin = styles.getDimensionPixelSize(R.styleable.toggleView_toggleMargin, 0)
+        post {
+            val toggleIv = findViewById<ImageView>(R.id.toggleIv)
+            val params = toggleIv.layoutParams as ConstraintLayout.LayoutParams
+            params.removeConstraints()
+            when (toggleGravity) {
+                0 -> {
+                    params.topToTop = ConstraintLayout.LayoutParams.PARENT_ID
+                    params.startToStart = ConstraintLayout.LayoutParams.PARENT_ID
+                    params.endToEnd = ConstraintLayout.LayoutParams.PARENT_ID
+                    params.setMargins(0, toggleMargin, 0, 0)
+                }
+
+                1 -> {
+                    params.topToTop = ConstraintLayout.LayoutParams.PARENT_ID
+                    params.startToStart = ConstraintLayout.LayoutParams.PARENT_ID
+                    params.bottomToBottom = ConstraintLayout.LayoutParams.PARENT_ID
+                    params.setMargins(toggleMargin, 0, 0, 0)
+                }
+
+                2 -> {
+                    params.topToTop = ConstraintLayout.LayoutParams.PARENT_ID
+                    params.endToEnd = ConstraintLayout.LayoutParams.PARENT_ID
+                    params.setMargins(0, 0, toggleMargin, 0)
+                    params.bottomToBottom = ConstraintLayout.LayoutParams.PARENT_ID
+                }
+
+                3 -> {
+                    params.startToStart = ConstraintLayout.LayoutParams.PARENT_ID
+                    params.endToEnd = ConstraintLayout.LayoutParams.PARENT_ID
+                    params.bottomToBottom = ConstraintLayout.LayoutParams.PARENT_ID
+                    params.setMargins(0, 0, 0, toggleMargin)
+                }
+
+                4 -> {
+                    params.topToTop = ConstraintLayout.LayoutParams.PARENT_ID
+                    params.startToStart = ConstraintLayout.LayoutParams.PARENT_ID
+                    params.endToEnd = ConstraintLayout.LayoutParams.PARENT_ID
+                    params.bottomToBottom = ConstraintLayout.LayoutParams.PARENT_ID
+                }
+            }
+            toggleIv.layoutParams = params
+        }
         styles.recycle()
     }
 
@@ -46,6 +92,16 @@ class ToggleImageView @JvmOverloads constructor(
         initialTranslationY = translationY
     }
 
+    fun ConstraintLayout.LayoutParams.removeConstraints() {
+        startToStart = ConstraintLayout.LayoutParams.UNSET
+        startToEnd = ConstraintLayout.LayoutParams.UNSET
+        endToStart = ConstraintLayout.LayoutParams.UNSET
+        endToEnd = ConstraintLayout.LayoutParams.UNSET
+        topToTop = ConstraintLayout.LayoutParams.UNSET
+        topToBottom = ConstraintLayout.LayoutParams.UNSET
+        bottomToTop = ConstraintLayout.LayoutParams.UNSET
+        bottomToBottom = ConstraintLayout.LayoutParams.UNSET
+    }
 
     override fun onTouchEvent(event: MotionEvent): Boolean {
         if (isDrag) {
