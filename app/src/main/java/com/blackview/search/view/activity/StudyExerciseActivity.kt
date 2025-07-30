@@ -53,6 +53,12 @@ import com.blackview.search.view.fragment.ExerciseRoomFourFragment
 import com.blackview.search.view.fragment.ExerciseRoomOneFragment
 import com.blackview.search.view.fragment.ExerciseRoomThreeFragment
 import com.blackview.search.view.fragment.ExerciseRoomTwoFragment
+import com.blackview.search.view.fragment.ExerciseStreetFiveFragment
+import com.blackview.search.view.fragment.ExerciseStreetFourFragment
+import com.blackview.search.view.fragment.ExerciseStreetOneFragment
+import com.blackview.search.view.fragment.ExerciseStreetSixFragment
+import com.blackview.search.view.fragment.ExerciseStreetThreeFragment
+import com.blackview.search.view.fragment.ExerciseStreetTwoFragment
 import com.blackview.search.view.fragment.ExerciseStudyOneFragment
 import com.blackview.search.view.fragment.ExerciseStudyThreeFragment
 import com.blackview.search.view.fragment.ExerciseStudyTwoFragment
@@ -101,6 +107,12 @@ import com.blackview.search.view.fragment.StudyRoomFourFragment
 import com.blackview.search.view.fragment.StudyRoomOneFragment
 import com.blackview.search.view.fragment.StudyRoomThreeFragment
 import com.blackview.search.view.fragment.StudyRoomTwoFragment
+import com.blackview.search.view.fragment.StudyStreetFiveFragment
+import com.blackview.search.view.fragment.StudyStreetFourFragment
+import com.blackview.search.view.fragment.StudyStreetOneFragment
+import com.blackview.search.view.fragment.StudyStreetSixFragment
+import com.blackview.search.view.fragment.StudyStreetThreeFragment
+import com.blackview.search.view.fragment.StudyStreetTwoFragment
 import com.blackview.search.view.fragment.StudyStudyOneFragment
 import com.blackview.search.view.fragment.StudyStudyThreeFragment
 import com.blackview.search.view.fragment.StudyStudyTwoFragment
@@ -814,9 +826,71 @@ class StudyExerciseActivity : BaseActivity<StudyExerciseViewModel, ActivityStudy
 
     fun resetL2Data(it: SubjectBean) {
         when (it.parentId) {
-
+            "0" -> {
+                val study1Fra = StudyStreetOneFragment()
+                study1Fra.arguments = Bundle().apply {
+                    putSerializable(Const.KEY_SUBJECT, getStudySubject(1))
+                }
+                studyFragments.add(study1Fra)
+                val study2Fra = StudyStreetTwoFragment()
+                study2Fra.arguments = Bundle().apply {
+                    putSerializable(Const.KEY_SUBJECT, getStudySubject(2))
+                }
+                studyFragments.add(study2Fra)
+                val study3Fra = StudyStreetThreeFragment()
+                study3Fra.arguments = Bundle().apply {
+                    putSerializable(Const.KEY_SUBJECT, getStudySubject(3))
+                }
+                studyFragments.add(study3Fra)
+                val study4Fra = StudyStreetFourFragment()
+                study4Fra.arguments = Bundle().apply {
+                    putSerializable(Const.KEY_SUBJECT, getStudySubject(3))
+                }
+                studyFragments.add(study4Fra)
+                val study5Fra = StudyStreetFiveFragment()
+                study5Fra.arguments = Bundle().apply {
+                    putSerializable(Const.KEY_SUBJECT, getStudySubject(5))
+                }
+                studyFragments.add(study5Fra)
+                val study6Fra = StudyStreetSixFragment()
+                study6Fra.arguments = Bundle().apply {
+                    putSerializable(Const.KEY_SUBJECT, getStudySubject(6))
+                }
+                studyFragments.add(study6Fra)
+                val exercise1Fra = ExerciseStreetOneFragment()
+                exercise1Fra.arguments = Bundle().apply {
+                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(1))
+                }
+                exerciseFragments.add(exercise1Fra)
+                val exercise2Fra = ExerciseStreetTwoFragment()
+                exercise2Fra.arguments = Bundle().apply {
+                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(2))
+                }
+                exerciseFragments.add(exercise2Fra)
+                val exercise3Fra = ExerciseStreetThreeFragment()
+                exercise3Fra.arguments = Bundle().apply {
+                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(3))
+                }
+                exerciseFragments.add(exercise3Fra)
+                val exercise4Fra = ExerciseStreetFourFragment()
+                exercise4Fra.arguments = Bundle().apply {
+                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(4))
+                }
+                exerciseFragments.add(exercise4Fra)
+                val exercise5Fra = ExerciseStreetFiveFragment()
+                exercise5Fra.arguments = Bundle().apply {
+                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(5))
+                }
+                exerciseFragments.add(exercise5Fra)
+                val exercise6Fra = ExerciseStreetSixFragment()
+                exercise6Fra.arguments = Bundle().apply {
+                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(6))
+                }
+                exerciseFragments.add(exercise6Fra)
+            }
         }
     }
+
     fun resetL3Data(it: SubjectBean) {
         when (it.parentId) {
 
