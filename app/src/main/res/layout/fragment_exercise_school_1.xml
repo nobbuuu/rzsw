@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_at_school_back">
+
+    <com.ruffian.library.widget.RTextView
+        android:id="@+id/selectTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_25"
+        android:layout_marginBottom="@dimen/dp_8"
+        android:paddingStart="@dimen/dp_88"
+        android:paddingTop="@dimen/dp_13"
+        android:paddingEnd="@dimen/dp_88"
+        android:paddingBottom="@dimen/dp_13"
+        android:text="@string/exercise_school_1_title_cn"
+        android:textSize="18sp"
+        app:background_normal="#FF952B"
+        app:corner_radius="@dimen/dp_88"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:text_color_normal="@color/white" />
+
+    <TextView
+        android:id="@+id/titleTv"
+        style="@style/exerciseTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_8"
+        android:layout_marginBottom="@dimen/dp_27"
+        android:background="@mipmap/bg_subject_title"
+        android:gravity="center"
+        android:text="@string/exercise_school_1_subtitle_cn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selectTv" />
+
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/setp1Iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selectTv"
+        app:srcImg="@mipmap/img_school_uniform_1" />
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/setp2Iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="@+id/selectTv"
+        app:layout_constraintTop_toBottomOf="@+id/titleTv"
+        app:srcImg="@mipmap/img_school_bag_1" />
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/setp3Iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="96dp"
+        app:layout_constraintStart_toEndOf="@+id/setp2Iv"
+        app:layout_constraintTop_toTopOf="@+id/setp2Iv"
+        app:srcImg="@mipmap/img_pencil_case_1" />
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/setp4Iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/setp3Iv"
+        app:layout_constraintStart_toEndOf="@+id/setp3Iv"
+        app:srcImg="@mipmap/img_schedule_1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

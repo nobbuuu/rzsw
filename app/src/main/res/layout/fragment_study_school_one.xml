@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_in_the_hospital_front">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="@dimen/dp_1"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <TextView
+        android:id="@+id/titleTv"
+        style="@style/exerciseTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_80"
+        android:background="@mipmap/bg_subject_title"
+        android:gravity="center"
+        android:text="小朋友，一起来了解医院吧！"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/oneIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="84dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:srcImg="@mipmap/img_school_bag" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="@dimen/dp_6"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/oneIv"
+        app:layout_constraintEnd_toStartOf="@+id/oneIv"
+        app:layout_constraintTop_toTopOf="@+id/oneIv"
+        app:layout_constraintVertical_bias="0.525">
+
+        <TextView
+            style="@style/contentText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="书包" />
+
+        <TextView
+            style="@style/contentText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="school bag" />
+    </LinearLayout>
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/twoIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcImg="@mipmap/img_pencil_case"
+        app:layout_constraintBottom_toBottomOf="@+id/threeIv"
+        app:layout_constraintEnd_toEndOf="@+id/fourIv"
+        app:layout_constraintStart_toStartOf="@+id/fourIv"
+        app:layout_constraintTop_toTopOf="@+id/threeIv" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/twoIv"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout3"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout3"
+        app:layout_constraintTop_toTopOf="@+id/twoIv">
+
+        <TextView
+            style="@style/contentText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="文具盒" />
+
+        <TextView
+            style="@style/contentText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="pencil case" />
+    </LinearLayout>
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/threeIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/oneIv"
+        app:layout_constraintEnd_toEndOf="@+id/oneIv"
+        app:layout_constraintStart_toStartOf="@+id/oneIv"
+        app:layout_constraintTop_toBottomOf="@+id/titleTv"
+        app:srcImg="@mipmap/img_school_uniform" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dp_36"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/threeIv"
+        app:layout_constraintEnd_toStartOf="@+id/threeIv"
+        app:layout_constraintTop_toTopOf="@+id/threeIv">
+
+        <TextView
+            style="@style/contentText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="校服" />
+
+        <TextView
+            style="@style/contentText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="school uniform" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_20"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/fourIv"
+        app:layout_constraintStart_toEndOf="@+id/fourIv"
+        app:layout_constraintTop_toTopOf="@+id/fourIv">
+
+        <TextView
+            style="@style/contentText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="课程表" />
+
+        <TextView
+            style="@style/contentText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="schedule" />
+    </LinearLayout>
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/fourIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        app:layout_constraintBottom_toBottomOf="@+id/oneIv"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:srcImg="@mipmap/img_schedule" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

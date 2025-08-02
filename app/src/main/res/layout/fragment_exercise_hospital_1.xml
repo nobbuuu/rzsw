@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_in_the_hospital_back">
+
+    <com.ruffian.library.widget.RTextView
+        android:id="@+id/selectTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_25"
+        android:layout_marginBottom="@dimen/dp_8"
+        android:paddingStart="@dimen/dp_88"
+        android:paddingTop="@dimen/dp_13"
+        android:paddingEnd="@dimen/dp_88"
+        android:paddingBottom="@dimen/dp_13"
+        android:text="@string/exercise_hospital_1_title_cn"
+        android:textSize="18sp"
+        app:background_normal="#FF952B"
+        app:corner_radius="@dimen/dp_88"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:text_color_normal="@color/white" />
+
+    <TextView
+        android:id="@+id/titleTv"
+        style="@style/exerciseTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_8"
+        android:layout_marginBottom="@dimen/dp_27"
+        android:background="@mipmap/bg_subject_title"
+        android:gravity="center"
+        android:text="@string/exercise_hospital_1_subtitle_cn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selectTv" />
+
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/setp1Iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleTv"
+        app:srcImg="@mipmap/img_medical_record_1" />
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/setp2Iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="@+id/setp1Iv"
+        app:layout_constraintTop_toBottomOf="@+id/setp1Iv"
+        app:srcImg="@mipmap/img_syringe_1" />
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/setp3Iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="68dp"
+        app:layout_constraintEnd_toEndOf="@+id/titleTv"
+        app:layout_constraintTop_toTopOf="@+id/setp1Iv"
+        app:srcImg="@mipmap/img_stethoscope_1" />
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/setp4Iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="56dp"
+        app:layout_constraintBottom_toBottomOf="@+id/setp2Iv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintStart_toEndOf="@+id/setp3Iv"
+        app:srcImg="@mipmap/img_thermometer_1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

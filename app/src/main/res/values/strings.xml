@@ -659,4 +659,73 @@
     <string name="hotel_cn">旅馆</string>
     <string name="hotel_en">hotel</string>
 
+    <!-- 工地场景相关字符串 -->
+    <string name="exercise_construction_site_one_title_cn">运输车辆游戏</string>
+    <string name="exercise_construction_site_one_subtitle_cn">为以下物品选择合适的运输车辆吧！</string>
+    <string name="exercise_construction_site_two_title_cn">修理厂</string>
+    <string name="exercise_construction_site_two_subtitle_cn">给车辆装上正确的部件，让它们运行起来吧！</string>
+    <string name="exercise_construction_site_three_title_cn">建房子</string>
+    <string name="exercise_construction_site_three_subtitle_cn">爸爸要给宠物狗建新房子，把适合的工具交给他吧！</string>
+    
+    <!-- 医院场景相关字符串 -->
+    <string name="exercise_hospital_1_title_cn">医生的桌面</string>
+    <string name="exercise_hospital_1_subtitle_cn">看看一位医生的桌面都有什么吧！</string>
+    <string name="exercise_hospital_2_title_cn">医生小游戏</string>
+    <string name="exercise_hospital_2_subtitle_cn">为小朋友治疗擦伤吧！</string>
+    <string name="exercise_hospital_three_title_cn">奇怪的动物</string>
+    <string name="exercise_hospital_three_subtitle_cn">动物们都想用医疗器械来干啥？</string>
+    
+    <!-- 学校场景相关字符串 -->
+    <string name="exercise_school_1_title_cn">快迟到了</string>
+    <string name="exercise_school_1_subtitle_cn">小朋友快迟到了，快帮帮他！</string>
+    
+    <!-- 交通工具场景相关字符串 -->
+    <string name="exercise_vehicle_one_title_cn">小小售票员</string>
+    <string name="exercise_vehicle_one_subtitle_cn">按旅客的需求给他们合适的车票吧！</string>
+    <string name="exercise_vehicle_two_title_cn">数轮子游戏</string>
+    <string name="exercise_vehicle_two_subtitle_cn">数一数下面的车辆各有几个轮子吧！</string>
+    <string name="exercise_vehicle_three_title_cn">竞速比赛</string>
+    <string name="exercise_vehicle_three_subtitle_cn">紧张刺激的竞速比赛开始了，哪辆车最快呢？</string>
+    <string name="exercise_vehicle_four_title_cn">热闹的大海</string>
+    <string name="exercise_vehicle_four_subtitle_cn">大海上满是形形色色的船只，你能分辨它们吗？</string>
+    <string name="exercise_vehicle_five_title_cn">猜猜载具</string>
+    <string name="exercise_vehicle_five_subtitle_cn">根据载具的一部分特征，猜出它是什么吧！</string>
+    
+    <!-- 学习模式相关字符串 -->
+    <string name="study_construction_site_one_title_cn">小朋友，一起来了解建筑工具吧！</string>
+    <string name="dump_truck_cn">翻斗车</string>
+    <string name="dump_truck_en">dump truck</string>
+    <string name="forklift_cn">叉车</string>
+    <string name="forklift_en">forklift</string>
+    <string name="tanker_cn">罐车</string>
+    <string name="tanker_en">tanker</string>
+    <string name="wheelbarrow_cn">手推车</string>
+    <string name="wheelbarrow_en">wheelbarrow</string>
+    <string name="study_construction_site_two_title_cn">小朋友，一起来了解建筑工具吧！</string>
+    <string name="crane_cn">起重机</string>
+    <string name="crane_en">crane</string>
+    <string name="excavator_cn">挖掘机</string>
+    <string name="excavator_en">excavator</string>
+    <string name="bulldozer_cn">推土机</string>
+    <string name="bulldozer_en">bulldozer</string>
+    <string name="concrete_mixer_cn">混凝土搅拌车</string>
+    <string name="concrete_mixer_en">concrete mixer</string>
+    <string name="study_construction_site_three_title_cn">小朋友，一起来了解建筑工具吧！</string>
+    <string name="brick_cn">砖</string>
+    <string name="brick_en">brick</string>
+    <string name="tape_measure_cn">卷尺</string>
+    <string name="tape_measure_en">tape measure</string>
+    <string name="hammer_cn">锤子</string>
+    <string name="hammer_en">hammer</string>
+    <string name="shovel_cn">铲</string>
+    <string name="shovel_en">shovel</string>
+    <string name="study_hospital_one_title_cn">小朋友，一起来了解医院吧！</string>
+    <string name="syringe_cn">注射器</string>
+    <string name="syringe_en">syringe</string>
+    <string name="stethoscope_cn">听诊器</string>
+    <string name="stethoscope_en">stethoscope</string>
+    <string name="medical_record_cn">病历</string>
+    <string name="medical_record_en">medical record</string>
+    <string name="thermometer_cn">体温计</string>
+    <string name="thermometer_en">thermometer</string>
 </resources>
