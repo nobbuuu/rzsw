@@ -13,6 +13,19 @@
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.5" />
 
+    <com.ruffian.library.widget.RTextView
+        android:id="@+id/topTv"
+        style="@style/exerciseTitle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exercise_street_two_title"
+        app:background_normal="@color/text_color_exercise_title"
+        app:corner_radius="@dimen/dp_88"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:text_color_normal="@color/white" />
+
     <TextView
         android:id="@+id/titleTv"
         style="@style/exerciseTitle"
@@ -33,11 +46,11 @@
         android:layout_height="119dp"
         android:layout_marginEnd="76dp"
         android:layout_marginBottom="160dp"
-        app:srcImg="@mipmap/img_pharmacy"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline"
         app:layout_constraintHorizontal_bias="0.647"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcImg="@mipmap/img_pharmacy" />
 
 
     <com.blackview.search.widget.ToggleImageView
@@ -45,9 +58,9 @@
         android:layout_width="121dp"
         android:layout_height="133dp"
         android:layout_marginEnd="276dp"
-        app:srcImg="@mipmap/img_bakery"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/titleTv" />
+        app:layout_constraintTop_toBottomOf="@+id/titleTv"
+        app:srcImg="@mipmap/img_bakery" />
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/step3Iv"
@@ -55,9 +68,9 @@
         android:layout_height="130dp"
         android:layout_marginStart="184dp"
         android:layout_marginTop="8dp"
-        app:srcImg="@mipmap/img_bookstore"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/titleTv" />
+        app:layout_constraintTop_toBottomOf="@+id/titleTv"
+        app:srcImg="@mipmap/img_bookstore" />
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/step4Iv"
@@ -65,8 +78,8 @@
         android:layout_height="103dp"
         android:layout_marginStart="88dp"
         android:layout_marginBottom="8dp"
-        app:srcImg="@mipmap/img_hotel"
         app:layout_constraintBottom_toBottomOf="@+id/step1Iv"
-        app:layout_constraintStart_toEndOf="@+id/step1Iv" />
+        app:layout_constraintStart_toEndOf="@+id/step1Iv"
+        app:srcImg="@mipmap/img_hotel" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,7 +6,18 @@
     android:layout_height="match_parent"
     android:background="@mipmap/bg_on_the_street_back6">
 
-
+    <com.ruffian.library.widget.RTextView
+        android:id="@+id/topTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exercise_street_one_title"
+        style="@style/exerciseTitle1"
+        app:corner_radius="@dimen/dp_88"
+        app:background_normal="@color/text_color_exercise_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:text_color_normal="@color/white" />
     <TextView
         android:id="@+id/titleTv"
         style="@style/exerciseTitle"

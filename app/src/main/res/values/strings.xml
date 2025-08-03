@@ -151,6 +151,12 @@
     <string name="exercise_birthday_one_title">你还认识它们吗？</string>
     <string name="exercise_birthday_two_title">把零食和果汁塞进盲盒里，送给朋友们吧！</string>
     <string name="exercise_birthday_three_title">好好装扮一番吧！</string>
+    <string name="exercise_street_one_title">找建筑</string>
+    <string name="exercise_street_two_title">指路游戏</string>
+    <string name="exercise_street_three_title">失物招领</string>
+    <string name="exercise_street_four_title">美丽的街道</string>
+    <string name="exercise_street_five_title">与朋友集合</string>
+    <string name="exercise_street_six_title">装裱相片</string>
 
     <string name="organ_eye_ch">眼睛</string>
     <string name="organ_eye_en">eye</string>
@@ -466,9 +472,7 @@
     <string name="hht_mask">面具\nmask</string>
     <string name="hht_ribbon">丝带\nribbon</string>
     <string name="hht_crown">王冠\ncrown</string>
-    <string name="meet_friends_cn">与朋友集合</string>
     <string name="find_friends_at_meeting_place_cn">去约定好的地方找到小伙伴吧！</string>
-    <string name="frame_photos_cn">装裱相片</string>
     <string name="barbecue_party_cn">烤肉派对</string>
     <string name="share_snacks_cn">分享零食</string>
     <string name="cashier_cn">收银台</string>
