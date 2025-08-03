@@ -50,31 +50,29 @@
         android:id="@+id/step1Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="232dp"
+        android:layout_marginStart="240dp"
         android:layout_marginTop="32dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titleTv"
         app:srcImg="@mipmap/img_ham" />
 
-
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/step3Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="196dp"
-        android:layout_marginBottom="328dp"
+        android:layout_marginEnd="228dp"
+        android:layout_marginBottom="372dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcImg="@mipmap/img_bacon_1" />
-
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/step5Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintEnd_toStartOf="@+id/step3Iv"
-        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="@+id/step1Iv"
         app:layout_constraintTop_toBottomOf="@+id/step1Iv"
         app:srcImg="@mipmap/img_chicken_1" />
@@ -83,7 +81,7 @@
         android:id="@+id/step6Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="36dp"
         android:layout_marginEnd="8dp"
         app:layout_constraintEnd_toEndOf="@+id/step1Iv"
         app:layout_constraintHorizontal_bias="0.0"

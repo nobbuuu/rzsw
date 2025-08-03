@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/bg_in_the_hospital_front">
+    android:background="@mipmap/bg_career_front_4">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
@@ -21,7 +21,7 @@
         android:layout_marginTop="@dimen/dp_80"
         android:background="@mipmap/bg_subject_title"
         android:gravity="center"
-        android:text="@string/study_school_hospital_title_cn"
+        android:text="@string/study_career_plan_title_cn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -30,21 +30,24 @@
         android:id="@+id/oneIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="52dp"
-        android:layout_marginBottom="84dp"
+        android:layout_marginBottom="60dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline"
-        app:srcImg="@mipmap/img_school_bag" />
+        app:layout_constraintHorizontal_bias="0.268"
+        app:layout_constraintStart_toStartOf="@+id/titleTv"
+        app:srcImg="@mipmap/img_photographer" />
 
     <LinearLayout
+        android:id="@+id/linearLayout5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="28dp"
         android:layout_marginBottom="@dimen/dp_6"
         android:gravity="center_horizontal"
         android:orientation="vertical"
+        app:layout_constraintHorizontal_bias="0.7"
         app:layout_constraintBottom_toBottomOf="@+id/oneIv"
-        app:layout_constraintEnd_toStartOf="@+id/oneIv"
+        app:layout_constraintEnd_toStartOf="@+id/left_barrier"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/oneIv"
         app:layout_constraintVertical_bias="0.525">
 
@@ -52,20 +55,36 @@
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/study_school_bag_cn" />
+            android:text="@string/study_career_photographer_cn" />
 
         <TextView
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/study_school_bag_en" />
+            android:text="@string/study_career_photographer_en" />
     </LinearLayout>
+
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/left_barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="start"
+        app:constraint_referenced_ids="threeIv,oneIv" />
+
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/right_barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="end"
+        app:constraint_referenced_ids="twoIv,fourIv" />
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/twoIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcImg="@mipmap/img_pencil_case"
+        app:srcImg="@mipmap/img_actor"
         app:layout_constraintBottom_toBottomOf="@+id/threeIv"
         app:layout_constraintEnd_toEndOf="@+id/fourIv"
         app:layout_constraintStart_toStartOf="@+id/fourIv"
@@ -86,13 +105,13 @@
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/study_school_pencil_case_cn" />
+            android:text="@string/study_career_actor_cn" />
 
         <TextView
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/study_school_pencil_case_en" />
+            android:text="@string/study_career_actor_en" />
     </LinearLayout>
 
     <com.blackview.search.widget.ToggleImageView
@@ -103,63 +122,65 @@
         app:layout_constraintEnd_toEndOf="@+id/oneIv"
         app:layout_constraintStart_toStartOf="@+id/oneIv"
         app:layout_constraintTop_toBottomOf="@+id/titleTv"
-        app:srcImg="@mipmap/img_school_uniform" />
+        app:srcImg="@mipmap/img_director" />
 
     <LinearLayout
         android:id="@+id/linearLayout2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="@dimen/dp_36"
         android:gravity="center_horizontal"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="@+id/threeIv"
-        app:layout_constraintEnd_toStartOf="@+id/threeIv"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout5"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout5"
         app:layout_constraintTop_toTopOf="@+id/threeIv">
 
         <TextView
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/study_school_uniform_cn" />
+            android:text="@string/study_career_director_cn" />
 
         <TextView
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/study_school_uniform_en" />
+            android:text="@string/study_career_director_en" />
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/dp_20"
         android:gravity="center_horizontal"
         android:orientation="vertical"
+        app:layout_constraintHorizontal_bias="0.3"
         app:layout_constraintBottom_toBottomOf="@+id/fourIv"
-        app:layout_constraintStart_toEndOf="@+id/fourIv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/right_barrier"
         app:layout_constraintTop_toTopOf="@+id/fourIv">
 
         <TextView
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/study_school_schedule_cn" />
+            android:text="@string/study_career_singer_cn" />
 
         <TextView
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/study_school_schedule_en" />
+            android:text="@string/study_career_singer_en" />
     </LinearLayout>
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/fourIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
         app:layout_constraintBottom_toBottomOf="@+id/oneIv"
+        app:layout_constraintEnd_toEndOf="@+id/titleTv"
+        app:layout_constraintHorizontal_bias="0.567"
         app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:srcImg="@mipmap/img_schedule" />
+        app:srcImg="@mipmap/img_singer" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

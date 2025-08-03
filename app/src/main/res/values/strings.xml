@@ -152,6 +152,23 @@
     <string name="exercise_birthday_two_title">把零食和果汁塞进盲盒里，送给朋友们吧！</string>
     <string name="exercise_birthday_three_title">好好装扮一番吧！</string>
 
+    <string name="exercise_career_home_strategist_cn">家中小军师</string>
+    <string name="exercise_career_help_everyone_cn">给大家想想办法吧！</string>
+    <string name="exercise_career_ideal_cn">职业理想</string>
+    <string name="exercise_career_listen_profession_cn">听一听小朋友们都想做什么职业吧！</string>
+    <string name="exercise_career_find_tools_cn">找工具</string>
+    <string name="exercise_career_help_find_tools_cn">帮大家找回工具吧！</string>
+    <string name="exercise_career_invite_expert_cn">请专家</string>
+    <string name="exercise_career_build_house_cn">爸爸要盖新房子，需要专业人员的帮忙！</string>
+    <string name="exercise_career_make_movie_cn">拍电影</string>
+    <string name="exercise_career_help_director_cn">帮导演选择人员吧！</string>
+    <string name="exercise_school_classroom_cn">学校教室</string>
+    <string name="exercise_school_find_classroom_cn">教室里都有什么呢？找找看吧！</string>
+    <string name="exercise_school_artwork_cn">美术作品</string>
+    <string name="exercise_school_art_class_cn">美术课结束了，看看大家都创作了什么吧？</string>
+    <string name="exercise_school_my_desk_cn">我的课桌</string>
+    <string name="exercise_school_find_desk_cn">课桌上都有什么呢？找找看吧！</string>
+
     <string name="organ_eye_ch">眼睛</string>
     <string name="organ_eye_en">eye</string>
     <string name="organ_mouth_ch">嘴巴</string>
@@ -728,4 +745,102 @@
     <string name="medical_record_en">medical record</string>
     <string name="thermometer_cn">体温计</string>
     <string name="thermometer_en">thermometer</string>
+      
+    <!-- 超市场景相关字符串 -->
+    <string name="study_supermarket_shopping_title_cn">小朋友，一起去购物吧！</string>
+    <string name="study_supermarket_corn_cn">玉米</string>
+    <string name="study_supermarket_corn_en">corn</string>
+    <string name="study_supermarket_flour_cn">面粉</string>
+    <string name="study_supermarket_flour_en">flour</string>
+    <string name="study_supermarket_bread_cn">面包</string>
+    <string name="study_supermarket_bread_en">bread</string>
+    <string name="study_supermarket_cereal_cn">麦片</string>
+    <string name="study_supermarket_cereal_en">cereal</string>
+    <string name="exercise_supermarket_winter_cn">过冬</string>
+    <string name="exercise_supermarket_winter_food_cn">冬天要来了，小动物们都囤积了什么食物过冬呢？</string>
+    <string name="exercise_supermarket_homemade_salad_cn">自制沙拉</string>
+    <string name="exercise_supermarket_add_dressing_cn">给沙拉加调料吧！</string>
+    <string name="exercise_supermarket_little_cashier_cn">小小收银员</string>
+    <string name="exercise_supermarket_be_cashier_cn">体验当一会儿收银员，帮助客人结账吧！</string>
+    <string name="study_career_plan_title_cn">小朋友，一起来规划未来的职业吧！</string>
+    <string name="study_career_nanny_cn">保姆</string>
+    <string name="study_career_nanny_en">nanny</string>
+    <string name="study_career_vet_cn">兽医</string>
+    <string name="study_career_vet_en">vet</string>
+    <string name="study_career_dentist_cn">牙医</string>
+    <string name="study_career_dentist_en">dentist</string>
+    <string name="study_career_nurse_cn">护士</string>
+    <string name="study_career_nurse_en">nurse</string>
+    <string name="study_career_cleaner_cn">清洁工</string>
+    <string name="study_career_cleaner_en">cleaner</string>
+    <string name="study_career_farmer_cn">农民</string>
+    <string name="study_career_farmer_en">farmer</string>
+    <string name="study_career_gardener_cn">园丁</string>
+    <string name="study_career_gardener_en">gardener</string>
+    <string name="study_career_tailor_cn">裁缝</string>
+    <string name="study_career_tailor_en">tailor</string>
+    <string name="study_career_architect_cn">建筑师</string>
+    <string name="study_career_architect_en">architect</string>
+    <string name="study_career_plumber_cn">管道工</string>
+    <string name="study_career_plumber_en">plumber</string>
+    <string name="study_career_carpenter_cn">木匠</string>
+    <string name="study_career_carpenter_en">carpenter</string>
+    <string name="study_career_electrician_cn">电工</string>
+    <string name="study_career_electrician_en">electrician</string>
+    <string name="study_career_photographer_cn">摄影师</string>
+    <string name="study_career_photographer_en">photographer</string>
+    <string name="study_career_actor_cn">演员</string>
+    <string name="study_career_actor_en">actor</string>
+    <string name="study_career_director_cn">导演</string>
+    <string name="study_career_director_en">director</string>
+    <string name="study_career_singer_cn">歌唱家</string>
+    <string name="study_career_singer_en">singer</string>
+    <string name="study_career_fashion_designer_cn">时装设计师</string>
+    <string name="study_career_fashion_designer_en">fashion designer</string>
+    <string name="study_career_beautician_cn">美容师</string>
+    <string name="study_career_beautician_en">beautician</string>
+    <string name="study_career_writer_cn">作家</string>
+    <string name="study_career_writer_en">writer</string>
+    <string name="study_career_lawyer_cn">律师</string>
+    <string name="study_career_lawyer_en">lawyer</string>
+    <string name="study_school_hospital_title_cn">小朋友，一起来了解医院吧！</string>
+    <string name="study_school_bag_cn">书包</string>
+    <string name="study_school_bag_en">school bag</string>
+    <string name="study_school_pencil_case_cn">文具盒</string>
+    <string name="study_school_pencil_case_en">pencil case</string>
+    <string name="study_school_uniform_cn">校服</string>
+    <string name="study_school_uniform_en">school uniform</string>
+    <string name="study_school_schedule_cn">课程表</string>
+    <string name="study_school_schedule_en">schedule</string>
+    
+    <!-- Study School Two -->
+    <string name="study_school_title_cn">小朋友，上学啦！</string>
+    <string name="study_school_triangle_ruler_cn">三角板</string>
+    <string name="study_school_triangle_ruler_en">triangle ruler</string>
+    <string name="study_school_chalk_cn">粉笔</string>
+    <string name="study_school_chalk_en">chalk</string>
+    <string name="study_school_blackboard_cn">黑板</string>
+    <string name="study_school_blackboard_en">blackboard</string>
+    <string name="study_school_globe_cn">地球仪</string>
+    <string name="study_school_globe_en">globe</string>
+    
+    <!-- Study School Three -->
+    <string name="study_school_glue_cn">胶水</string>
+    <string name="study_school_glue_en">glue</string>
+    <string name="study_school_paint_cn">颜料</string>
+    <string name="study_school_paint_en">paint</string>
+    <string name="study_school_scissors_cn">剪刀</string>
+    <string name="study_school_scissors_en">scissors</string>
+    <string name="study_school_craft_knife_cn">美工刀</string>
+    <string name="study_school_craft_knife_en">craft knife</string>
+    
+    <!-- Study School Four -->
+    <string name="study_school_notebook_cn">笔记本</string>
+    <string name="study_school_notebook_en">notebook</string>
+    <string name="study_school_eraser_cn">橡皮</string>
+    <string name="study_school_eraser_en">eraser</string>
+    <string name="study_school_ruler_cn">直尺</string>
+    <string name="study_school_ruler_en">ruler</string>
+    <string name="study_school_pencil_cn">铅笔</string>
+    <string name="study_school_pencil_en">pencil</string>
 </resources>

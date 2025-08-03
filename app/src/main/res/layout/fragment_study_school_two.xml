@@ -21,7 +21,7 @@
         android:layout_marginTop="@dimen/dp_80"
         android:background="@mipmap/bg_subject_title"
         android:gravity="center"
-        android:text="小朋友，上学啦！"
+        android:text="@string/study_school_title_cn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -30,8 +30,8 @@
         android:id="@+id/oneIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="40dp"
-        android:layout_marginBottom="84dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="56dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline"
         app:srcImg="@mipmap/img_triangle_ruler" />
@@ -52,13 +52,13 @@
             style="@style/contentText_white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="三角板" />
+            android:text="@string/study_school_triangle_ruler_cn" />
 
         <TextView
             style="@style/contentText_white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="triangle ruler" />
+            android:text="@string/study_school_triangle_ruler_en" />
     </LinearLayout>
 
     <com.blackview.search.widget.ToggleImageView
@@ -86,13 +86,13 @@
             style="@style/contentText_white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="粉笔" />
+            android:text="@string/study_school_chalk_cn" />
 
         <TextView
             style="@style/contentText_white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="chalk" />
+            android:text="@string/study_school_chalk_en" />
     </LinearLayout>
 
     <com.blackview.search.widget.ToggleImageView
@@ -120,13 +120,13 @@
             style="@style/contentText_white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="黑板" />
+            android:text="@string/study_school_blackboard_cn" />
 
         <TextView
             style="@style/contentText_white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="blackboard" />
+            android:text="@string/study_school_blackboard_en" />
     </LinearLayout>
 
     <LinearLayout
@@ -144,13 +144,13 @@
             style="@style/contentText_white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="地球仪" />
+            android:text="@string/study_school_globe_cn" />
 
         <TextView
             style="@style/contentText_white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="globe" />
+            android:text="@string/study_school_globe_en" />
     </LinearLayout>
 
     <com.blackview.search.widget.ToggleImageView
