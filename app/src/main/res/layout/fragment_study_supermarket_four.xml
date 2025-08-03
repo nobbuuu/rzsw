@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/bg_in_the_supermarket_front">
+    android:background="@mipmap/bg_in_the_supermarket_front_4">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
@@ -30,9 +30,9 @@
         android:id="@+id/oneIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="108dp"
+        android:layout_marginEnd="48dp"
         android:layout_marginBottom="36dp"
-        android:src="@mipmap/img_receipt"
+        android:src="@mipmap/img_steak"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline" />
 
@@ -51,20 +51,20 @@
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/receipt_cn" />
+            android:text="@string/steak_cn" />
 
         <TextView
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/receipt_en" />
+            android:text="@string/steak_en" />
     </LinearLayout>
 
     <ImageView
         android:id="@+id/twoIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@mipmap/img_bank_card"
+        android:src="@mipmap/img_chicken"
         app:layout_constraintBottom_toBottomOf="@+id/threeIv"
         app:layout_constraintEnd_toEndOf="@+id/fourIv"
         app:layout_constraintStart_toStartOf="@+id/fourIv"
@@ -85,13 +85,13 @@
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/bank_card_cn" />
+            android:text="@string/chicken_cn" />
 
         <TextView
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/bank_card_en" />
+            android:text="@string/chicken_en" />
     </LinearLayout>
 
     <ImageView
@@ -99,7 +99,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="232dp"
-        android:src="@mipmap/img_money"
+        android:src="@mipmap/img_sausage"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/oneIv"
         app:layout_constraintStart_toStartOf="@+id/oneIv" />
@@ -119,20 +119,20 @@
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/money_cn" />
+            android:text="@string/sausage_cn" />
 
         <TextView
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/money_en" />
+            android:text="@string/sausage_en" />
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/dp_90"
+        android:layout_marginStart="@dimen/dp_20"
         android:gravity="center_horizontal"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="@+id/fourIv"
@@ -143,21 +143,21 @@
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/coin_cn" />
+            android:text="@string/bacon_cn" />
 
         <TextView
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/coin_en" />
+            android:text="@string/bacon_en" />
     </LinearLayout>
 
     <ImageView
         android:id="@+id/fourIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:src="@mipmap/img_coin"
+        android:layout_marginStart="64dp"
+        android:src="@mipmap/img_bacon"
         app:layout_constraintBottom_toBottomOf="@+id/oneIv"
         app:layout_constraintStart_toStartOf="@+id/guideline" />
 

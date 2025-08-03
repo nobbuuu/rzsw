@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/bg_in_the_supermarket_front_4">
+    android:background="@mipmap/bg_in_the_supermarket_front_2">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
@@ -30,9 +30,9 @@
         android:id="@+id/oneIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="48dp"
-        android:layout_marginBottom="36dp"
-        android:src="@mipmap/img_steak"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="44dp"
+        android:src="@mipmap/img_pudding"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline" />
 
@@ -51,22 +51,23 @@
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/steak_cn" />
+            android:text="@string/pudding_cn" />
 
         <TextView
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/steak_en" />
+            android:text="@string/pudding_en" />
     </LinearLayout>
 
     <ImageView
         android:id="@+id/twoIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@mipmap/img_chicken"
+        android:src="@mipmap/img_crisp"
         app:layout_constraintBottom_toBottomOf="@+id/threeIv"
         app:layout_constraintEnd_toEndOf="@+id/fourIv"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/fourIv"
         app:layout_constraintTop_toTopOf="@+id/threeIv" />
 
@@ -85,23 +86,24 @@
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/chicken_cn" />
+            android:text="@string/crisp_cn" />
 
         <TextView
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/chicken_en" />
+            android:text="@string/crisp_en" />
     </LinearLayout>
 
     <ImageView
         android:id="@+id/threeIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="232dp"
-        android:src="@mipmap/img_sausage"
+        android:layout_marginBottom="228dp"
+        android:src="@mipmap/img_chocolate_1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/oneIv"
+        app:layout_constraintHorizontal_bias="0.513"
         app:layout_constraintStart_toStartOf="@+id/oneIv" />
 
     <LinearLayout
@@ -119,20 +121,20 @@
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/sausage_cn" />
+            android:text="@string/chocolate_cn" />
 
         <TextView
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/sausage_en" />
+            android:text="@string/chocolate_en" />
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/dp_20"
+        android:layout_marginStart="@dimen/dp_30"
         android:gravity="center_horizontal"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="@+id/fourIv"
@@ -143,21 +145,21 @@
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/bacon_cn" />
+            android:text="@string/yogurt_cn" />
 
         <TextView
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/bacon_en" />
+            android:text="@string/yogurt_en" />
     </LinearLayout>
 
     <ImageView
         android:id="@+id/fourIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
-        android:src="@mipmap/img_bacon"
+        android:layout_marginStart="56dp"
+        android:src="@mipmap/img_yogurt"
         app:layout_constraintBottom_toBottomOf="@+id/oneIv"
         app:layout_constraintStart_toStartOf="@+id/guideline" />
 
