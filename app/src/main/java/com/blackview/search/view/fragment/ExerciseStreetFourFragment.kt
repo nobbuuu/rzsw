@@ -13,7 +13,7 @@ class ExerciseStreetFourFragment :
     BaseExerciseFragment<StudyExerciseViewModel, FragmentExerciseStreetFourBinding>() {
 
     override fun getToggleViews(): List<ToggleImageView> {
-        return listOf(mBinding.step1Iv, mBinding.step2Iv, mBinding.step3Iv, mBinding.step4Iv)
+        return listOf(mBinding.step1Iv, mBinding.step3Iv, mBinding.step2Iv, mBinding.step4Iv)
     }
 
     override fun getForewordRaw(): Int {

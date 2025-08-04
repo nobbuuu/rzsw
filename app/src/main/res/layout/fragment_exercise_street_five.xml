@@ -16,7 +16,7 @@
         android:paddingTop="@dimen/dp_13"
         android:paddingEnd="@dimen/dp_88"
         android:paddingBottom="@dimen/dp_13"
-        android:text="@string/meet_friends_cn"
+        android:text="@string/exercise_street_five_title"
         android:textSize="18sp"
         app:background_normal="#FF952B"
         app:corner_radius="@dimen/dp_88"

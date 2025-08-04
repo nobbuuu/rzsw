@@ -19,7 +19,7 @@ class ExerciseStreetOneFragment :
     }
 
     override fun getContentRaw(): IntArray {
-        return intArrayOf(R.raw.l302q1, R.raw.l302q2, R.raw.l302q3, R.raw.l302q4)
+        return intArrayOf(R.raw.l302q2, R.raw.l302q3, R.raw.l302q4, R.raw.l302q1)
     }
 
     override fun updateStar(star: Int) {
