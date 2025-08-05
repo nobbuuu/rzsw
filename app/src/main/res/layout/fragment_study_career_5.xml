@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/bg_career_front_5">
+    android:background="@mipmap/bg_career_front_2">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
@@ -30,12 +30,12 @@
         android:id="@+id/oneIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="60dp"
+        android:layout_marginBottom="88dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline"
-        app:layout_constraintHorizontal_bias="0.268"
+        app:layout_constraintHorizontal_bias="0.374"
         app:layout_constraintStart_toStartOf="@+id/titleTv"
-        app:srcImg="@mipmap/img_fashion_designer" />
+        app:srcImg="@mipmap/img_cleaner" />
 
     <LinearLayout
         android:id="@+id/linearLayout5"
@@ -55,13 +55,13 @@
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/study_career_fashion_designer_cn" />
+            android:text="@string/study_career_cleaner_cn" />
 
         <TextView
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/study_career_fashion_designer_en" />
+            android:text="@string/study_career_cleaner_en" />
     </LinearLayout>
 
 
@@ -84,7 +84,7 @@
         android:id="@+id/twoIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcImg="@mipmap/img_beautician"
+        app:srcImg="@mipmap/img_farmer"
         app:layout_constraintBottom_toBottomOf="@+id/threeIv"
         app:layout_constraintEnd_toEndOf="@+id/fourIv"
         app:layout_constraintStart_toStartOf="@+id/fourIv"
@@ -105,13 +105,13 @@
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/study_career_beautician_cn" />
+            android:text="@string/study_career_farmer_cn" />
 
         <TextView
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/study_career_beautician_en" />
+            android:text="@string/study_career_farmer_en" />
     </LinearLayout>
 
     <com.blackview.search.widget.ToggleImageView
@@ -122,7 +122,7 @@
         app:layout_constraintEnd_toEndOf="@+id/oneIv"
         app:layout_constraintStart_toStartOf="@+id/oneIv"
         app:layout_constraintTop_toBottomOf="@+id/titleTv"
-        app:srcImg="@mipmap/img_writer" />
+        app:srcImg="@mipmap/img_gardener" />
 
     <LinearLayout
         android:id="@+id/linearLayout2"
@@ -139,13 +139,13 @@
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/study_career_writer_cn" />
+            android:text="@string/study_career_gardener_cn" />
 
         <TextView
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/study_career_writer_en" />
+            android:text="@string/study_career_gardener_en" />
     </LinearLayout>
 
     <LinearLayout
@@ -164,13 +164,13 @@
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/study_career_lawyer_cn" />
+            android:text="@string/study_career_tailor_cn" />
 
         <TextView
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/study_career_lawyer_en" />
+            android:text="@string/study_career_tailor_en" />
     </LinearLayout>
 
     <com.blackview.search.widget.ToggleImageView
@@ -179,8 +179,8 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="@+id/oneIv"
         app:layout_constraintEnd_toEndOf="@+id/titleTv"
-        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintHorizontal_bias="0.766"
         app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:srcImg="@mipmap/img_lawyer" />
+        app:srcImg="@mipmap/img_tailor" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

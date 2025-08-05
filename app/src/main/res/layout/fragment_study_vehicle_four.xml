@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/bg_vehicle_front_4">
+    android:background="@mipmap/bg_vehicle_front_3">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
         android:layout_width="@dimen/dp_1"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.45" />
+        app:layout_constraintGuide_percent="0.5" />
 
     <TextView
         android:id="@+id/titleTv"
@@ -30,11 +30,11 @@
         android:id="@+id/oneIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="56dp"
+        android:layout_marginEnd="@dimen/dp_64"
         android:layout_marginBottom="96dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline"
-        app:srcImg="@mipmap/img_sailboat" />
+        app:srcImg="@mipmap/img_sedan" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -51,20 +51,20 @@
             style="@style/contentText_white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="帆船" />
+            android:text="小轿车" />
 
         <TextView
             style="@style/contentText_white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="sailboat" />
+            android:text="sedan" />
     </LinearLayout>
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/twoIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcImg="@mipmap/img_yacht"
+        app:srcImg="@mipmap/img_minivan"
         app:layout_constraintBottom_toBottomOf="@+id/threeIv"
         app:layout_constraintEnd_toEndOf="@+id/fourIv"
         app:layout_constraintStart_toStartOf="@+id/fourIv"
@@ -85,13 +85,13 @@
             style="@style/contentText_white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="游艇" />
+            android:text="小型面包车" />
 
         <TextView
             style="@style/contentText_white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="yacht" />
+            android:text="minivan" />
     </LinearLayout>
 
     <com.blackview.search.widget.ToggleImageView
@@ -103,7 +103,7 @@
         app:layout_constraintHorizontal_bias="0.518"
         app:layout_constraintStart_toStartOf="@+id/oneIv"
         app:layout_constraintTop_toBottomOf="@+id/titleTv"
-        app:srcImg="@mipmap/img_canoe" />
+        app:srcImg="@mipmap/img_convertible" />
 
     <LinearLayout
         android:id="@+id/linearLayout2"
@@ -120,13 +120,13 @@
             style="@style/contentText_white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="独木舟" />
+            android:text="敞篷车" />
 
         <TextView
             style="@style/contentText_white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="canoe" />
+            android:text="convertible" />
     </LinearLayout>
 
     <LinearLayout
@@ -144,22 +144,22 @@
             style="@style/contentText_white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="邮轮" />
+            android:text="跑车" />
 
         <TextView
             style="@style/contentText_white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="cruise ship" />
+            android:text="sports car" />
     </LinearLayout>
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/fourIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
+        android:layout_marginStart="@dimen/dp_64"
+        app:srcImg="@mipmap/img_sports_car"
         app:layout_constraintBottom_toBottomOf="@+id/oneIv"
-        app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:srcImg="@mipmap/img_cruise_ship" />
+        app:layout_constraintStart_toStartOf="@+id/guideline" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

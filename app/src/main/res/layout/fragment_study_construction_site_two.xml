@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/bg_on_the_construction_site_front_1">
+    android:background="@mipmap/bg_on_the_construction_site_front">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
@@ -21,7 +20,7 @@
         android:layout_marginTop="@dimen/dp_80"
         android:background="@mipmap/bg_subject_title"
         android:gravity="center"
-        android:text="@string/study_construction_site_two_title_cn"
+        android:text="@string/study_construction_site_one_title_cn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -30,11 +29,11 @@
         android:id="@+id/oneIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="40dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginBottom="60dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline"
-        app:srcImg="@mipmap/img_crane" />
+        app:srcImg="@mipmap/img_dump_truck" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -52,20 +51,20 @@
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/crane_cn" />
+            android:text="@string/dump_truck_cn" />
 
         <TextView
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/crane_en" />
+            android:text="@string/dump_truck_en" />
     </LinearLayout>
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/twoIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcImg="@mipmap/img_excavator"
+        app:srcImg="@mipmap/img_forklift"
         app:layout_constraintBottom_toBottomOf="@+id/threeIv"
         app:layout_constraintEnd_toEndOf="@+id/fourIv"
         app:layout_constraintStart_toStartOf="@+id/fourIv"
@@ -86,13 +85,13 @@
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/excavator_cn" />
+            android:text="@string/forklift_cn" />
 
         <TextView
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/excavator_en" />
+            android:text="@string/forklift_en" />
     </LinearLayout>
 
     <com.blackview.search.widget.ToggleImageView
@@ -104,7 +103,7 @@
         app:layout_constraintEnd_toEndOf="@+id/oneIv"
         app:layout_constraintStart_toStartOf="@+id/oneIv"
         app:layout_constraintTop_toBottomOf="@+id/titleTv"
-        app:srcImg="@mipmap/img_bulldozer" />
+        app:srcImg="@mipmap/img_tanker" />
 
     <LinearLayout
         android:id="@+id/linearLayout2"
@@ -121,13 +120,13 @@
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/bulldozer_cn" />
+            android:text="@string/tanker_cn" />
 
         <TextView
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/bulldozer_en" />
+            android:text="@string/tanker_en" />
     </LinearLayout>
 
     <LinearLayout
@@ -145,22 +144,22 @@
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/concrete_mixer_cn" />
+            android:text="@string/wheelbarrow_cn" />
 
         <TextView
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/concrete_mixer_en" />
+            android:text="@string/wheelbarrow_en" />
     </LinearLayout>
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/fourIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
+        android:layout_marginStart="64dp"
+        app:srcImg="@mipmap/img_wheelbarrow"
         app:layout_constraintBottom_toBottomOf="@+id/oneIv"
-        app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:srcImg="@mipmap/img_concrete_mixer" />
+        app:layout_constraintStart_toStartOf="@+id/guideline" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

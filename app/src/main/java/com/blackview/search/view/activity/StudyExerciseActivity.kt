@@ -35,16 +35,27 @@ import com.blackview.search.view.fragment.ExerciseBodyFourFragment
 import com.blackview.search.view.fragment.ExerciseBodyOneFragment
 import com.blackview.search.view.fragment.ExerciseBodyThreeFragment
 import com.blackview.search.view.fragment.ExerciseBodyTwoFragment
+import com.blackview.search.view.fragment.ExerciseCareerFiveFragment
+import com.blackview.search.view.fragment.ExerciseCareerFourFragment
+import com.blackview.search.view.fragment.ExerciseCareerOneFragment
+import com.blackview.search.view.fragment.ExerciseCareerThreeFragment
+import com.blackview.search.view.fragment.ExerciseCareerTwoFragment
 import com.blackview.search.view.fragment.ExerciseClothFiveFragment
 import com.blackview.search.view.fragment.ExerciseClothFourFragment
 import com.blackview.search.view.fragment.ExerciseClothOneFragment
 import com.blackview.search.view.fragment.ExerciseClothSixFragment
 import com.blackview.search.view.fragment.ExerciseClothThreeFragment
 import com.blackview.search.view.fragment.ExerciseClothTwoFragment
+import com.blackview.search.view.fragment.ExerciseConstructionOneFragment
+import com.blackview.search.view.fragment.ExerciseConstructionThreeFragment
+import com.blackview.search.view.fragment.ExerciseConstructionTwoFragment
 import com.blackview.search.view.fragment.ExerciseEmotionFourFragment
 import com.blackview.search.view.fragment.ExerciseEmotionOneFragment
 import com.blackview.search.view.fragment.ExerciseEmotionThreeFragment
 import com.blackview.search.view.fragment.ExerciseEmotionTwoFragment
+import com.blackview.search.view.fragment.ExerciseHospitalOneFragment
+import com.blackview.search.view.fragment.ExerciseHospitalThreeFragment
+import com.blackview.search.view.fragment.ExerciseHospitalTwoFragment
 import com.blackview.search.view.fragment.ExerciseKitchenFourFragment
 import com.blackview.search.view.fragment.ExerciseKitchenOneFragment
 import com.blackview.search.view.fragment.ExerciseKitchenThreeFragment
@@ -53,6 +64,10 @@ import com.blackview.search.view.fragment.ExerciseRoomFourFragment
 import com.blackview.search.view.fragment.ExerciseRoomOneFragment
 import com.blackview.search.view.fragment.ExerciseRoomThreeFragment
 import com.blackview.search.view.fragment.ExerciseRoomTwoFragment
+import com.blackview.search.view.fragment.ExerciseSchoolFourFragment
+import com.blackview.search.view.fragment.ExerciseSchoolOneFragment
+import com.blackview.search.view.fragment.ExerciseSchoolThreeFragment
+import com.blackview.search.view.fragment.ExerciseSchoolTwoFragment
 import com.blackview.search.view.fragment.ExerciseStreetFiveFragment
 import com.blackview.search.view.fragment.ExerciseStreetFourFragment
 import com.blackview.search.view.fragment.ExerciseStreetOneFragment
@@ -66,6 +81,11 @@ import com.blackview.search.view.fragment.ExerciseToyFourFragment
 import com.blackview.search.view.fragment.ExerciseToyOneFragment
 import com.blackview.search.view.fragment.ExerciseToyThreeFragment
 import com.blackview.search.view.fragment.ExerciseToyTwoFragment
+import com.blackview.search.view.fragment.ExerciseVehicleFiveFragment
+import com.blackview.search.view.fragment.ExerciseVehicleFourFragment
+import com.blackview.search.view.fragment.ExerciseVehicleOneFragment
+import com.blackview.search.view.fragment.ExerciseVehicleThreeFragment
+import com.blackview.search.view.fragment.ExerciseVehicleTwoFragment
 import com.blackview.search.view.fragment.ExerciseWashRoomOneFragment
 import com.blackview.search.view.fragment.ExerciseWashRoomThreeFragment
 import com.blackview.search.view.fragment.ExerciseWashRoomTwoFragment
@@ -89,16 +109,26 @@ import com.blackview.search.view.fragment.StudyBodyFourFragment
 import com.blackview.search.view.fragment.StudyBodyOneFragment
 import com.blackview.search.view.fragment.StudyBodyThreeFragment
 import com.blackview.search.view.fragment.StudyBodyTwoFragment
+import com.blackview.search.view.fragment.StudyCareerFiveFragment
+import com.blackview.search.view.fragment.StudyCareerFourFragment
+import com.blackview.search.view.fragment.StudyCareerOneFragment
+import com.blackview.search.view.fragment.StudyCareerThreeFragment
+import com.blackview.search.view.fragment.StudyCareerTwoFragment
 import com.blackview.search.view.fragment.StudyClothFiveFragment
 import com.blackview.search.view.fragment.StudyClothFourFragment
 import com.blackview.search.view.fragment.StudyClothOneFragment
 import com.blackview.search.view.fragment.StudyClothSixFragment
 import com.blackview.search.view.fragment.StudyClothThreeFragment
 import com.blackview.search.view.fragment.StudyClothTwoFragment
+import com.blackview.search.view.fragment.StudyConstructionOneFragment
+import com.blackview.search.view.fragment.StudyConstructionThreeFragment
+import com.blackview.search.view.fragment.StudyConstructionTwoFragment
 import com.blackview.search.view.fragment.StudyEmotionFourFragment
 import com.blackview.search.view.fragment.StudyEmotionOneFragment
 import com.blackview.search.view.fragment.StudyEmotionThreeFragment
 import com.blackview.search.view.fragment.StudyEmotionTwoFragment
+import com.blackview.search.view.fragment.StudyHospitalOneFragment
+import com.blackview.search.view.fragment.StudyHospitalThreeFragment
 import com.blackview.search.view.fragment.StudyKitchenFourFragment
 import com.blackview.search.view.fragment.StudyKitchenOneFragment
 import com.blackview.search.view.fragment.StudyKitchenThreeFragment
@@ -107,6 +137,10 @@ import com.blackview.search.view.fragment.StudyRoomFourFragment
 import com.blackview.search.view.fragment.StudyRoomOneFragment
 import com.blackview.search.view.fragment.StudyRoomThreeFragment
 import com.blackview.search.view.fragment.StudyRoomTwoFragment
+import com.blackview.search.view.fragment.StudySchoolFourFragment
+import com.blackview.search.view.fragment.StudySchoolOneFragment
+import com.blackview.search.view.fragment.StudySchoolThreeFragment
+import com.blackview.search.view.fragment.StudySchoolTwoFragment
 import com.blackview.search.view.fragment.StudyStreetFiveFragment
 import com.blackview.search.view.fragment.StudyStreetFourFragment
 import com.blackview.search.view.fragment.StudyStreetOneFragment
@@ -120,6 +154,11 @@ import com.blackview.search.view.fragment.StudyToyFourFragment
 import com.blackview.search.view.fragment.StudyToyOneFragment
 import com.blackview.search.view.fragment.StudyToyThreeFragment
 import com.blackview.search.view.fragment.StudyToyTwoFragment
+import com.blackview.search.view.fragment.StudyVehicleFiveFragment
+import com.blackview.search.view.fragment.StudyVehicleFourFragment
+import com.blackview.search.view.fragment.StudyVehicleOneFragment
+import com.blackview.search.view.fragment.StudyVehicleThreeFragment
+import com.blackview.search.view.fragment.StudyVehicleTwoFragment
 import com.blackview.search.view.fragment.StudyWashRoomOneFragment
 import com.blackview.search.view.fragment.StudyWashRoomThreeFragment
 import com.blackview.search.view.fragment.StudyWashRoomTwoFragment
@@ -147,7 +186,16 @@ class StudyExerciseActivity : BaseActivity<StudyExerciseViewModel, ActivityStudy
                     resetL3Data(it)
                 }
             }
-
+            studyFragments.forEachIndexed { index, fra ->
+                fra.arguments = Bundle().apply {
+                    putSerializable(Const.KEY_SUBJECT, getStudySubject(index + 1))
+                }
+            }
+            exerciseFragments.forEachIndexed { index, fra ->
+                fra.arguments = Bundle().apply {
+                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(index + 1))
+                }
+            }
             val studyAdapter = BaseFragmentPagerAdapter(this, studyFragments)
             val exerciseAdapter = BaseFragmentPagerAdapter(this, exerciseFragments)
             mBinding.subjectVp.apply {
@@ -274,552 +322,231 @@ class StudyExerciseActivity : BaseActivity<StudyExerciseViewModel, ActivityStudy
     fun resetL1Data(it: SubjectBean) {
         when (it.parentId) {
             "0" -> {
-                val studyBodyOneFra = StudyBodyOneFragment()
-                studyBodyOneFra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(1))
+                mutableListOf<Fragment>(
+                    StudyBodyOneFragment(),
+                    StudyBodyTwoFragment(),
+                    StudyBodyThreeFragment(),
+                    StudyBodyFourFragment()
+                ).apply {
+                    studyFragments.addAll(this)
                 }
-                studyFragments.add(studyBodyOneFra)
-
-                val studyBodyTwoFra = StudyBodyTwoFragment()
-                studyBodyTwoFra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(2))
+                mutableListOf<Fragment>(
+                    ExerciseBodyOneFragment(),
+                    ExerciseBodyTwoFragment(),
+                    ExerciseBodyThreeFragment(),
+                    ExerciseBodyFourFragment()
+                ).apply {
+                    exerciseFragments.addAll(this)
                 }
-                studyFragments.add(studyBodyTwoFra)
-
-                val studyBodyThreeFra = StudyBodyThreeFragment()
-                studyBodyThreeFra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(3))
-                }
-                studyFragments.add(studyBodyThreeFra)
-
-                val studyBodyFourFra = StudyBodyFourFragment()
-                studyBodyFourFra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(4))
-                }
-                studyFragments.add(studyBodyFourFra)
-
-                val exerciseBodyOneFra = ExerciseBodyOneFragment()
-                exerciseBodyOneFra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(1))
-                }
-                exerciseFragments.add(exerciseBodyOneFra)
-
-                val exerciseBodyTwoFra = ExerciseBodyTwoFragment()
-                exerciseBodyTwoFra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(2))
-                }
-                exerciseFragments.add(exerciseBodyTwoFra)
-
-                val exerciseBodyThreeFra = ExerciseBodyThreeFragment()
-                exerciseBodyThreeFra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(3))
-                }
-                exerciseFragments.add(exerciseBodyThreeFra)
-
-                val exerciseBodyFourFra = ExerciseBodyFourFragment()
-                exerciseBodyFourFra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(4))
-                }
-                exerciseFragments.add(exerciseBodyFourFra)
             }
 
             "1" -> {
-                val studyEmotionOneFra = StudyEmotionOneFragment()
-                studyEmotionOneFra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(1))
+                mutableListOf<Fragment>(
+                    StudyEmotionOneFragment(),
+                    StudyEmotionTwoFragment(),
+                    StudyEmotionThreeFragment(),
+                    StudyEmotionFourFragment()
+                ).apply {
+                    studyFragments.addAll(this)
                 }
-                studyFragments.add(studyEmotionOneFra)
-
-                val studyEmotionTwoFra = StudyEmotionTwoFragment()
-                studyEmotionTwoFra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(2))
+                mutableListOf<Fragment>(
+                    ExerciseEmotionOneFragment(),
+                    ExerciseEmotionTwoFragment(),
+                    ExerciseEmotionThreeFragment(),
+                    ExerciseEmotionFourFragment()
+                ).apply {
+                    exerciseFragments.addAll(this)
                 }
-                studyFragments.add(studyEmotionTwoFra)
-
-                val studyEmotionThreeFra = StudyEmotionThreeFragment()
-                studyEmotionThreeFra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(3))
-                }
-                studyFragments.add(studyEmotionThreeFra)
-
-                val studyEmotionFourFra = StudyEmotionFourFragment()
-                studyEmotionFourFra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(4))
-                }
-                studyFragments.add(studyEmotionFourFra)
-
-                val exerciseEmotionOneFra = ExerciseEmotionOneFragment()
-                exerciseEmotionOneFra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(1))
-                }
-                exerciseFragments.add(exerciseEmotionOneFra)
-
-                val exerciseEmotionTwoFra = ExerciseEmotionTwoFragment()
-                exerciseEmotionTwoFra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(2))
-                }
-                exerciseFragments.add(exerciseEmotionTwoFra)
-
-                val exerciseEmotionThreeFra = ExerciseEmotionThreeFragment()
-                exerciseEmotionThreeFra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(3))
-                }
-                exerciseFragments.add(exerciseEmotionThreeFra)
-
-                val exerciseEmotionFourFra = ExerciseEmotionFourFragment()
-                exerciseEmotionFourFra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(4))
-                }
-                exerciseFragments.add(exerciseEmotionFourFra)
-
             }
 
             "2" -> {
-                val studyActionOneFra = StudyActionOneFragment()
-                studyActionOneFra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(1))
+                mutableListOf<Fragment>(
+                    StudyActionOneFragment(),
+                    StudyActionTwoFragment(),
+                    StudyActionThreeFragment(),
+                    StudyActionFourFragment(),
+                    StudyActionFiveFragment()
+                ).apply {
+                    studyFragments.addAll(this)
                 }
-                studyFragments.add(studyActionOneFra)
-
-                val studyActionTwoFra = StudyActionTwoFragment()
-                studyActionTwoFra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(2))
+                mutableListOf<Fragment>(
+                    ExerciseActionOneFragment(),
+                    ExerciseActionTwoFragment(),
+                    ExerciseActionThreeFragment(),
+                    ExerciseActionFourFragment(),
+                    ExerciseActionFiveFragment()
+                ).apply {
+                    exerciseFragments.addAll(this)
                 }
-                studyFragments.add(studyActionTwoFra)
-
-                val studyActionThreeFra = StudyActionThreeFragment()
-                studyActionThreeFra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(3))
-                }
-                studyFragments.add(studyActionThreeFra)
-
-                val studyActionFourFra = StudyActionFourFragment()
-                studyActionFourFra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(4))
-                }
-                studyFragments.add(studyActionFourFra)
-
-                val studyActionFiveFra = StudyActionFiveFragment()
-                studyActionFiveFra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(5))
-                }
-                studyFragments.add(studyActionFiveFra)
-
-                val exerciseActionOneFra = ExerciseActionOneFragment()
-                exerciseActionOneFra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(1))
-                }
-                exerciseFragments.add(exerciseActionOneFra)
-
-                val exerciseActionTwoFra = ExerciseActionTwoFragment()
-                exerciseActionTwoFra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(2))
-                }
-                exerciseFragments.add(exerciseActionTwoFra)
-
-                val exerciseActionThreeFra = ExerciseActionThreeFragment()
-                exerciseActionThreeFra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(3))
-                }
-                exerciseFragments.add(exerciseActionThreeFra)
-
-                val exerciseActionFourFra = ExerciseActionFourFragment()
-                exerciseActionFourFra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(4))
-                }
-                exerciseFragments.add(exerciseActionFourFra)
-
-                val exerciseActionFiveFra = ExerciseActionFiveFragment()
-                exerciseActionFiveFra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(5))
-                }
-                exerciseFragments.add(exerciseActionFiveFra)
             }
 
             "3" -> {
-                val studyToyOneFra = StudyToyOneFragment()
-                studyToyOneFra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(1))
+                mutableListOf<Fragment>(
+                    StudyToyOneFragment(),
+                    StudyToyTwoFragment(),
+                    StudyToyThreeFragment(),
+                    StudyToyFourFragment()
+                ).apply {
+                    studyFragments.addAll(this)
                 }
-                studyFragments.add(studyToyOneFra)
-
-                val studyToyTwoFra = StudyToyTwoFragment()
-                studyToyTwoFra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(2))
+                mutableListOf<Fragment>(
+                    ExerciseToyOneFragment(),
+                    ExerciseToyTwoFragment(),
+                    ExerciseToyThreeFragment(),
+                    ExerciseToyFourFragment()
+                ).apply {
+                    exerciseFragments.addAll(this)
                 }
-                studyFragments.add(studyToyTwoFra)
-
-                val study3Fra = StudyToyThreeFragment()
-                study3Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(3))
-                }
-                studyFragments.add(study3Fra)
-                val study4Fra = StudyToyFourFragment()
-                study4Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(4))
-                }
-                studyFragments.add(study4Fra)
-
-                val exerciseToyOneFra = ExerciseToyOneFragment()
-                exerciseToyOneFra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(1))
-                }
-                exerciseFragments.add(exerciseToyOneFra)
-
-                val exerciseToyTwoFra = ExerciseToyTwoFragment()
-                exerciseToyTwoFra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(2))
-                }
-                exerciseFragments.add(exerciseToyTwoFra)
-
-                val exercise3Fra = ExerciseToyThreeFragment()
-                exercise3Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(3))
-                }
-                exerciseFragments.add(exercise3Fra)
-
-                val exercise4Fra = ExerciseToyFourFragment()
-                exercise4Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(4))
-                }
-                exerciseFragments.add(exercise4Fra)
             }
 
             "4" -> {
-                val study1Fra = StudyRoomOneFragment()
-                study1Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(1))
+                mutableListOf<Fragment>(
+                    StudyRoomOneFragment(),
+                    StudyRoomTwoFragment(),
+                    StudyRoomThreeFragment(),
+                    StudyRoomFourFragment()
+                ).apply {
+                    studyFragments.addAll(this)
                 }
-                studyFragments.add(study1Fra)
-                val study2Fra = StudyRoomTwoFragment()
-                study2Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(2))
+                mutableListOf<Fragment>(
+                    ExerciseRoomOneFragment(),
+                    ExerciseRoomTwoFragment(),
+                    ExerciseRoomThreeFragment(),
+                    ExerciseRoomFourFragment()
+                ).apply {
+                    exerciseFragments.addAll(this)
                 }
-                studyFragments.add(study2Fra)
-                val study3Fra = StudyRoomThreeFragment()
-                study3Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(3))
-                }
-                studyFragments.add(study3Fra)
-                val study4Fra = StudyRoomFourFragment()
-                study4Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(4))
-                }
-                studyFragments.add(study4Fra)
-
-                val exercise1Fra = ExerciseRoomOneFragment()
-                exercise1Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(1))
-                }
-                exerciseFragments.add(exercise1Fra)
-                val exercise2Fra = ExerciseRoomTwoFragment()
-                exercise2Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(2))
-                }
-                exerciseFragments.add(exercise2Fra)
-                val exercise3Fra = ExerciseRoomThreeFragment()
-                exercise3Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(3))
-                }
-                exerciseFragments.add(exercise3Fra)
-                val exercise4Fra = ExerciseRoomFourFragment()
-                exercise4Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(4))
-                }
-                exerciseFragments.add(exercise4Fra)
             }
 
             "5" -> {
-                val study1Fra = StudyBedRoomOneFragment()
-                study1Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(1))
+                mutableListOf<Fragment>(
+                    StudyBedRoomOneFragment(),
+                    StudyBedRoomTwoFragment(),
+                    StudyBedRoomThreeFragment(),
+                    StudyBedRoomFourFragment(),
+                    StudyBedRoomFiveFragment()
+                ).apply {
+                    studyFragments.addAll(this)
                 }
-                studyFragments.add(study1Fra)
-                val study2Fra = StudyBedRoomTwoFragment()
-                study2Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(2))
+                mutableListOf<Fragment>(
+                    ExerciseBedRoomOneFragment(),
+                    ExerciseBedRoomTwoFragment(),
+                    ExerciseBedRoomThreeFragment(),
+                    ExerciseBedRoomFourFragment(),
+                    ExerciseBedRoomFiveFragment()
+                ).apply {
+                    exerciseFragments.addAll(this)
                 }
-                studyFragments.add(study2Fra)
-                val study3Fra = StudyBedRoomThreeFragment()
-                study3Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(3))
-                }
-                studyFragments.add(study3Fra)
-                val study4Fra = StudyBedRoomFourFragment()
-                study4Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(4))
-                }
-                studyFragments.add(study4Fra)
-                val study5Fra = StudyBedRoomFiveFragment()
-                study5Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(5))
-                }
-                studyFragments.add(study5Fra)
-
-                val exercise1Fra = ExerciseBedRoomOneFragment()
-                exercise1Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(1))
-                }
-                exerciseFragments.add(exercise1Fra)
-                val exercise2Fra = ExerciseBedRoomTwoFragment()
-                exercise2Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(2))
-                }
-                exerciseFragments.add(exercise2Fra)
-                val exercise3Fra = ExerciseBedRoomThreeFragment()
-                exercise3Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(3))
-                }
-                exerciseFragments.add(exercise3Fra)
-                val exercise4Fra = ExerciseBedRoomFourFragment()
-                exercise4Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(4))
-                }
-                exerciseFragments.add(exercise4Fra)
-                val exercise5Fra = ExerciseBedRoomFiveFragment()
-                exercise5Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(5))
-                }
-                exerciseFragments.add(exercise5Fra)
             }
 
             "6" -> {
-                val study1Fra = StudyClothOneFragment()
-                study1Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(1))
+                mutableListOf<Fragment>(
+                    StudyClothOneFragment(),
+                    StudyClothTwoFragment(),
+                    StudyClothThreeFragment(),
+                    StudyClothFourFragment(),
+                    StudyClothFiveFragment(),
+                    StudyClothSixFragment()
+                ).apply {
+                    studyFragments.addAll(this)
                 }
-                studyFragments.add(study1Fra)
-                val study2Fra = StudyClothTwoFragment()
-                study2Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(2))
+                mutableListOf<Fragment>(
+                    ExerciseClothOneFragment(),
+                    ExerciseClothTwoFragment(),
+                    ExerciseClothThreeFragment(),
+                    ExerciseClothFourFragment(),
+                    ExerciseClothFiveFragment(),
+                    ExerciseClothSixFragment()
+                ).apply {
+                    exerciseFragments.addAll(this)
                 }
-                studyFragments.add(study2Fra)
-                val study3Fra = StudyClothThreeFragment()
-                study3Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(3))
-                }
-                studyFragments.add(study3Fra)
-                val study4Fra = StudyClothFourFragment()
-                study4Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(4))
-                }
-                studyFragments.add(study4Fra)
-                val study5Fra = StudyClothFiveFragment()
-                study5Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(5))
-                }
-                studyFragments.add(study5Fra)
-                val study6Fra = StudyClothSixFragment()
-                study6Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(6))
-                }
-                studyFragments.add(study6Fra)
-
-                val exercise1Fra = ExerciseClothOneFragment()
-                exercise1Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(1))
-                }
-                exerciseFragments.add(exercise1Fra)
-                val exercise2Fra = ExerciseClothTwoFragment()
-                exercise2Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(2))
-                }
-                exerciseFragments.add(exercise2Fra)
-                val exercise3Fra = ExerciseClothThreeFragment()
-                exercise3Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(3))
-                }
-                exerciseFragments.add(exercise3Fra)
-                val exercise4Fra = ExerciseClothFourFragment()
-                exercise4Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(4))
-                }
-                exerciseFragments.add(exercise4Fra)
-                val exercise5Fra = ExerciseClothFiveFragment()
-                exercise5Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(5))
-                }
-                exerciseFragments.add(exercise5Fra)
-                val exercise6Fra = ExerciseClothSixFragment()
-                exercise6Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(6))
-                }
-                exerciseFragments.add(exercise6Fra)
             }
 
             "7" -> {
-                val study1Fra = StudyStudyOneFragment()
-                study1Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(1))
+                mutableListOf<Fragment>(
+                    StudyStudyOneFragment(),
+                    StudyStudyTwoFragment(),
+                    StudyStudyThreeFragment()
+                ).apply {
+                    studyFragments.addAll(this)
                 }
-                studyFragments.add(study1Fra)
-                val study2Fra = StudyStudyTwoFragment()
-                study2Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(2))
+                mutableListOf<Fragment>(
+                    ExerciseStudyOneFragment(),
+                    ExerciseStudyTwoFragment(),
+                    ExerciseStudyThreeFragment()
+                ).apply {
+                    exerciseFragments.addAll(this)
                 }
-                studyFragments.add(study2Fra)
-                val study3Fra = StudyStudyThreeFragment()
-                study3Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(3))
-                }
-                studyFragments.add(study3Fra)
-                val exercise1Fra = ExerciseStudyOneFragment()
-                exercise1Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(1))
-                }
-                exerciseFragments.add(exercise1Fra)
-                val exercise2Fra = ExerciseStudyTwoFragment()
-                exercise2Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(2))
-                }
-                exerciseFragments.add(exercise2Fra)
-                val exercise3Fra = ExerciseStudyThreeFragment()
-                exercise3Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(3))
-                }
-                exerciseFragments.add(exercise3Fra)
             }
 
             "8" -> {
-                val study1Fra = StudyKitchenOneFragment()
-                study1Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(1))
+                mutableListOf<Fragment>(
+                    StudyKitchenOneFragment(),
+                    StudyKitchenTwoFragment(),
+                    StudyKitchenThreeFragment(),
+                    StudyKitchenFourFragment()
+                ).apply {
+                    studyFragments.addAll(this)
                 }
-                studyFragments.add(study1Fra)
-                val study2Fra = StudyKitchenTwoFragment()
-                study2Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(2))
+                mutableListOf<Fragment>(
+                    ExerciseKitchenOneFragment(),
+                    ExerciseKitchenTwoFragment(),
+                    ExerciseKitchenThreeFragment(),
+                    ExerciseKitchenFourFragment()
+                ).apply {
+                    exerciseFragments.addAll(this)
                 }
-                studyFragments.add(study2Fra)
-                val study3Fra = StudyKitchenThreeFragment()
-                study3Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(3))
-                }
-                studyFragments.add(study3Fra)
-                val study4Fra = StudyKitchenFourFragment()
-                study4Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(4))
-                }
-                studyFragments.add(study4Fra)
-                val exercise1Fra = ExerciseKitchenOneFragment()
-                exercise1Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(1))
-                }
-                exerciseFragments.add(exercise1Fra)
-                val exercise2Fra = ExerciseKitchenTwoFragment()
-                exercise2Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(2))
-                }
-                exerciseFragments.add(exercise2Fra)
-                val exercise3Fra = ExerciseKitchenThreeFragment()
-                exercise3Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(3))
-                }
-                exerciseFragments.add(exercise3Fra)
-                val exercise4Fra = ExerciseKitchenFourFragment()
-                exercise4Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(4))
-                }
-                exerciseFragments.add(exercise4Fra)
             }
 
             "9" -> {
-                val study1Fra = StudyBathroomOneFragment()
-                study1Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(1))
+                mutableListOf<Fragment>(
+                    StudyBathroomOneFragment(),
+                    StudyBathroomTwoFragment(),
+                    StudyBathroomThreeFragment()
+                ).apply {
+                    studyFragments.addAll(this)
                 }
-                studyFragments.add(study1Fra)
-                val study2Fra = StudyBathroomTwoFragment()
-                study2Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(2))
+                mutableListOf<Fragment>(
+                    ExerciseBathroomOneFragment(),
+                    ExerciseBathroomTwoFragment(),
+                    ExerciseBathroomThreeFragment()
+                ).apply {
+                    exerciseFragments.addAll(this)
                 }
-                studyFragments.add(study2Fra)
-                val study3Fra = StudyBathroomThreeFragment()
-                study3Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(3))
-                }
-                studyFragments.add(study3Fra)
-                val exercise1Fra = ExerciseBathroomOneFragment()
-                exercise1Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(1))
-                }
-                exerciseFragments.add(exercise1Fra)
-                val exercise2Fra = ExerciseBathroomTwoFragment()
-                exercise2Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(2))
-                }
-                exerciseFragments.add(exercise2Fra)
-                val exercise3Fra = ExerciseBathroomThreeFragment()
-                exercise3Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(3))
-                }
-                exerciseFragments.add(exercise3Fra)
             }
 
             "10" -> {
-                val study1Fra = StudyWashRoomOneFragment()
-                study1Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(1))
+                mutableListOf<Fragment>(
+                    StudyWashRoomOneFragment(),
+                    StudyWashRoomTwoFragment(),
+                    StudyWashRoomThreeFragment()
+                ).apply {
+                    studyFragments.addAll(this)
                 }
-                studyFragments.add(study1Fra)
-                val study2Fra = StudyWashRoomTwoFragment()
-                study2Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(2))
+                mutableListOf<Fragment>(
+                    ExerciseWashRoomOneFragment(),
+                    ExerciseWashRoomTwoFragment(),
+                    ExerciseWashRoomThreeFragment()
+                ).apply {
+                    exerciseFragments.addAll(this)
                 }
-                studyFragments.add(study2Fra)
-                val study3Fra = StudyWashRoomThreeFragment()
-                study3Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(2))
-                }
-                studyFragments.add(study3Fra)
-                val exercise1Fra = ExerciseWashRoomOneFragment()
-                exercise1Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(1))
-                }
-                exerciseFragments.add(exercise1Fra)
-                val exercise2Fra = ExerciseWashRoomTwoFragment()
-                exercise2Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(2))
-                }
-                exerciseFragments.add(exercise2Fra)
-                val exercise3Fra = ExerciseWashRoomThreeFragment()
-                exercise3Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(3))
-                }
-                exerciseFragments.add(exercise3Fra)
             }
 
             "11" -> {
-                val study1Fra = StudyBirthdayOneFragment()
-                study1Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(1))
+                mutableListOf<Fragment>(
+                    StudyBirthdayOneFragment(),
+                    StudyBirthdayTwoFragment(),
+                    StudyBirthdayThreeFragment()
+                ).apply {
+                    studyFragments.addAll(this)
                 }
-                studyFragments.add(study1Fra)
-                val study2Fra = StudyBirthdayTwoFragment()
-                study2Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(2))
+                mutableListOf<Fragment>(
+                    ExerciseBirthdayOneFragment(),
+                    ExerciseBirthdayTwoFragment(),
+                    ExerciseBirthdayThreeFragment()
+                ).apply {
+                    exerciseFragments.addAll(this)
                 }
-                studyFragments.add(study2Fra)
-                val study3Fra = StudyBirthdayThreeFragment()
-                study3Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(3))
-                }
-                studyFragments.add(study3Fra)
-                val exercise1Fra = ExerciseBirthdayOneFragment()
-                exercise1Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(1))
-                }
-                exerciseFragments.add(exercise1Fra)
-                val exercise2Fra = ExerciseBirthdayTwoFragment()
-                exercise2Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(2))
-                }
-                exerciseFragments.add(exercise2Fra)
-                val exercise3Fra = ExerciseBirthdayThreeFragment()
-                exercise3Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(3))
-                }
-                exerciseFragments.add(exercise3Fra)
             }
         }
     }
@@ -827,66 +554,120 @@ class StudyExerciseActivity : BaseActivity<StudyExerciseViewModel, ActivityStudy
     fun resetL2Data(it: SubjectBean) {
         when (it.parentId) {
             "0" -> {
-                val study1Fra = StudyStreetOneFragment()
-                study1Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(1))
+                mutableListOf<Fragment>(
+                    StudyStreetOneFragment(),
+                    StudyStreetTwoFragment(),
+                    StudyStreetThreeFragment(),
+                    StudyStreetFourFragment(),
+                    StudyStreetFiveFragment(),
+                    StudyStreetSixFragment()
+                ).apply {
+                    studyFragments.addAll(this)
                 }
-                studyFragments.add(study1Fra)
-                val study2Fra = StudyStreetTwoFragment()
-                study2Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(2))
+                mutableListOf<Fragment>(
+                    ExerciseStreetOneFragment(),
+                    ExerciseStreetTwoFragment(),
+                    ExerciseStreetThreeFragment(),
+                    ExerciseStreetFourFragment(),
+                    ExerciseStreetFiveFragment(),
+                    ExerciseStreetSixFragment()
+                ).apply {
+                    exerciseFragments.addAll(this)
                 }
-                studyFragments.add(study2Fra)
-                val study3Fra = StudyStreetThreeFragment()
-                study3Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(3))
+            }
+
+            "1" -> {
+                mutableListOf<Fragment>(
+                    StudyVehicleOneFragment(),
+                    StudyVehicleTwoFragment(),
+                    StudyVehicleThreeFragment(),
+                    StudyVehicleFourFragment(),
+                    StudyVehicleFiveFragment()
+                ).apply {
+                    studyFragments.addAll(this)
                 }
-                studyFragments.add(study3Fra)
-                val study4Fra = StudyStreetFourFragment()
-                study4Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(3))
+                mutableListOf<Fragment>(
+                    ExerciseVehicleOneFragment(),
+                    ExerciseVehicleTwoFragment(),
+                    ExerciseVehicleThreeFragment(),
+                    ExerciseVehicleFourFragment(),
+                    ExerciseVehicleFiveFragment(),
+                ).apply {
+                    exerciseFragments.addAll(this)
                 }
-                studyFragments.add(study4Fra)
-                val study5Fra = StudyStreetFiveFragment()
-                study5Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(5))
+            }
+
+            "2" -> {
+                mutableListOf<Fragment>(
+                    StudyConstructionOneFragment(),
+                    StudyConstructionTwoFragment(),
+                    StudyConstructionThreeFragment(),
+                ).apply {
+                    studyFragments.addAll(this)
                 }
-                studyFragments.add(study5Fra)
-                val study6Fra = StudyStreetSixFragment()
-                study6Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getStudySubject(6))
+                mutableListOf<Fragment>(
+                    ExerciseConstructionOneFragment(),
+                    ExerciseConstructionTwoFragment(),
+                    ExerciseConstructionThreeFragment(),
+                ).apply {
+                    exerciseFragments.addAll(this)
                 }
-                studyFragments.add(study6Fra)
-                val exercise1Fra = ExerciseStreetOneFragment()
-                exercise1Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(1))
+            }
+
+            "3" -> {
+                mutableListOf<Fragment>(
+                    StudyHospitalOneFragment(),
+                    StudyHospitalThreeFragment(),
+                ).apply {
+                    studyFragments.addAll(this)
                 }
-                exerciseFragments.add(exercise1Fra)
-                val exercise2Fra = ExerciseStreetTwoFragment()
-                exercise2Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(2))
+                mutableListOf<Fragment>(
+                    ExerciseHospitalOneFragment(),
+                    ExerciseHospitalTwoFragment(),
+                    ExerciseHospitalThreeFragment(),
+                ).apply {
+                    exerciseFragments.addAll(this)
                 }
-                exerciseFragments.add(exercise2Fra)
-                val exercise3Fra = ExerciseStreetThreeFragment()
-                exercise3Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(3))
+            }
+
+            "4" -> {
+                mutableListOf<Fragment>(
+                    StudySchoolOneFragment(),
+                    StudySchoolTwoFragment(),
+                    StudySchoolThreeFragment(),
+                    StudySchoolFourFragment()
+                ).apply {
+                    studyFragments.addAll(this)
                 }
-                exerciseFragments.add(exercise3Fra)
-                val exercise4Fra = ExerciseStreetFourFragment()
-                exercise4Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(4))
+                mutableListOf<Fragment>(
+                    ExerciseSchoolOneFragment(),
+                    ExerciseSchoolTwoFragment(),
+                    ExerciseSchoolThreeFragment(),
+                    ExerciseSchoolFourFragment()
+                ).apply {
+                    exerciseFragments.addAll(this)
                 }
-                exerciseFragments.add(exercise4Fra)
-                val exercise5Fra = ExerciseStreetFiveFragment()
-                exercise5Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(5))
+            }
+
+            "5" -> {
+                mutableListOf<Fragment>(
+                    StudyCareerOneFragment(),
+                    StudyCareerTwoFragment(),
+                    StudyCareerThreeFragment(),
+                    StudyCareerFourFragment(),
+                    StudyCareerFiveFragment()
+                ).apply {
+                    studyFragments.addAll(this)
                 }
-                exerciseFragments.add(exercise5Fra)
-                val exercise6Fra = ExerciseStreetSixFragment()
-                exercise6Fra.arguments = Bundle().apply {
-                    putSerializable(Const.KEY_SUBJECT, getExerciseSubject(6))
+                mutableListOf<Fragment>(
+                    ExerciseCareerOneFragment(),
+                    ExerciseCareerTwoFragment(),
+                    ExerciseCareerThreeFragment(),
+                    ExerciseCareerFourFragment(),
+                    ExerciseCareerFiveFragment()
+                ).apply {
+                    exerciseFragments.addAll(this)
                 }
-                exerciseFragments.add(exercise6Fra)
             }
         }
     }

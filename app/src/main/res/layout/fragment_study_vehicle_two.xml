@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/bg_vehicle_front_2">
+    android:background="@mipmap/bg_vehicle_front_5">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
@@ -30,11 +30,11 @@
         android:id="@+id/oneIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="48dp"
-        android:layout_marginBottom="36dp"
-        app:srcImg="@mipmap/img_tricycle"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="80dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/guideline" />
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:srcImg="@mipmap/img_subway_2" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -51,20 +51,20 @@
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="三轮车" />
+            android:text="地铁" />
 
         <TextView
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="tricycle" />
+            android:text="subway" />
     </LinearLayout>
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/twoIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcImg="@mipmap/img_jeep"
+        app:srcImg="@mipmap/img_cable_car_2"
         app:layout_constraintBottom_toBottomOf="@+id/threeIv"
         app:layout_constraintEnd_toEndOf="@+id/fourIv"
         app:layout_constraintStart_toStartOf="@+id/fourIv"
@@ -85,24 +85,24 @@
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="越野车" />
+            android:text="缆车" />
 
         <TextView
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Jeep" />
+            android:text="cable car" />
     </LinearLayout>
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/threeIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="232dp"
-        app:srcImg="@mipmap/img_camper"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/oneIv"
         app:layout_constraintEnd_toEndOf="@+id/oneIv"
-        app:layout_constraintStart_toStartOf="@+id/oneIv" />
+        app:layout_constraintStart_toStartOf="@+id/oneIv"
+        app:layout_constraintTop_toBottomOf="@+id/titleTv"
+        app:srcImg="@mipmap/img_train_2" />
 
     <LinearLayout
         android:id="@+id/linearLayout2"
@@ -119,13 +119,13 @@
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="野营车" />
+            android:text="火车" />
 
         <TextView
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="camper" />
+            android:text="train" />
     </LinearLayout>
 
     <LinearLayout
@@ -143,13 +143,13 @@
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="摩托车" />
+            android:text="有轨电车" />
 
         <TextView
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="motorcycle" />
+            android:text="tram" />
     </LinearLayout>
 
     <com.blackview.search.widget.ToggleImageView
@@ -157,7 +157,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="64dp"
-        app:srcImg="@mipmap/img_motorcycle"
+        app:srcImg="@mipmap/img_tram_2"
         app:layout_constraintBottom_toBottomOf="@+id/oneIv"
         app:layout_constraintStart_toStartOf="@+id/guideline" />
 

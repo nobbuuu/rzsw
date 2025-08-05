@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/bg_vehicle_front_5">
+    android:background="@mipmap/bg_vehicle_front_4">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
         android:layout_width="@dimen/dp_1"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.5" />
+        app:layout_constraintGuide_percent="0.45" />
 
     <TextView
         android:id="@+id/titleTv"
@@ -30,11 +30,11 @@
         android:id="@+id/oneIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="60dp"
-        android:layout_marginBottom="80dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="96dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline"
-        app:srcImg="@mipmap/img_subway_2" />
+        app:srcImg="@mipmap/img_sailboat" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -48,23 +48,23 @@
         app:layout_constraintTop_toTopOf="@+id/oneIv">
 
         <TextView
-            style="@style/contentText"
+            style="@style/contentText_white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="地铁" />
+            android:text="帆船" />
 
         <TextView
-            style="@style/contentText"
+            style="@style/contentText_white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="subway" />
+            android:text="sailboat" />
     </LinearLayout>
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/twoIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcImg="@mipmap/img_cable_car_2"
+        app:srcImg="@mipmap/img_yacht"
         app:layout_constraintBottom_toBottomOf="@+id/threeIv"
         app:layout_constraintEnd_toEndOf="@+id/fourIv"
         app:layout_constraintStart_toStartOf="@+id/fourIv"
@@ -82,16 +82,16 @@
         app:layout_constraintTop_toTopOf="@+id/twoIv">
 
         <TextView
-            style="@style/contentText"
+            style="@style/contentText_white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="缆车" />
+            android:text="游艇" />
 
         <TextView
-            style="@style/contentText"
+            style="@style/contentText_white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="cable car" />
+            android:text="yacht" />
     </LinearLayout>
 
     <com.blackview.search.widget.ToggleImageView
@@ -100,9 +100,10 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toTopOf="@+id/oneIv"
         app:layout_constraintEnd_toEndOf="@+id/oneIv"
+        app:layout_constraintHorizontal_bias="0.518"
         app:layout_constraintStart_toStartOf="@+id/oneIv"
         app:layout_constraintTop_toBottomOf="@+id/titleTv"
-        app:srcImg="@mipmap/img_train_2" />
+        app:srcImg="@mipmap/img_canoe" />
 
     <LinearLayout
         android:id="@+id/linearLayout2"
@@ -116,16 +117,16 @@
         app:layout_constraintTop_toTopOf="@+id/threeIv">
 
         <TextView
-            style="@style/contentText"
+            style="@style/contentText_white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="火车" />
+            android:text="独木舟" />
 
         <TextView
-            style="@style/contentText"
+            style="@style/contentText_white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="train" />
+            android:text="canoe" />
     </LinearLayout>
 
     <LinearLayout
@@ -140,25 +141,25 @@
         app:layout_constraintTop_toTopOf="@+id/fourIv">
 
         <TextView
-            style="@style/contentText"
+            style="@style/contentText_white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="有轨电车" />
+            android:text="邮轮" />
 
         <TextView
-            style="@style/contentText"
+            style="@style/contentText_white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="tram" />
+            android:text="cruise ship" />
     </LinearLayout>
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/fourIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
-        app:srcImg="@mipmap/img_tram_2"
+        android:layout_marginStart="4dp"
         app:layout_constraintBottom_toBottomOf="@+id/oneIv"
-        app:layout_constraintStart_toStartOf="@+id/guideline" />
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:srcImg="@mipmap/img_cruise_ship" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

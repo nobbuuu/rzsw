@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/bg_career_back_6">
+    android:background="@mipmap/bg_career_back_5">
 
     <com.ruffian.library.widget.RTextView
         android:id="@+id/selectTv"
@@ -14,7 +14,7 @@
         android:paddingTop="@dimen/dp_13"
         android:paddingEnd="@dimen/dp_88"
         android:paddingBottom="@dimen/dp_13"
-        android:text="@string/exercise_career_ideal_cn"
+        android:text="@string/exercise_career_make_movie_cn"
         android:textSize="18sp"
         app:background_normal="#FF952B"
         app:corner_radius="@dimen/dp_88"
@@ -31,7 +31,7 @@
         android:layout_marginTop="@dimen/dp_8"
         android:background="@mipmap/bg_subject_title"
         android:gravity="center"
-        android:text="@string/exercise_career_listen_profession_cn"
+        android:text="@string/exercise_career_help_director_cn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/selectTv" />
@@ -41,58 +41,41 @@
         android:id="@+id/setp1Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="124dp"
+        android:layout_marginStart="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titleTv"
-        app:srcImg="@mipmap/img_lawyer_1" />
+        app:layout_constraintVertical_bias="0.163"
+        app:srcImg="@mipmap/img_director_1" />
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/setp2Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="96dp"
-        app:layout_constraintBottom_toBottomOf="@+id/setp1Iv"
         app:layout_constraintStart_toEndOf="@+id/setp1Iv"
-        app:srcImg="@mipmap/img_beautician_1" />
+        app:layout_constraintTop_toBottomOf="@+id/setp1Iv"
+        app:srcImg="@mipmap/img_photographer_1" />
 
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/setp3Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toBottomOf="@+id/setp2Iv"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="28dp"
         app:layout_constraintStart_toEndOf="@+id/setp2Iv"
-        app:srcImg="@mipmap/img_electrician_2" />
+        app:layout_constraintTop_toBottomOf="@+id/titleTv"
+        app:srcImg="@mipmap/img_singer_1" />
 
     <com.blackview.search.widget.ToggleImageView
-        android:id="@+id/setp5Iv"
+        android:id="@+id/setp4Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="88dp"
-        app:layout_constraintStart_toStartOf="@+id/setp1Iv"
-        app:layout_constraintTop_toBottomOf="@+id/setp1Iv"
-        app:layout_constraintVertical_bias="0.406"
-        app:srcImg="@mipmap/img_singer_2" />
-
-    <com.blackview.search.widget.ToggleImageView
-        android:id="@+id/setp6Iv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="84dp"
-        app:layout_constraintBottom_toBottomOf="@+id/setp5Iv"
-        app:layout_constraintStart_toStartOf="@+id/setp2Iv"
-        app:srcImg="@mipmap/img_writer_2" />
-
-    <com.blackview.search.widget.ToggleImageView
-        android:id="@+id/setp7Iv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="116dp"
-        app:layout_constraintBottom_toBottomOf="@+id/setp6Iv"
-        app:layout_constraintStart_toStartOf="@+id/setp3Iv"
-        app:srcImg="@mipmap/img_fashion_designer_1" />
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="108dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcImg="@mipmap/img_actor_1" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

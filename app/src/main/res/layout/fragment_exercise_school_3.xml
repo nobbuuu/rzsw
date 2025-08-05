@@ -5,6 +5,10 @@
     android:layout_height="match_parent"
     android:background="@mipmap/bg_at_school_back_3">
 
+    <com.blackview.search.widget.LineView
+        android:id="@+id/lineView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
     <com.ruffian.library.widget.RTextView
         android:id="@+id/selectTv"
         android:layout_width="wrap_content"

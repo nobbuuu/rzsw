@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/bg_on_the_construction_site_back">
+    android:background="@mipmap/bg_on_the_construction_site_back_3">
 
     <com.ruffian.library.widget.RTextView
         android:id="@+id/selectTv"
@@ -15,7 +15,7 @@
         android:paddingTop="@dimen/dp_13"
         android:paddingEnd="@dimen/dp_88"
         android:paddingBottom="@dimen/dp_13"
-        android:text="@string/exercise_construction_site_one_title_cn"
+        android:text="@string/exercise_construction_site_three_title_cn"
         android:textSize="18sp"
         app:background_normal="#FF952B"
         app:corner_radius="@dimen/dp_88"
@@ -33,7 +33,7 @@
         android:layout_marginBottom="@dimen/dp_27"
         android:background="@mipmap/bg_subject_title"
         android:gravity="center"
-        android:text="@string/exercise_construction_site_one_subtitle_cn"
+        android:text="@string/exercise_construction_site_three_subtitle_cn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/selectTv" />
@@ -43,79 +43,43 @@
         android:id="@+id/setp1Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="84dp"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="92dp"
+        app:layout_constraintEnd_toEndOf="@+id/titleTv"
+        app:layout_constraintHorizontal_bias="0.553"
+        app:layout_constraintStart_toStartOf="@+id/titleTv"
         app:layout_constraintTop_toBottomOf="@+id/titleTv"
-        app:srcImg="@mipmap/img_brick" />
+        app:srcImg="@mipmap/img_tape_measure_1" />
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/setp2Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="52dp"
-        app:layout_constraintBottom_toBottomOf="@+id/setp1Iv"
-        app:layout_constraintStart_toEndOf="@+id/setp1Iv"
-        app:layout_constraintVertical_bias="0.375"
-        app:srcImg="@mipmap/img_water" />
+        android:layout_marginBottom="88dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/setp1Iv"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="@+id/setp1Iv"
+        app:srcImg="@mipmap/img_brick_1" />
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/setp3Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="52dp"
-        app:layout_constraintBottom_toBottomOf="@+id/setp2Iv"
-        app:layout_constraintStart_toEndOf="@+id/setp2Iv"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcImg="@mipmap/img_sand" />
-
+        android:layout_marginTop="72dp"
+        app:layout_constraintEnd_toEndOf="@+id/setp4Iv"
+        app:layout_constraintHorizontal_bias="0.14"
+        app:layout_constraintStart_toEndOf="@+id/setp1Iv"
+        app:layout_constraintTop_toBottomOf="@+id/titleTv"
+        app:srcImg="@mipmap/img_hammer_1" />
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/setp4Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="52dp"
+        android:layout_marginEnd="132dp"
         app:layout_constraintBottom_toBottomOf="@+id/setp2Iv"
-        app:layout_constraintStart_toEndOf="@+id/setp3Iv"
-        app:srcImg="@mipmap/img_box" />
-
-    <com.blackview.search.widget.ToggleImageView
-        android:id="@+id/setp5Iv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/setp1Iv"
-        app:layout_constraintTop_toBottomOf="@+id/setp1Iv"
-        app:layout_constraintVertical_bias="0.569"
-        app:srcImg="@mipmap/img_forklift_1" />
-
-    <com.blackview.search.widget.ToggleImageView
-        android:id="@+id/setp6Iv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        app:layout_constraintBottom_toBottomOf="@+id/setp5Iv"
-        app:layout_constraintStart_toEndOf="@+id/setp5Iv"
-        app:srcImg="@mipmap/img_dump_truck_1" />
-
-    <com.blackview.search.widget.ToggleImageView
-        android:id="@+id/setp7Iv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        app:layout_constraintBottom_toBottomOf="@+id/setp6Iv"
-        app:layout_constraintStart_toEndOf="@+id/setp6Iv"
-        app:srcImg="@mipmap/img_wheelbarrow_1" />
-
-    <com.blackview.search.widget.ToggleImageView
-        android:id="@+id/setp8Iv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
-        app:layout_constraintBottom_toBottomOf="@+id/setp7Iv"
-        app:layout_constraintStart_toEndOf="@+id/setp7Iv"
-        app:srcImg="@mipmap/img_tanker_1" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcImg="@mipmap/img_shovel_1" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
