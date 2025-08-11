@@ -27,11 +27,11 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/oneIv"
+        android:id="@+id/threeIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="68dp"
-        android:layout_marginBottom="28dp"
+        android:layout_marginBottom="70dp"
         android:src="@mipmap/img_pitaya"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline" />
@@ -42,10 +42,10 @@
         android:layout_marginEnd="@dimen/dp_11"
         android:gravity="center_horizontal"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="@+id/oneIv"
+        app:layout_constraintBottom_toBottomOf="@+id/threeIv"
         app:layout_constraintEnd_toEndOf="@+id/linearLayout2"
         app:layout_constraintStart_toStartOf="@+id/linearLayout2"
-        app:layout_constraintTop_toTopOf="@+id/oneIv">
+        app:layout_constraintTop_toTopOf="@+id/threeIv">
 
         <TextView
             style="@style/contentText"
@@ -65,11 +65,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@mipmap/img_guava"
-        app:layout_constraintBottom_toBottomOf="@+id/threeIv"
+        app:layout_constraintBottom_toBottomOf="@+id/oneIv"
         app:layout_constraintEnd_toEndOf="@+id/fourIv"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/fourIv"
-        app:layout_constraintTop_toTopOf="@+id/threeIv" />
+        app:layout_constraintTop_toTopOf="@+id/oneIv" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -96,15 +96,15 @@
     </LinearLayout>
 
     <ImageView
-        android:id="@+id/threeIv"
+        android:id="@+id/oneIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="208dp"
         android:src="@mipmap/img_avocado"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/oneIv"
+        app:layout_constraintBottom_toTopOf="@+id/threeIv"
+        app:layout_constraintEnd_toEndOf="@+id/threeIv"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/oneIv" />
+        app:layout_constraintStart_toStartOf="@+id/threeIv"
+        app:layout_constraintTop_toBottomOf="@+id/titleTv" />
 
     <LinearLayout
         android:id="@+id/linearLayout2"
@@ -113,9 +113,9 @@
         android:layout_marginEnd="@dimen/dp_36"
         android:gravity="center_horizontal"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="@+id/threeIv"
-        app:layout_constraintEnd_toStartOf="@+id/threeIv"
-        app:layout_constraintTop_toTopOf="@+id/threeIv">
+        app:layout_constraintBottom_toBottomOf="@+id/oneIv"
+        app:layout_constraintEnd_toStartOf="@+id/oneIv"
+        app:layout_constraintTop_toTopOf="@+id/oneIv">
 
         <TextView
             style="@style/contentText"
@@ -160,7 +160,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="56dp"
         android:src="@mipmap/img_kiwi_fruit"
-        app:layout_constraintBottom_toBottomOf="@+id/oneIv"
+        app:layout_constraintBottom_toBottomOf="@+id/threeIv"
         app:layout_constraintStart_toStartOf="@+id/guideline" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

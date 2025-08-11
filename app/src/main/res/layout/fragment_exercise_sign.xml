@@ -38,13 +38,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/selectTv" />
+
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/angryIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
-        android:layout_marginEnd="168dp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="59dp"
+        app:layout_constraintEnd_toEndOf="@+id/toggleImageView"
         app:layout_constraintTop_toBottomOf="@+id/titleTv"
         app:srcImg="@mipmap/img_elevator_2" />
 
@@ -52,17 +53,17 @@
         android:id="@+id/sadIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="168dp"
         android:layout_marginBottom="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/angryIv"
+        app:layout_constraintStart_toStartOf="@+id/angryIv"
         app:srcImg="@mipmap/img_elevator_1" />
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/happyIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="108dp"
         android:layout_marginEnd="220dp"
         app:layout_constraintEnd_toStartOf="@+id/angryIv"
         app:layout_constraintTop_toBottomOf="@+id/titleTv"
@@ -70,23 +71,23 @@
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/afraidIv"
-        android:layout_width="246dp"
-        android:layout_height="245dp"
-        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="34dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/titleTv"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.433"
         app:layout_constraintStart_toStartOf="@+id/titleTv"
         app:srcImg="@mipmap/img_escalator_1" />
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/toggleImageView"
         android:layout_width="wrap_content"
+        android:layout_marginTop="100dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="200dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/happyIv"
         app:srcImg="@mipmap/img_beam_1" />
 
     <com.blackview.search.widget.ToggleImageView
@@ -108,7 +109,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcImg="@mipmap/img_beam_1" />
+        app:srcImg="@mipmap/img_beam_2" />
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/toggleImageView3"

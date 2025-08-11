@@ -42,47 +42,36 @@
         android:id="@+id/sadIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="212dp"
-        android:layout_marginBottom="4dp"
-        android:scaleX="0.8"
-        android:scaleY="0.8"
+        android:layout_marginBottom="54dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/angryIv"
         app:srcImg="@mipmap/img_cello_1" />
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/afraidIv"
         android:layout_width="wrap_content"
+        android:layout_marginEnd="10dp"
         android:layout_height="wrap_content"
-        android:scaleY="0.8"
-        android:scaleX="0.8"
-        android:layout_marginEnd="144dp"
         app:layout_constraintBottom_toBottomOf="@+id/sadIv"
-        app:layout_constraintEnd_toStartOf="@+id/sadIv"
+        app:layout_constraintEnd_toStartOf="@+id/angryIv"
         app:srcImg="@mipmap/img_piano_1" />
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/angryIv"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="@dimen/dp_60"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="@dimen/dp_20"
-        android:layout_marginBottom="188dp"
-        android:scaleX="0.8"
-        android:scaleY="0.8"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/sadIv"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/afraidIv"
+        app:layout_constraintEnd_toEndOf="@+id/titleTv"
+        app:layout_constraintTop_toBottomOf="@+id/titleTv"
         app:srcImg="@mipmap/img_guitar_1" />
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/happyIv"
-        android:scaleY="0.8"
-        android:scaleX="0.8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="@dimen/dp_90"
-        app:layout_constraintBottom_toBottomOf="@+id/angryIv"
+        android:layout_marginEnd="148dp"
         app:layout_constraintEnd_toStartOf="@+id/angryIv"
+        app:layout_constraintTop_toTopOf="@+id/angryIv"
         app:srcImg="@mipmap/img_violin_1" />
 </androidx.constraintlayout.widget.ConstraintLayout>

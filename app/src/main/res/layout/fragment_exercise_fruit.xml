@@ -50,9 +50,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="64dp"
-        android:layout_marginBottom="36dp"
-        android:scaleY="0.8"
-        android:scaleX="0.8"
+        android:layout_marginBottom="64dp"
         app:srcImg="@mipmap/img_mango_1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline" />
@@ -62,33 +60,24 @@
         android:id="@+id/twoIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:scaleX="0.8"
-        android:scaleY="0.8"
-        app:srcImg="@mipmap/img_tangerine_1"
         app:layout_constraintBottom_toBottomOf="@+id/threeIv"
         app:layout_constraintEnd_toEndOf="@+id/fourIv"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/fourIv"
-        app:layout_constraintTop_toTopOf="@+id/threeIv" />
+        app:layout_constraintTop_toTopOf="@+id/threeIv"
+        app:srcImg="@mipmap/img_tangerine_1" />
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/threeIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="240dp"
-        android:scaleY="0.8"
-        android:scaleX="0.8"
-        app:srcImg="@mipmap/img_pineapple_1"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="47dp"
+        app:layout_constraintBottom_toTopOf="@+id/oneIv"
         app:layout_constraintEnd_toEndOf="@+id/oneIv"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/oneIv" />
+        app:layout_constraintStart_toStartOf="@+id/oneIv"
+        app:srcImg="@mipmap/img_pineapple_1" />
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/fourIv"
-        android:scaleY="0.8"
-        android:scaleX="0.8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="56dp"
