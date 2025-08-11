@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/bg_on_the_street_back8">
+    android:background="@mipmap/bg_on_the_street_back5">
 
     <com.ruffian.library.widget.RTextView
         android:id="@+id/selectTv"
@@ -51,30 +51,31 @@
         android:id="@+id/step1Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="260dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="59dp"
+        android:layout_marginEnd="9dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:srcImg="@mipmap/img_fire_hydrant" />
+        app:layout_constraintEnd_toStartOf="@+id/step8Iv"
+        app:srcImg="@mipmap/img_fire_hydrant_1" />
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/step8Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
+        android:layout_marginEnd="91dp"
         app:layout_constraintBottom_toBottomOf="@+id/step1Iv"
-        app:layout_constraintStart_toEndOf="@+id/step1Iv"
+        app:layout_constraintEnd_toEndOf="parent"
         app:srcImg="@mipmap/img_child_4" />
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/step2Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="324dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titleTv"
-        app:srcImg="@mipmap/img_mailbox" />
+        app:srcImg="@mipmap/img_mailbox_1" />
 
 
     <com.blackview.search.widget.ToggleImageView
@@ -94,21 +95,19 @@
         android:id="@+id/step3Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="196dp"
         android:layout_marginBottom="60dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcImg="@mipmap/img_bench" />
+        app:layout_constraintStart_toStartOf="@+id/step4Iv"
+        app:srcImg="@mipmap/img_bench_1" />
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/step6Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="196dp"
-        android:layout_marginBottom="60dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/step3Iv"
         app:layout_constraintEnd_toEndOf="@+id/step3Iv"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintStart_toStartOf="@+id/step3Iv"
         app:srcImg="@mipmap/img_child_3_1" />
 
 
@@ -124,11 +123,11 @@
         android:id="@+id/step5Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="72dp"
-        android:layout_marginTop="112dp"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="10dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcImg="@mipmap/img_statue" />
+        app:layout_constraintTop_toTopOf="@+id/titleTv"
+        app:srcImg="@mipmap/img_statue_1" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

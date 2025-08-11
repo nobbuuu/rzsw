@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/bg_on_the_street_back4">
+    android:background="@mipmap/bg_on_the_street_back3">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
@@ -40,8 +40,8 @@
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/step1Iv"
-        android:layout_width="121dp"
-        android:layout_height="119dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="76dp"
         app:srcImg="@mipmap/img_camera_2"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -49,8 +49,8 @@
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/step2Iv"
-        android:layout_width="133dp"
-        android:layout_height="152dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         app:srcImg="@mipmap/img_handbag_1"
         app:layout_constraintBottom_toBottomOf="@+id/step5Iv"
@@ -69,8 +69,8 @@
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/step4Iv"
-        android:layout_width="114dp"
-        android:layout_height="141dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         app:srcImg="@mipmap/img_umbrella_1"
         app:layout_constraintBottom_toBottomOf="@+id/step2Iv"
@@ -78,18 +78,18 @@
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/step5Iv"
-        android:layout_width="110dp"
-        android:layout_height="130dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="172dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="62dp"
         app:srcImg="@mipmap/img_cellphone_1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titleTv" />
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/step6Iv"
-        android:layout_width="134dp"
-        android:layout_height="135dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginBottom="8dp"
         app:srcImg="@mipmap/img_umbrella_2"
@@ -98,8 +98,8 @@
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/step7Iv"
-        android:layout_width="116dp"
-        android:layout_height="142dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="52dp"
         app:srcImg="@mipmap/img_handbag_2"
         app:layout_constraintBottom_toBottomOf="@+id/step6Iv"
@@ -107,8 +107,8 @@
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/step8Iv"
-        android:layout_width="96dp"
-        android:layout_height="112dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         app:srcImg="@mipmap/img_cellphone_2"
         app:layout_constraintBottom_toBottomOf="@+id/step7Iv"

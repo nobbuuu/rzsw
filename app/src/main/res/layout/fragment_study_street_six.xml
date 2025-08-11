@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/bg_on_the_street_front">
+    android:background="@mipmap/bg_on_the_street_front6">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
@@ -27,11 +27,11 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/oneIv"
+        android:id="@+id/threeIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="92dp"
-        android:layout_marginBottom="28dp"
+        android:layout_marginBottom="86dp"
         android:src="@mipmap/img_fountain"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline" />
@@ -42,10 +42,10 @@
         android:layout_marginEnd="@dimen/dp_11"
         android:gravity="center_horizontal"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="@+id/oneIv"
+        app:layout_constraintBottom_toBottomOf="@+id/threeIv"
         app:layout_constraintEnd_toEndOf="@+id/linearLayout2"
         app:layout_constraintStart_toStartOf="@+id/linearLayout2"
-        app:layout_constraintTop_toTopOf="@+id/oneIv">
+        app:layout_constraintTop_toTopOf="@+id/threeIv">
 
         <TextView
             style="@style/contentText_white"
@@ -66,6 +66,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:src="@mipmap/img_park"
+        app:layout_constraintBottom_toTopOf="@+id/fourIv"
         app:layout_constraintEnd_toEndOf="@+id/fourIv"
         app:layout_constraintHorizontal_bias="0.409"
         app:layout_constraintStart_toStartOf="@+id/fourIv"
@@ -96,14 +97,14 @@
     </LinearLayout>
 
     <ImageView
-        android:id="@+id/threeIv"
+        android:id="@+id/oneIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="204dp"
         android:src="@mipmap/img_museum"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/oneIv"
-        app:layout_constraintStart_toStartOf="@+id/oneIv" />
+        app:layout_constraintBottom_toTopOf="@+id/threeIv"
+        app:layout_constraintEnd_toEndOf="@+id/threeIv"
+        app:layout_constraintStart_toStartOf="@+id/threeIv"
+        app:layout_constraintTop_toBottomOf="@+id/titleTv" />
 
     <LinearLayout
         android:id="@+id/linearLayout2"
@@ -112,9 +113,9 @@
         android:layout_marginEnd="@dimen/dp_36"
         android:gravity="center_horizontal"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="@+id/threeIv"
-        app:layout_constraintEnd_toStartOf="@+id/threeIv"
-        app:layout_constraintTop_toTopOf="@+id/threeIv">
+        app:layout_constraintBottom_toBottomOf="@+id/oneIv"
+        app:layout_constraintEnd_toStartOf="@+id/oneIv"
+        app:layout_constraintTop_toTopOf="@+id/oneIv">
 
         <TextView
             style="@style/contentText_white"
@@ -159,7 +160,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="56dp"
         android:src="@mipmap/img_square"
-        app:layout_constraintBottom_toBottomOf="@+id/oneIv"
+        app:layout_constraintBottom_toBottomOf="@+id/threeIv"
         app:layout_constraintStart_toStartOf="@+id/guideline" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

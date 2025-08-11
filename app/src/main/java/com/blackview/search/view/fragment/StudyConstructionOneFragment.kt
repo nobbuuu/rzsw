@@ -21,7 +21,7 @@ class StudyConstructionOneFragment :
         return intArrayOf(R.raw.at_the_construction_site_hammer, R.raw.at_the_construction_site_tape_measure, R.raw.at_the_construction_site_brick, R.raw.at_the_construction_site_shovel)
     }
 
-    override fun getForewordRaw(): Int = R.raw.l313dr
+    override fun getForewordRaw(): Int = R.raw.l323dr
 
     override fun updateStar(star: Int) {
         val subject = arguments?.getSerializable("subject") as SubjectBean
