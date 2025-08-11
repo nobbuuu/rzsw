@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/bg_on_the_street_front5">
+    android:background="@mipmap/bg_on_the_street_front4">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
@@ -33,6 +33,7 @@
         android:layout_marginTop="36dp"
         android:layout_marginEnd="104dp"
         android:src="@mipmap/img_road_sign"
+        app:layout_constraintBottom_toTopOf="@+id/threeIv"
         app:layout_constraintEnd_toStartOf="@+id/guideline"
         app:layout_constraintTop_toBottomOf="@+id/titleTv" />
 
@@ -65,7 +66,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="52dp"
-        android:layout_marginTop="76dp"
+        android:layout_marginTop="117dp"
         android:src="@mipmap/img_traffic_light"
         app:layout_constraintStart_toEndOf="@+id/guideline"
         app:layout_constraintTop_toBottomOf="@+id/titleTv" />
@@ -77,6 +78,7 @@
         android:layout_marginTop="20dp"
         android:gravity="center_horizontal"
         android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/threeIv"
         app:layout_constraintEnd_toEndOf="@+id/twoIv"
         app:layout_constraintHorizontal_bias="0.521"
         app:layout_constraintStart_toStartOf="@+id/twoIv"
@@ -99,7 +101,7 @@
         android:id="@+id/threeIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="52dp"
+        android:layout_marginBottom="80dp"
         android:src="@mipmap/img_tree"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/oneIv"
@@ -136,6 +138,7 @@
         android:layout_marginTop="20dp"
         android:gravity="center_horizontal"
         android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="@+id/fourIv"
         app:layout_constraintHorizontal_bias="0.625"
         app:layout_constraintStart_toStartOf="@+id/fourIv"
@@ -159,8 +162,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="68dp"
-        android:layout_marginBottom="104dp"
         android:src="@mipmap/img_streetlight"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/twoIv"
         app:layout_constraintStart_toEndOf="@+id/twoIv" />
 </androidx.constraintlayout.widget.ConstraintLayout>
