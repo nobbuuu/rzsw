@@ -36,9 +36,9 @@
         android:id="@+id/step3Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="56dp"
-        app:srcImg="@mipmap/img_apartment"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="12dp"
+        app:srcImg="@mipmap/img_apartment_1"
         app:layout_constraintStart_toEndOf="@+id/step2Iv"
         app:layout_constraintTop_toBottomOf="@+id/titleTv"
         app:layout_editor_absoluteX="535dp" />
@@ -47,32 +47,31 @@
         android:id="@+id/step2Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="68dp"
-        app:srcImg="@mipmap/img_tower"
-        app:layout_constraintBottom_toBottomOf="@+id/step1Iv"
+        android:layout_marginStart="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/step1Iv"
-        app:layout_constraintTop_toTopOf="@+id/step1Iv"
-        app:layout_constraintVertical_bias="0.463"
-        app:layout_editor_absoluteX="384dp" />
+        android:layout_marginBottom="103dp"
+        app:srcImg="@mipmap/img_tower_1" />
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/step1Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="148dp"
-        android:layout_marginTop="124dp"
-        app:srcImg="@mipmap/img_bridge"
+        android:layout_marginStart="126dp"
+        android:layout_marginBottom="145dp"
+        android:layout_marginTop="152dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/titleTv"
-        app:layout_editor_absoluteY="254dp" />
+        app:layout_editor_absoluteY="254dp"
+        app:srcImg="@mipmap/img_bridge_1" />
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/step4Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="136dp"
-        android:layout_marginBottom="28dp"
-        app:srcImg="@mipmap/img_skyscraper"
+        android:layout_marginBottom="58dp"
+        app:srcImg="@mipmap/img_skyscraper_1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

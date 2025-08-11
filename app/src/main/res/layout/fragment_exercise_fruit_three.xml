@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/bg_fruit_back4">
+    android:background="@mipmap/bg_fruit_back_3">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
@@ -49,45 +49,39 @@
         android:id="@+id/oneIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="84dp"
-        app:srcImg="@mipmap/img_pitaya1"
+        android:layout_marginBottom="110dp"
+        android:layout_marginStart="168dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/guideline" />
+        app:layout_constraintStart_toStartOf="@+id/threeIv"
+        app:srcImg="@mipmap/img_pitaya1" />
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/twoIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        app:srcImg="@mipmap/img_guava1"
+        android:layout_marginStart="99dp"
         app:layout_constraintBottom_toBottomOf="@+id/threeIv"
-        app:layout_constraintEnd_toEndOf="@+id/fourIv"
-        app:layout_constraintHorizontal_bias="0.081"
-        app:layout_constraintStart_toEndOf="@+id/oneIv"
+        app:layout_constraintStart_toEndOf="@+id/threeIv"
         app:layout_constraintTop_toTopOf="@+id/threeIv"
-        app:layout_constraintVertical_bias="1.0" />
+        app:srcImg="@mipmap/img_guava1" />
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/threeIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="260dp"
-        app:srcImg="@mipmap/img_avocado1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/oneIv"
-        app:layout_constraintHorizontal_bias="0.438"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:layout_marginStart="118dp"
+        app:layout_constraintBottom_toTopOf="@+id/oneIv"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcImg="@mipmap/img_avocado1" />
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/fourIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="56dp"
-        app:srcImg="@mipmap/img_kiwi_fruit1"
+        android:layout_marginStart="@dimen/dp_100"
         app:layout_constraintBottom_toBottomOf="@+id/oneIv"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.598"
-        app:layout_constraintStart_toStartOf="@+id/guideline" />
+        app:layout_constraintStart_toEndOf="@+id/oneIv"
+        app:srcImg="@mipmap/img_kiwi_fruit1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

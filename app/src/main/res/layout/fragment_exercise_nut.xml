@@ -84,8 +84,6 @@
         android:id="@+id/step8Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:scaleX="0.8"
-        android:scaleY="0.8"
         app:layout_constraintBottom_toBottomOf="@+id/step7Iv"
         app:layout_constraintEnd_toEndOf="@+id/step1Iv"
         app:layout_constraintHorizontal_bias="0.304"
@@ -97,7 +95,7 @@
         android:id="@+id/step1Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="51dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.322"
         app:layout_constraintStart_toStartOf="parent"
@@ -109,7 +107,7 @@
         android:id="@+id/step10Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="48dp"
+        android:layout_marginEnd="55dp"
         app:layout_constraintEnd_toStartOf="@+id/step15Iv"
         app:layout_constraintTop_toTopOf="@+id/step15Iv"
         app:srcImg="@mipmap/img_cashew_1" />
@@ -131,7 +129,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         app:layout_constraintEnd_toEndOf="@+id/step11Iv"
-        app:layout_constraintHorizontal_bias="0.545"
         app:layout_constraintStart_toStartOf="@+id/step11Iv"
         app:layout_constraintTop_toBottomOf="@+id/step11Iv"
         app:srcImg="@mipmap/img_walnut_1" />
@@ -142,10 +139,10 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="@+id/step11Iv"
         app:layout_constraintEnd_toEndOf="@+id/step15Iv"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/step15Iv"
         app:layout_constraintTop_toTopOf="@+id/step11Iv"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.888"
         app:srcImg="@mipmap/img_macadamia_nut_1" />
 
     <com.blackview.search.widget.ToggleImageView
@@ -157,16 +154,14 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/step15Iv"
         app:layout_constraintTop_toTopOf="@+id/step12Iv"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.433"
         app:srcImg="@mipmap/img_peanut_1" />
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/step15Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="120dp"
-        android:scaleX="0.8"
-        android:scaleY="0.8"
+        android:layout_marginTop="150dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.834"
         app:layout_constraintStart_toStartOf="parent"

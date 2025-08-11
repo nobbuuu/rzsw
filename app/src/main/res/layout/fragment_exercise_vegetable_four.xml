@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_vegetable_back_four">
+
+    <com.blackview.search.widget.LineView
+        android:id="@+id/lineView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <com.ruffian.library.widget.RTextView
+        android:id="@+id/selectTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_25"
+        android:paddingStart="@dimen/dp_88"
+        android:paddingTop="@dimen/dp_13"
+        android:paddingEnd="@dimen/dp_88"
+        android:paddingBottom="@dimen/dp_13"
+        android:text="@string/exercise_vegetable_half_vegetables_cn"
+        android:textSize="18sp"
+        app:background_normal="#FF952B"
+        app:corner_radius="@dimen/dp_88"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:text_color_normal="@color/white" />
+
+    <TextView
+        android:id="@+id/titleTv"
+        style="@style/exerciseTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_8"
+        android:background="@mipmap/bg_subject_title"
+        android:gravity="center"
+        android:text="@string/exercise_vegetable_cut_half_recognize_cn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selectTv" />
+
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/setp1Iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleTv"
+        app:srcImg="@mipmap/img_pumpkin_1" />
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/setp2Iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="134dp"
+        app:layout_constraintBottom_toBottomOf="@+id/setp1Iv"
+        app:layout_constraintStart_toEndOf="@+id/setp1Iv"
+        app:layout_constraintTop_toTopOf="@+id/setp1Iv"
+        app:srcImg="@mipmap/img_white_radish_1" />
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/setp3Iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginStart="174dp"
+        app:layout_constraintStart_toStartOf="@+id/setp1Iv"
+        app:layout_constraintTop_toBottomOf="@+id/setp1Iv"
+        app:srcImg="@mipmap/img_yam_1" />
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/setp4Iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        app:layout_constraintBottom_toBottomOf="@+id/setp3Iv"
+        app:layout_constraintStart_toEndOf="@+id/setp3Iv"
+        app:srcImg="@mipmap/img_okra_1" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

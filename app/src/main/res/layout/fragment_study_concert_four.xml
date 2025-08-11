@@ -31,7 +31,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="56dp"
-        android:layout_marginBottom="44dp"
+        android:layout_marginBottom="66dp"
         app:srcImg="@mipmap/img_score"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline" />
@@ -64,12 +64,12 @@
         android:id="@+id/twoIv"
         android:layout_width="82dp"
         android:layout_height="115dp"
-        android:layout_marginBottom="48dp"
-        app:srcImg="@mipmap/img_note"
-        app:layout_constraintBottom_toTopOf="@+id/fourIv"
+        app:layout_constraintBottom_toBottomOf="@+id/threeIv"
         app:layout_constraintEnd_toEndOf="@+id/fourIv"
         app:layout_constraintHorizontal_bias="0.327"
-        app:layout_constraintStart_toStartOf="@+id/fourIv" />
+        app:layout_constraintStart_toStartOf="@+id/fourIv"
+        app:layout_constraintTop_toTopOf="@+id/threeIv"
+        app:srcImg="@mipmap/img_note" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -100,11 +100,12 @@
         android:layout_width="134dp"
         android:layout_height="172dp"
         android:layout_marginBottom="32dp"
-        app:srcImg="@mipmap/img_musician"
         app:layout_constraintBottom_toTopOf="@+id/oneIv"
         app:layout_constraintEnd_toEndOf="@+id/oneIv"
         app:layout_constraintHorizontal_bias="0.333"
-        app:layout_constraintStart_toStartOf="@+id/oneIv" />
+        app:layout_constraintStart_toStartOf="@+id/oneIv"
+        app:layout_constraintTop_toBottomOf="@+id/titleTv"
+        app:srcImg="@mipmap/img_musician" />
 
     <LinearLayout
         android:id="@+id/linearLayout2"
