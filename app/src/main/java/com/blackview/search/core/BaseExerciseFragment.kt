@@ -16,7 +16,8 @@ import com.blackview.search.view.activity.StudyExerciseActivity
 import com.blackview.search.widget.ToggleImageView
 import kotlin.collections.forEach
 
-abstract class BaseExerciseFragment<VM : BaseViewModel, DB : ViewBinding> : BaseVoiceAgainFragment<VM, DB>() {
+abstract class BaseExerciseFragment<VM : BaseViewModel, DB : ViewBinding> :
+    BaseVoiceAgainFragment<VM, DB>() {
     private var currentStep = 0
     private var isAcceptingInput = false
     private val clickAbleViews: MutableList<ToggleImageView> = mutableListOf()
@@ -112,10 +113,15 @@ abstract class BaseExerciseFragment<VM : BaseViewModel, DB : ViewBinding> : Base
                 }
 
                 override fun onEnd(index: Int) {
+                    onCorrect(isCorrect, selectedOrgan)
+                    if (!isCorrect){
+                        toggleView.resetPosition()
+                    }
                     if (isCorrect) {
                         currentStep++
                         startStep(currentStep)
                     } else {
+
                         startStep(currentStep)
                     }
                 }
@@ -135,6 +141,7 @@ abstract class BaseExerciseFragment<VM : BaseViewModel, DB : ViewBinding> : Base
         clickAbleViews.forEach {
             it.setOnClickListener(handleClick)
             it.isShowToggleIv(false)
+            it.resetPosition()
         }
         AudioPlayerManger.playRaw(getForewordRaw(), object : IPlayCallBack {
             override fun onStart(index: Int) {
@@ -155,4 +162,5 @@ abstract class BaseExerciseFragment<VM : BaseViewModel, DB : ViewBinding> : Base
     abstract fun getForewordRaw(): Int
     abstract fun getContentRaw(): IntArray
     abstract fun updateStar(star: Int)
+    open fun onCorrect(isCorrect: Boolean, step: String) {}
 }

@@ -1,5 +1,6 @@
 package com.blackview.search.view.fragment
 
+import android.widget.ImageView
 import com.blackview.search.R
 import com.blackview.search.core.BaseExerciseFragment
 import com.blackview.search.core.BaseLineFragment
@@ -13,7 +14,7 @@ import com.blackview.search.widget.ToggleImageView
 class ExerciseSchoolThreeFragment :
     BaseLineFragment<StudyExerciseViewModel, FragmentExerciseSchool3Binding>() {
 
-    override fun getToggleViews(): List<ToggleImageView> {
+    override fun getClickViews(): List<ImageView> {
         return listOf(
             mBinding.setp2Iv,
             mBinding.setp1Iv,

@@ -41,7 +41,7 @@
         app:layout_constraintTop_toBottomOf="@+id/selectTv" />
 
 
-    <com.blackview.search.widget.ToggleImageView
+    <ImageView
         android:id="@+id/setp1Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -49,9 +49,9 @@
         android:layout_marginTop="48dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titleTv"
-        app:srcImg="@mipmap/img_draw_1" />
+        android:src="@mipmap/img_draw_1" />
 
-    <com.blackview.search.widget.ToggleImageView
+    <ImageView
         android:id="@+id/setp2Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -59,9 +59,9 @@
         app:layout_constraintBottom_toBottomOf="@+id/setp1Iv"
         app:layout_constraintStart_toEndOf="@+id/setp1Iv"
         app:layout_constraintVertical_bias="0.375"
-        app:srcImg="@mipmap/img_five_pointed_star" />
+        android:src="@mipmap/img_five_pointed_star" />
 
-    <com.blackview.search.widget.ToggleImageView
+    <ImageView
         android:id="@+id/setp3Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -69,19 +69,19 @@
         app:layout_constraintBottom_toBottomOf="@+id/setp2Iv"
         app:layout_constraintStart_toEndOf="@+id/setp2Iv"
         app:layout_constraintVertical_bias="0.0"
-        app:srcImg="@mipmap/img_small_person" />
+        android:src="@mipmap/img_small_person" />
 
 
-    <com.blackview.search.widget.ToggleImageView
+    <ImageView
         android:id="@+id/setp4Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="52dp"
         app:layout_constraintBottom_toBottomOf="@+id/setp2Iv"
         app:layout_constraintStart_toEndOf="@+id/setp3Iv"
-        app:srcImg="@mipmap/img_telescope" />
+        android:src="@mipmap/img_telescope" />
 
-    <com.blackview.search.widget.ToggleImageView
+    <ImageView
         android:id="@+id/setp5Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -90,34 +90,34 @@
         app:layout_constraintStart_toStartOf="@+id/setp1Iv"
         app:layout_constraintTop_toBottomOf="@+id/setp1Iv"
         app:layout_constraintVertical_bias="0.722"
-        app:srcImg="@mipmap/img_craft_knife_1" />
+        android:src="@mipmap/img_craft_knife_1" />
 
-    <com.blackview.search.widget.ToggleImageView
+    <ImageView
         android:id="@+id/setp6Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="72dp"
         app:layout_constraintBottom_toBottomOf="@+id/setp5Iv"
         app:layout_constraintStart_toEndOf="@+id/setp5Iv"
-        app:srcImg="@mipmap/img_glue_1" />
+        android:src="@mipmap/img_glue_1" />
 
-    <com.blackview.search.widget.ToggleImageView
+    <ImageView
         android:id="@+id/setp7Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="52dp"
         app:layout_constraintBottom_toBottomOf="@+id/setp6Iv"
         app:layout_constraintStart_toEndOf="@+id/setp6Iv"
-        app:srcImg="@mipmap/img_paint_1" />
+        android:src="@mipmap/img_paint_1" />
 
-    <com.blackview.search.widget.ToggleImageView
+    <ImageView
         android:id="@+id/setp8Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
         app:layout_constraintBottom_toBottomOf="@+id/setp7Iv"
         app:layout_constraintStart_toEndOf="@+id/setp7Iv"
-        app:srcImg="@mipmap/img_scissors_1" />
+        android:src="@mipmap/img_scissors_1" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

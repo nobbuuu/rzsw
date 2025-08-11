@@ -130,7 +130,7 @@ class ExerciseEmotionFourFragment : BaseVoiceAgainFragment<StudyExerciseViewMode
         } else {
             val isAllCorrect = checkMap.get(selectedOrgan)?.all { it.value == true }
             if (!isAllCorrect!!) {
-                AudioPlayerManger.playRaw(R.raw.and)
+//                AudioPlayerManger.playRaw(R.raw.and)
                 isAcceptingInput = true
             } else {
                 AudioPlayerManger.playRaw(

@@ -51,6 +51,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/dp_75"
+        app:isDrag="true"
         app:layout_constraintStart_toEndOf="@+id/titleTv"
         app:layout_constraintTop_toBottomOf="@+id/titleTv"
         app:srcImg="@mipmap/img_photo_ex" />
@@ -63,6 +64,7 @@
         app:layout_constraintEnd_toEndOf="@+id/step1Iv"
         app:layout_constraintStart_toStartOf="@+id/step1Iv"
         app:layout_constraintTop_toBottomOf="@+id/step1Iv"
+        app:isDrag="true"
         app:srcImg="@mipmap/img_alarm_clock_ex" />
 
     <com.blackview.search.widget.ToggleImageView
@@ -73,6 +75,7 @@
         app:layout_constraintEnd_toEndOf="@+id/step2Iv"
         app:layout_constraintStart_toStartOf="@+id/step2Iv"
         app:layout_constraintTop_toBottomOf="@+id/step2Iv"
+        app:isDrag="true"
         app:srcImg="@mipmap/img_table_lamp_ex" />
 
     <com.blackview.search.widget.ToggleImageView
@@ -80,6 +83,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/dp_12"
+        app:isDrag="true"
         app:layout_constraintEnd_toEndOf="@+id/step3Iv"
         app:layout_constraintStart_toStartOf="@+id/step3Iv"
         app:layout_constraintTop_toBottomOf="@+id/step3Iv"

@@ -28,27 +28,27 @@ class StudyBodyOneFragment :
         eye.chName = StringUtils.getString(R.string.organ_eye_ch)
         eye.enName = StringUtils.getString(R.string.organ_eye_en)
         eye.img = R.mipmap.img_eye
-        eye.audio_ch = R.raw.eye_ch
+        eye.audio_ch = R.raw.my_body_eye
         organList.add(eye)
 
         val mouth = OrganBean()
         mouth.chName = StringUtils.getString(R.string.organ_mouth_ch)
         mouth.enName = StringUtils.getString(R.string.organ_mouth_en)
-        mouth.audio_ch = R.raw.mouth_ch
+        mouth.audio_ch = R.raw.my_body_mouth
         mouth.img = R.mipmap.img_mouth
         organList.add(mouth)
 
         val nose = OrganBean()
         nose.chName = StringUtils.getString(R.string.organ_nose_ch)
         nose.enName = StringUtils.getString(R.string.organ_nose_en)
-        nose.audio_ch = R.raw.nose_ch
+        nose.audio_ch = R.raw.my_body_nose
         nose.img = R.mipmap.img_nose
         organList.add(nose)
 
         val ear = OrganBean()
         ear.chName = StringUtils.getString(R.string.organ_ear_ch)
         ear.enName = StringUtils.getString(R.string.organ_ear_en)
-        ear.audio_ch = R.raw.ear_ch
+        ear.audio_ch = R.raw.my_body_ear
         ear.img = R.mipmap.img_ear
         organList.add(ear)
 

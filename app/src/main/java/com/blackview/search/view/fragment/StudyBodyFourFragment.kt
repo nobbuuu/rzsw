@@ -15,7 +15,12 @@ class StudyBodyFourFragment :
     }
 
     override fun getContentRaw(): IntArray {
-        return intArrayOf(R.raw.l207tp1, R.raw.l207tp2, R.raw.l207tp3, R.raw.l207tp4)
+        return intArrayOf(
+            R.raw.my_body_chest,
+            R.raw.my_body_tummy,
+            R.raw.my_body_back,
+            R.raw.my_body_neck
+        )
     }
 
     override fun getForewordRaw(): Int = R.raw.study_body_1_title
