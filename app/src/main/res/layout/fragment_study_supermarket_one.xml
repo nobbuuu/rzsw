@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/bg_in_the_supermarket_front_one_1">
+    android:background="@mipmap/bg_in_the_supermarket_front_6">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
@@ -21,7 +21,7 @@
         android:layout_marginTop="@dimen/dp_80"
         android:background="@mipmap/bg_subject_title"
         android:gravity="center"
-        android:text="@string/study_supermarket_shopping_title_cn"
+        android:text="小朋友，一起去购物吧！"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -35,7 +35,7 @@
         app:layout_constraintEnd_toStartOf="@+id/guideline"
         app:layout_constraintHorizontal_bias="0.268"
         app:layout_constraintStart_toStartOf="@+id/titleTv"
-        app:srcImg="@mipmap/img_corn" />
+        app:srcImg="@mipmap/img_shopping_basket" />
 
     <LinearLayout
         android:id="@+id/linearLayout5"
@@ -55,13 +55,13 @@
             style="@style/contentText_white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/study_supermarket_corn_cn" />
+            android:text="购物篮" />
 
         <TextView
             style="@style/contentText_white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/study_supermarket_corn_en" />
+            android:text="shopping basket" />
     </LinearLayout>
 
 
@@ -84,7 +84,7 @@
         android:id="@+id/twoIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcImg="@mipmap/img_flour"
+        app:srcImg="@mipmap/img_cash_register"
         app:layout_constraintBottom_toBottomOf="@+id/threeIv"
         app:layout_constraintEnd_toEndOf="@+id/fourIv"
         app:layout_constraintStart_toStartOf="@+id/fourIv"
@@ -105,13 +105,13 @@
             style="@style/contentText_white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/study_supermarket_flour_cn" />
+            android:text="收银机" />
 
         <TextView
             style="@style/contentText_white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/study_supermarket_flour_en" />
+            android:text="cash register" />
     </LinearLayout>
 
     <com.blackview.search.widget.ToggleImageView
@@ -122,7 +122,7 @@
         app:layout_constraintEnd_toEndOf="@+id/oneIv"
         app:layout_constraintStart_toStartOf="@+id/oneIv"
         app:layout_constraintTop_toBottomOf="@+id/titleTv"
-        app:srcImg="@mipmap/img_bread" />
+        app:srcImg="@mipmap/img_cashier" />
 
     <LinearLayout
         android:id="@+id/linearLayout2"
@@ -139,13 +139,13 @@
             style="@style/contentText_white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/study_supermarket_bread_cn" />
+            android:text="收银员" />
 
         <TextView
             style="@style/contentText_white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/study_supermarket_bread_en" />
+            android:text="cashier" />
     </LinearLayout>
 
     <LinearLayout
@@ -164,13 +164,13 @@
             style="@style/contentText_white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/study_supermarket_cereal_cn" />
+            android:text="购物车" />
 
         <TextView
             style="@style/contentText_white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/study_supermarket_cereal_en" />
+            android:text="shopping cart" />
     </LinearLayout>
 
     <com.blackview.search.widget.ToggleImageView
@@ -181,6 +181,6 @@
         app:layout_constraintEnd_toEndOf="@+id/titleTv"
         app:layout_constraintHorizontal_bias="0.567"
         app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:srcImg="@mipmap/img_cereal" />
+        app:srcImg="@mipmap/img_shopping_cart" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

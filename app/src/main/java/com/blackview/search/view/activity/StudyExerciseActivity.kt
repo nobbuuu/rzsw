@@ -20,6 +20,8 @@ import com.blackview.search.view.fragment.ExerciseActionFourFragment
 import com.blackview.search.view.fragment.ExerciseActionOneFragment
 import com.blackview.search.view.fragment.ExerciseActionThreeFragment
 import com.blackview.search.view.fragment.ExerciseActionTwoFragment
+import com.blackview.search.view.fragment.ExerciseAmusementOneFragment
+import com.blackview.search.view.fragment.ExerciseAmusementTwoFragment
 import com.blackview.search.view.fragment.ExerciseBathroomOneFragment
 import com.blackview.search.view.fragment.ExerciseBathroomThreeFragment
 import com.blackview.search.view.fragment.ExerciseBathroomTwoFragment
@@ -46,6 +48,10 @@ import com.blackview.search.view.fragment.ExerciseClothOneFragment
 import com.blackview.search.view.fragment.ExerciseClothSixFragment
 import com.blackview.search.view.fragment.ExerciseClothThreeFragment
 import com.blackview.search.view.fragment.ExerciseClothTwoFragment
+import com.blackview.search.view.fragment.ExerciseConcertFourFragment
+import com.blackview.search.view.fragment.ExerciseConcertOneFragment
+import com.blackview.search.view.fragment.ExerciseConcertThreeFragment
+import com.blackview.search.view.fragment.ExerciseConcertTwoFragment
 import com.blackview.search.view.fragment.ExerciseConstructionOneFragment
 import com.blackview.search.view.fragment.ExerciseConstructionThreeFragment
 import com.blackview.search.view.fragment.ExerciseConstructionTwoFragment
@@ -53,6 +59,9 @@ import com.blackview.search.view.fragment.ExerciseEmotionFourFragment
 import com.blackview.search.view.fragment.ExerciseEmotionOneFragment
 import com.blackview.search.view.fragment.ExerciseEmotionThreeFragment
 import com.blackview.search.view.fragment.ExerciseEmotionTwoFragment
+import com.blackview.search.view.fragment.ExerciseFruitOneFragment
+import com.blackview.search.view.fragment.ExerciseFruitThreeFragment
+import com.blackview.search.view.fragment.ExerciseFruitTwoFragment
 import com.blackview.search.view.fragment.ExerciseHospitalOneFragment
 import com.blackview.search.view.fragment.ExerciseHospitalThreeFragment
 import com.blackview.search.view.fragment.ExerciseHospitalTwoFragment
@@ -60,6 +69,7 @@ import com.blackview.search.view.fragment.ExerciseKitchenFourFragment
 import com.blackview.search.view.fragment.ExerciseKitchenOneFragment
 import com.blackview.search.view.fragment.ExerciseKitchenThreeFragment
 import com.blackview.search.view.fragment.ExerciseKitchenTwoFragment
+import com.blackview.search.view.fragment.ExerciseNutOneFragment
 import com.blackview.search.view.fragment.ExerciseRoomFourFragment
 import com.blackview.search.view.fragment.ExerciseRoomOneFragment
 import com.blackview.search.view.fragment.ExerciseRoomThreeFragment
@@ -68,6 +78,8 @@ import com.blackview.search.view.fragment.ExerciseSchoolFourFragment
 import com.blackview.search.view.fragment.ExerciseSchoolOneFragment
 import com.blackview.search.view.fragment.ExerciseSchoolThreeFragment
 import com.blackview.search.view.fragment.ExerciseSchoolTwoFragment
+import com.blackview.search.view.fragment.ExerciseSignOneFragment
+import com.blackview.search.view.fragment.ExerciseSignTwoFragment
 import com.blackview.search.view.fragment.ExerciseStreetFiveFragment
 import com.blackview.search.view.fragment.ExerciseStreetFourFragment
 import com.blackview.search.view.fragment.ExerciseStreetOneFragment
@@ -77,10 +89,20 @@ import com.blackview.search.view.fragment.ExerciseStreetTwoFragment
 import com.blackview.search.view.fragment.ExerciseStudyOneFragment
 import com.blackview.search.view.fragment.ExerciseStudyThreeFragment
 import com.blackview.search.view.fragment.ExerciseStudyTwoFragment
+import com.blackview.search.view.fragment.ExerciseSupermarketFiveFragment
+import com.blackview.search.view.fragment.ExerciseSupermarketFourFragment
+import com.blackview.search.view.fragment.ExerciseSupermarketOneFragment
+import com.blackview.search.view.fragment.ExerciseSupermarketSixFragment
+import com.blackview.search.view.fragment.ExerciseSupermarketThreeFragment
+import com.blackview.search.view.fragment.ExerciseSupermarketTwoFragment
 import com.blackview.search.view.fragment.ExerciseToyFourFragment
 import com.blackview.search.view.fragment.ExerciseToyOneFragment
 import com.blackview.search.view.fragment.ExerciseToyThreeFragment
 import com.blackview.search.view.fragment.ExerciseToyTwoFragment
+import com.blackview.search.view.fragment.ExerciseVegetableFourFragment
+import com.blackview.search.view.fragment.ExerciseVegetableOneFragment
+import com.blackview.search.view.fragment.ExerciseVegetableThreeFragment
+import com.blackview.search.view.fragment.ExerciseVegetableTwoFragment
 import com.blackview.search.view.fragment.ExerciseVehicleFiveFragment
 import com.blackview.search.view.fragment.ExerciseVehicleFourFragment
 import com.blackview.search.view.fragment.ExerciseVehicleOneFragment
@@ -94,6 +116,8 @@ import com.blackview.search.view.fragment.StudyActionFourFragment
 import com.blackview.search.view.fragment.StudyActionOneFragment
 import com.blackview.search.view.fragment.StudyActionThreeFragment
 import com.blackview.search.view.fragment.StudyActionTwoFragment
+import com.blackview.search.view.fragment.StudyAmusementOneFragment
+import com.blackview.search.view.fragment.StudyAmusementTwoFragment
 import com.blackview.search.view.fragment.StudyBathroomOneFragment
 import com.blackview.search.view.fragment.StudyBathroomThreeFragment
 import com.blackview.search.view.fragment.StudyBathroomTwoFragment
@@ -120,6 +144,10 @@ import com.blackview.search.view.fragment.StudyClothOneFragment
 import com.blackview.search.view.fragment.StudyClothSixFragment
 import com.blackview.search.view.fragment.StudyClothThreeFragment
 import com.blackview.search.view.fragment.StudyClothTwoFragment
+import com.blackview.search.view.fragment.StudyConcertFourFragment
+import com.blackview.search.view.fragment.StudyConcertOneFragment
+import com.blackview.search.view.fragment.StudyConcertThreeFragment
+import com.blackview.search.view.fragment.StudyConcertTwoFragment
 import com.blackview.search.view.fragment.StudyConstructionOneFragment
 import com.blackview.search.view.fragment.StudyConstructionThreeFragment
 import com.blackview.search.view.fragment.StudyConstructionTwoFragment
@@ -127,12 +155,16 @@ import com.blackview.search.view.fragment.StudyEmotionFourFragment
 import com.blackview.search.view.fragment.StudyEmotionOneFragment
 import com.blackview.search.view.fragment.StudyEmotionThreeFragment
 import com.blackview.search.view.fragment.StudyEmotionTwoFragment
+import com.blackview.search.view.fragment.StudyFruitOneFragment
+import com.blackview.search.view.fragment.StudyFruitThreeFragment
+import com.blackview.search.view.fragment.StudyFruitTwoFragment
 import com.blackview.search.view.fragment.StudyHospitalOneFragment
 import com.blackview.search.view.fragment.StudyHospitalThreeFragment
 import com.blackview.search.view.fragment.StudyKitchenFourFragment
 import com.blackview.search.view.fragment.StudyKitchenOneFragment
 import com.blackview.search.view.fragment.StudyKitchenThreeFragment
 import com.blackview.search.view.fragment.StudyKitchenTwoFragment
+import com.blackview.search.view.fragment.StudyNutOneFragment
 import com.blackview.search.view.fragment.StudyRoomFourFragment
 import com.blackview.search.view.fragment.StudyRoomOneFragment
 import com.blackview.search.view.fragment.StudyRoomThreeFragment
@@ -141,6 +173,8 @@ import com.blackview.search.view.fragment.StudySchoolFourFragment
 import com.blackview.search.view.fragment.StudySchoolOneFragment
 import com.blackview.search.view.fragment.StudySchoolThreeFragment
 import com.blackview.search.view.fragment.StudySchoolTwoFragment
+import com.blackview.search.view.fragment.StudySignOneFragment
+import com.blackview.search.view.fragment.StudySignTwoFragment
 import com.blackview.search.view.fragment.StudyStreetFiveFragment
 import com.blackview.search.view.fragment.StudyStreetFourFragment
 import com.blackview.search.view.fragment.StudyStreetOneFragment
@@ -150,10 +184,20 @@ import com.blackview.search.view.fragment.StudyStreetTwoFragment
 import com.blackview.search.view.fragment.StudyStudyOneFragment
 import com.blackview.search.view.fragment.StudyStudyThreeFragment
 import com.blackview.search.view.fragment.StudyStudyTwoFragment
+import com.blackview.search.view.fragment.StudySuperMarketFiveFragment
+import com.blackview.search.view.fragment.StudySuperMarketFourFragment
+import com.blackview.search.view.fragment.StudySuperMarketOneFragment
+import com.blackview.search.view.fragment.StudySuperMarketSixFragment
+import com.blackview.search.view.fragment.StudySuperMarketThreeFragment
+import com.blackview.search.view.fragment.StudySuperMarketTwoFragment
 import com.blackview.search.view.fragment.StudyToyFourFragment
 import com.blackview.search.view.fragment.StudyToyOneFragment
 import com.blackview.search.view.fragment.StudyToyThreeFragment
 import com.blackview.search.view.fragment.StudyToyTwoFragment
+import com.blackview.search.view.fragment.StudyVegetableFourFragment
+import com.blackview.search.view.fragment.StudyVegetableOneFragment
+import com.blackview.search.view.fragment.StudyVegetableThreeFragment
+import com.blackview.search.view.fragment.StudyVegetableTwoFragment
 import com.blackview.search.view.fragment.StudyVehicleFiveFragment
 import com.blackview.search.view.fragment.StudyVehicleFourFragment
 import com.blackview.search.view.fragment.StudyVehicleOneFragment
@@ -665,6 +709,127 @@ class StudyExerciseActivity : BaseActivity<StudyExerciseViewModel, ActivityStudy
                     ExerciseCareerThreeFragment(),
                     ExerciseCareerFourFragment(),
                     ExerciseCareerFiveFragment()
+                ).apply {
+                    exerciseFragments.addAll(this)
+                }
+            }
+
+            "6" -> {
+                mutableListOf<Fragment>(
+                    StudySuperMarketOneFragment(),
+                    StudySuperMarketTwoFragment(),
+                    StudySuperMarketThreeFragment(),
+                    StudySuperMarketFourFragment(),
+                    StudySuperMarketFiveFragment(),
+                    StudySuperMarketSixFragment()
+                ).apply {
+                    studyFragments.addAll(this)
+                }
+                mutableListOf<Fragment>(
+                    ExerciseSupermarketOneFragment(),
+                    ExerciseSupermarketTwoFragment(),
+                    ExerciseSupermarketThreeFragment(),
+                    ExerciseSupermarketFourFragment(),
+                    ExerciseSupermarketFiveFragment(),
+                    ExerciseSupermarketSixFragment()
+                ).apply {
+                    exerciseFragments.addAll(this)
+                }
+            }
+
+            "7" -> {
+                mutableListOf<Fragment>(
+                    StudyVegetableOneFragment(),
+                    StudyVegetableTwoFragment(),
+                    StudyVegetableThreeFragment(),
+                    StudyVegetableFourFragment(),
+                ).apply {
+                    studyFragments.addAll(this)
+                }
+                mutableListOf<Fragment>(
+                    ExerciseVegetableOneFragment(),
+                    ExerciseVegetableTwoFragment(),
+                    ExerciseVegetableThreeFragment(),
+                    ExerciseVegetableFourFragment(),
+                ).apply {
+                    exerciseFragments.addAll(this)
+                }
+            }
+
+            "8" -> {
+                mutableListOf<Fragment>(
+                    StudyFruitOneFragment(),
+                    StudyFruitTwoFragment(),
+                    StudyFruitThreeFragment(),
+                ).apply {
+                    studyFragments.addAll(this)
+                }
+                mutableListOf<Fragment>(
+                    ExerciseFruitOneFragment(),
+                    ExerciseFruitTwoFragment(),
+                    ExerciseFruitThreeFragment(),
+                ).apply {
+                    exerciseFragments.addAll(this)
+                }
+            }
+
+            "9" -> {
+                mutableListOf<Fragment>(
+                    StudyNutOneFragment(),
+                ).apply {
+                    studyFragments.addAll(this)
+                }
+                mutableListOf<Fragment>(
+                    ExerciseNutOneFragment(),
+                ).apply {
+                    exerciseFragments.addAll(this)
+                }
+            }
+
+            "10" -> {
+                mutableListOf<Fragment>(
+                    StudyConcertOneFragment(),
+                    StudyConcertTwoFragment(),
+                    StudyConcertThreeFragment(),
+                    StudyConcertFourFragment(),
+                ).apply {
+                    studyFragments.addAll(this)
+                }
+                mutableListOf<Fragment>(
+                    ExerciseConcertOneFragment(),
+                    ExerciseConcertTwoFragment(),
+                    ExerciseConcertThreeFragment(),
+                    ExerciseConcertFourFragment(),
+                ).apply {
+                    exerciseFragments.addAll(this)
+                }
+            }
+
+            "11" -> {
+                mutableListOf<Fragment>(
+                    StudyAmusementOneFragment(),
+                    StudyAmusementTwoFragment(),
+                ).apply {
+                    studyFragments.addAll(this)
+                }
+                mutableListOf<Fragment>(
+                    ExerciseAmusementOneFragment(),
+                    ExerciseAmusementTwoFragment(),
+                ).apply {
+                    exerciseFragments.addAll(this)
+                }
+            }
+
+            "12" -> {
+                mutableListOf<Fragment>(
+                    StudySignOneFragment(),
+                    StudySignTwoFragment(),
+                ).apply {
+                    studyFragments.addAll(this)
+                }
+                mutableListOf<Fragment>(
+                    ExerciseSignOneFragment(),
+                    ExerciseSignTwoFragment(),
                 ).apply {
                     exerciseFragments.addAll(this)
                 }

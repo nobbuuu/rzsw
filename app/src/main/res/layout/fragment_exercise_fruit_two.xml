@@ -51,41 +51,45 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="160dp"
         android:layout_marginTop="26dp"
-        app:srcImg="@mipmap/img_red"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/titleTv" />
+        app:layout_constraintTop_toBottomOf="@+id/titleTv"
+        app:isDrag="true"
+        app:srcImg="@mipmap/img_red" />
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="64dp"
-        app:srcImg="@mipmap/img_black"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        app:isDrag="true"
+        app:srcImg="@mipmap/img_black" />
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/imageView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="64dp"
-        app:srcImg="@mipmap/img_green"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintStart_toEndOf="@+id/imageView2"
         app:layout_constraintTop_toTopOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        app:isDrag="true"
+        app:srcImg="@mipmap/img_green" />
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcImg="@mipmap/img_white"
         android:layout_marginStart="64dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintStart_toEndOf="@+id/imageView4"
-        app:layout_constraintTop_toTopOf="@+id/imageView" />
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:isDrag="true"
+        app:srcImg="@mipmap/img_white" />
 
 
     <com.blackview.search.widget.ToggleImageView
@@ -93,40 +97,44 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
-        app:srcImg="@mipmap/img_brown"
+        app:isDrag="true"
         app:layout_constraintStart_toStartOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:srcImg="@mipmap/img_brown" />
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/imageView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="64dp"
-        app:srcImg="@mipmap/img_purple"
         app:layout_constraintBottom_toBottomOf="@+id/imageView5"
         app:layout_constraintStart_toEndOf="@+id/imageView5"
         app:layout_constraintTop_toTopOf="@+id/imageView5"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        app:isDrag="true"
+        app:srcImg="@mipmap/img_purple" />
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/imageView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="64dp"
-        app:srcImg="@mipmap/img_pink"
         app:layout_constraintBottom_toBottomOf="@+id/imageView5"
         app:layout_constraintStart_toEndOf="@+id/imageView6"
-        app:layout_constraintTop_toTopOf="@+id/imageView5"/>
+        app:layout_constraintTop_toTopOf="@+id/imageView5"
+        app:isDrag="true"
+        app:srcImg="@mipmap/img_pink" />
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/imageView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcImg="@mipmap/img_yellow"
         android:layout_marginStart="64dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView5"
         app:layout_constraintStart_toEndOf="@+id/imageView7"
-        app:layout_constraintTop_toTopOf="@+id/imageView5"/>
+        app:layout_constraintTop_toTopOf="@+id/imageView5"
+        app:isDrag="true"
+        app:srcImg="@mipmap/img_yellow" />
 
 
     <com.blackview.search.widget.ToggleImageView
@@ -134,41 +142,41 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        app:srcImg="@mipmap/img_plum_1"
         app:layout_constraintEnd_toEndOf="@+id/imageView5"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/imageView5"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:srcImg="@mipmap/img_plum_1" />
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/step2Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcImg="@mipmap/img_watermelon_1"
         app:layout_constraintBottom_toBottomOf="@+id/step1Iv"
         app:layout_constraintEnd_toEndOf="@+id/imageView6"
         app:layout_constraintStart_toStartOf="@+id/imageView6"
         app:layout_constraintTop_toTopOf="@+id/step1Iv"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        app:srcImg="@mipmap/img_watermelon_1" />
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/step3Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcImg="@mipmap/img_coconut_1"
         app:layout_constraintBottom_toBottomOf="@+id/step2Iv"
         app:layout_constraintEnd_toEndOf="@+id/imageView7"
         app:layout_constraintStart_toStartOf="@+id/imageView7"
-        app:layout_constraintTop_toTopOf="@+id/step2Iv" />
+        app:layout_constraintTop_toTopOf="@+id/step2Iv"
+        app:srcImg="@mipmap/img_coconut_1" />
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/step4Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcImg="@mipmap/img_peach_1"
         app:layout_constraintBottom_toBottomOf="@+id/step3Iv"
         app:layout_constraintEnd_toEndOf="@+id/imageView8"
         app:layout_constraintStart_toStartOf="@+id/imageView8"
-        app:layout_constraintTop_toTopOf="@+id/step3Iv" />
+        app:layout_constraintTop_toTopOf="@+id/step3Iv"
+        app:srcImg="@mipmap/img_peach_1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

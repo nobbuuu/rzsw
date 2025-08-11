@@ -1,0 +1,34 @@
+package com.blackview.search.view.fragment
+
+import android.view.View
+import com.blackview.search.R
+import com.blackview.search.bean.SubjectBean
+import com.blackview.search.core.BaseStudyFragment
+import com.blackview.search.databinding.FragmentStudyFruitBinding
+import com.blackview.search.databinding.FragmentStudyNutBinding
+import com.blackview.search.databinding.FragmentStudySupermarketOneBinding
+import com.blackview.search.databinding.FragmentStudySupermarketTwoBinding
+import com.blackview.search.databinding.FragmentStudyVegetableOneBinding
+import com.blackview.search.viewmodel.StudyExerciseViewModel
+
+class StudyNutOneFragment :
+    BaseStudyFragment<StudyExerciseViewModel, FragmentStudyNutBinding>() {
+
+    override fun getClickViews(): List<View> {
+        return listOf(mBinding.threeIv, mBinding.twoIv, mBinding.oneIv, mBinding.fourIv)
+    }
+
+    override fun getContentRaw(): IntArray {
+        return intArrayOf(R.raw.nuts_peanut, R.raw.nuts_pistachio, R.raw.nuts_walnut, R.raw.nuts_almond)
+    }
+
+    override fun getForewordRaw(): Int = R.raw.l379dr
+
+    override fun updateStar(star: Int) {
+        val subject = arguments?.getSerializable("subject") as SubjectBean
+        subject.let {
+            it.star = star
+            viewModel.update(star, it.id)
+        }
+    }
+}

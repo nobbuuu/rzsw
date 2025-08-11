@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/bg_in_the_supermarket_back_6">
+    android:background="@mipmap/bg_in_the_supermarket_back_one">
 
     <com.ruffian.library.widget.RTextView
         android:id="@+id/selectTv"
@@ -16,7 +15,7 @@
         android:paddingTop="@dimen/dp_13"
         android:paddingEnd="@dimen/dp_88"
         android:paddingBottom="@dimen/dp_13"
-        android:text="@string/exercise_supermarket_winter_cn"
+        android:text="@string/exercise_supermarket_homemade_salad_cn"
         android:textSize="18sp"
         app:background_normal="#FF952B"
         app:corner_radius="@dimen/dp_88"
@@ -34,7 +33,7 @@
         android:layout_marginBottom="@dimen/dp_27"
         android:background="@mipmap/bg_subject_title"
         android:gravity="center"
-        android:text="@string/exercise_supermarket_winter_food_cn"
+        android:text="@string/exercise_supermarket_add_dressing_cn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/selectTv" />
@@ -44,39 +43,41 @@
         android:id="@+id/setp3Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="24dp"
-        app:layout_constraintStart_toEndOf="@+id/setp7Iv"
-        app:layout_constraintTop_toBottomOf="@+id/titleTv"
-        app:srcImg="@mipmap/img_bread_1" />
+        app:layout_constraintBottom_toBottomOf="@+id/setp4Iv"
+        app:layout_constraintEnd_toEndOf="@+id/setp7Iv"
+        app:layout_constraintStart_toStartOf="@+id/setp7Iv"
+        app:srcImg="@mipmap/img_salt_1" />
+
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/setp4Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="24dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/titleTv"
-        app:srcImg="@mipmap/img_flour_1" />
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/setp8Iv"
+        app:layout_constraintEnd_toEndOf="@+id/setp8Iv"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="@+id/setp8Iv"
+        app:srcImg="@mipmap/img_sugar_1" />
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/setp7Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="84dp"
-        android:layout_marginBottom="40dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcImg="@mipmap/img_corn_1" />
+        android:layout_marginEnd="32dp"
+        app:layout_constraintBottom_toBottomOf="@+id/setp8Iv"
+        app:layout_constraintEnd_toStartOf="@+id/setp8Iv"
+        app:srcImg="@mipmap/img_oil_1" />
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/setp8Iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/setp7Iv"
-        app:layout_constraintEnd_toStartOf="@+id/setp4Iv"
-        app:srcImg="@mipmap/img_cereal_1" />
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="110dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcImg="@mipmap/img_vinegar_1" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

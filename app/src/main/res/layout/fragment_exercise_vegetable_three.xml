@@ -51,6 +51,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="184dp"
         android:layout_marginTop="28dp"
+        app:isDrag="true"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titleTv"
         app:srcImg="@mipmap/img_broccoli_1" />
@@ -65,6 +66,7 @@
         app:layout_constraintStart_toEndOf="@+id/setp5Iv"
         app:layout_constraintTop_toTopOf="@+id/setp1Iv"
         app:layout_constraintVertical_bias="0.454"
+        app:isDrag="true"
         app:srcImg="@mipmap/img_lettuce_1" />
 
     <com.blackview.search.widget.ToggleImageView
@@ -74,6 +76,7 @@
         android:layout_marginTop="100dp"
         app:layout_constraintStart_toStartOf="@+id/setp1Iv"
         app:layout_constraintTop_toBottomOf="@+id/setp1Iv"
+        app:isDrag="true"
         app:srcImg="@mipmap/img_pea_1" />
 
     <com.blackview.search.widget.ToggleImageView
@@ -83,6 +86,7 @@
         app:layout_constraintBottom_toBottomOf="@+id/setp3Iv"
         app:layout_constraintEnd_toEndOf="@+id/setp2Iv"
         app:layout_constraintStart_toStartOf="@+id/setp2Iv"
+        app:isDrag="true"
         app:srcImg="@mipmap/img_bean_sprout_1" />
 
 
