@@ -52,7 +52,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/dp_14"
         android:layout_marginEnd="@dimen/dp_91"
-        android:src="@mipmap/img_blanket_2"
+        android:src="@mipmap/img_bed"
         app:layout_constraintEnd_toEndOf="@+id/titleTv"
         app:layout_constraintTop_toBottomOf="@+id/titleTv" />
 
@@ -70,6 +70,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="@dimen/dp_52"
         android:layout_marginBottom="@dimen/dp_61"
+        app:isDrag="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcImg="@mipmap/img_sheet_1" />
@@ -79,6 +80,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/dp_11"
+        app:isDrag="true"
         app:layout_constraintBottom_toTopOf="@+id/step4Iv"
         app:layout_constraintEnd_toEndOf="@+id/step4Iv"
         app:layout_constraintStart_toStartOf="@+id/step4Iv"
@@ -89,6 +91,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/dp_10"
+        app:isDrag="true"
         app:layout_constraintBottom_toTopOf="@+id/step3Iv"
         app:layout_constraintEnd_toEndOf="@+id/step3Iv"
         app:layout_constraintStart_toStartOf="@+id/step3Iv"
@@ -99,6 +102,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/dp_19"
+        app:isDrag="true"
         app:layout_constraintBottom_toTopOf="@+id/step2Iv"
         app:layout_constraintEnd_toEndOf="@+id/step2Iv"
         app:layout_constraintStart_toStartOf="@+id/step2Iv"

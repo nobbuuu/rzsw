@@ -1,19 +1,16 @@
 package com.blackview.search.view.fragment
 
+import android.widget.ImageView
 import com.blackview.search.R
-import com.blackview.search.core.BaseExerciseFragment
 import com.blackview.search.core.BaseLineFragment
-import com.blackview.search.databinding.FragmentExerciseConstructionSiteOneBinding
 import com.blackview.search.databinding.FragmentExerciseConstructionSiteTwoBinding
-import com.blackview.search.databinding.FragmentExerciseVehicleOneBinding
 import com.blackview.search.viewmodel.StudyExerciseViewModel
 import com.blackview.search.widget.LineView
-import com.blackview.search.widget.ToggleImageView
 
 class ExerciseConstructionTwoFragment :
     BaseLineFragment<StudyExerciseViewModel, FragmentExerciseConstructionSiteTwoBinding>() {
 
-    override fun getToggleViews(): List<ToggleImageView> {
+    override fun getClickViews(): List<ImageView> {
         return listOf(mBinding.setp1Iv, mBinding.setp4Iv, mBinding.setp2Iv, mBinding.setp3Iv)
     }
 

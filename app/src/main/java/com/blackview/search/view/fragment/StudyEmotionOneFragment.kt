@@ -14,7 +14,7 @@ class StudyEmotionOneFragment : BaseStudyFragment<StudyExerciseViewModel, Fragme
     }
 
     override fun getContentRaw(): IntArray {
-        return intArrayOf(R.raw.l209tp1, R.raw.l209tp2, R.raw.l209tp3, R.raw.l209tp4)
+        return intArrayOf(R.raw.emotions_and_feelings_happy, R.raw.emotions_and_feelings_sad, R.raw.emotions_and_feelings_scared, R.raw.emotions_and_feelings_angry)
     }
 
     override fun getForewordRaw(): Int = R.raw.l209dr

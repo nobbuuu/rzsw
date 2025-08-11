@@ -15,7 +15,7 @@ class StudyEmotionTwoFragment :
     }
 
     override fun getContentRaw(): IntArray {
-        return intArrayOf(R.raw.l211tp1, R.raw.l211tp2, R.raw.l211tp3, R.raw.l211tp4)
+        return intArrayOf(R.raw.emotions_and_feelings_surprised, R.raw.emotions_and_feelings_shy, R.raw.emotions_and_feelings_nervous, R.raw.emotions_and_feelings_worried)
     }
 
     override fun getForewordRaw(): Int = R.raw.l209dr

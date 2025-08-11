@@ -4,6 +4,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@mipmap/bg_in_the_living_room_back1">
+    <com.blackview.search.widget.LineView
+        android:id="@+id/lineView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
     <com.ruffian.library.widget.RTextView
         android:id="@+id/selectTv"
@@ -44,11 +48,6 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.5" />
-
-    <com.blackview.search.widget.LineView
-        android:id="@+id/lineView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
 
     <ImageView
         android:id="@+id/switchIv"
