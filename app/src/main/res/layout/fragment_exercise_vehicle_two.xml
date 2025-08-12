@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/bg_vehicle_back">
+    android:background="@mipmap/bg_vehicle_back2">
 
     <com.ruffian.library.widget.RTextView
         android:id="@+id/selectTv"
@@ -37,10 +37,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="84dp"
-        android:layout_marginTop="264dp"
         app:isDrag="true"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/setp5Iv"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         app:srcImg="@mipmap/img_train" />
 
 
@@ -49,12 +49,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="72dp"
-        android:layout_marginTop="264dp"
         app:isDrag="true"
         app:layout_constraintBottom_toBottomOf="@+id/setp1Iv"
         app:layout_constraintStart_toEndOf="@+id/setp1Iv"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
         app:srcImg="@mipmap/img_subway" />
 
     <com.blackview.search.widget.ToggleImageView

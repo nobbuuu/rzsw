@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/bg_vehicle_front_3">
+    android:background="@mipmap/bg_vehicle_front4">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
@@ -27,11 +27,11 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.blackview.search.widget.ToggleImageView
-        android:id="@+id/oneIv"
+        android:id="@+id/threeIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="@dimen/dp_64"
-        android:layout_marginBottom="96dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="110dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline"
         app:srcImg="@mipmap/img_sedan" />
@@ -42,10 +42,10 @@
         android:layout_marginEnd="@dimen/dp_11"
         android:gravity="center_horizontal"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="@+id/oneIv"
+        app:layout_constraintBottom_toBottomOf="@+id/threeIv"
         app:layout_constraintEnd_toEndOf="@+id/linearLayout2"
         app:layout_constraintStart_toStartOf="@+id/linearLayout2"
-        app:layout_constraintTop_toTopOf="@+id/oneIv">
+        app:layout_constraintTop_toTopOf="@+id/threeIv">
 
         <TextView
             style="@style/contentText_white"
@@ -65,10 +65,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcImg="@mipmap/img_minivan"
-        app:layout_constraintBottom_toBottomOf="@+id/threeIv"
+        app:layout_constraintBottom_toBottomOf="@+id/oneIv"
         app:layout_constraintEnd_toEndOf="@+id/fourIv"
         app:layout_constraintStart_toStartOf="@+id/fourIv"
-        app:layout_constraintTop_toTopOf="@+id/threeIv" />
+        app:layout_constraintTop_toTopOf="@+id/oneIv" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -95,13 +95,13 @@
     </LinearLayout>
 
     <com.blackview.search.widget.ToggleImageView
-        android:id="@+id/threeIv"
+        android:id="@+id/oneIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/oneIv"
-        app:layout_constraintEnd_toEndOf="@+id/oneIv"
+        app:layout_constraintBottom_toTopOf="@+id/threeIv"
+        app:layout_constraintEnd_toEndOf="@+id/threeIv"
         app:layout_constraintHorizontal_bias="0.518"
-        app:layout_constraintStart_toStartOf="@+id/oneIv"
+        app:layout_constraintStart_toStartOf="@+id/threeIv"
         app:layout_constraintTop_toBottomOf="@+id/titleTv"
         app:srcImg="@mipmap/img_convertible" />
 
@@ -112,9 +112,9 @@
         android:layout_marginEnd="@dimen/dp_36"
         android:gravity="center_horizontal"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="@+id/threeIv"
-        app:layout_constraintEnd_toStartOf="@+id/threeIv"
-        app:layout_constraintTop_toTopOf="@+id/threeIv">
+        app:layout_constraintBottom_toBottomOf="@+id/oneIv"
+        app:layout_constraintEnd_toStartOf="@+id/oneIv"
+        app:layout_constraintTop_toTopOf="@+id/oneIv">
 
         <TextView
             style="@style/contentText_white"
@@ -157,9 +157,9 @@
         android:id="@+id/fourIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/dp_64"
+        android:layout_marginStart="40dp"
         app:srcImg="@mipmap/img_sports_car"
-        app:layout_constraintBottom_toBottomOf="@+id/oneIv"
+        app:layout_constraintBottom_toBottomOf="@+id/threeIv"
         app:layout_constraintStart_toStartOf="@+id/guideline" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

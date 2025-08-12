@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/bg_vehicle_back_5">
+    android:background="@mipmap/bg_vehicle_back_1">
 
     <com.ruffian.library.widget.RTextView
         android:id="@+id/selectTv"
@@ -87,11 +87,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="116dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="92dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/setp1Iv"
-        app:layout_constraintVertical_bias="0.503"
         app:srcImg="@mipmap/img_glider_2" />
 
     <com.blackview.search.widget.ToggleImageView
