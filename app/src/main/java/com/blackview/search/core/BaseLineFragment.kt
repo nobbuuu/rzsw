@@ -85,7 +85,7 @@ abstract class BaseLineFragment<VM : BaseViewModel, DB : ViewBinding> :
     override fun onResume() {
         super.onResume()
         failNum = 0
-        AudioPlayerManger.playRaw(R.raw.l228dr, object : IPlayCallBack {
+        AudioPlayerManger.playRaw(getForewordRaw(), object : IPlayCallBack {
             override fun onStart(index: Int) {
             }
 

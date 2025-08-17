@@ -64,7 +64,7 @@ class StudyBodyOneFragment :
         AudioPlayerManger.playRaw(R.raw.study_body_1_title, object : IPlayCallBack {
             override fun onStart(index: Int) {}
             override fun onEnd(index: Int) {
-                val rawRes = intArrayOf(R.raw.l201tp1, R.raw.l201tp2, R.raw.l201tp3, R.raw.l201tp4)
+                val rawRes = intArrayOf(R.raw.my_body_eye, R.raw.my_body_mouth, R.raw.my_body_nose, R.raw.my_body_ear)
                 AudioPlayerManger.playRaw(rawRes, object : IPlayCallBack {
                     override fun onStart(index: Int) {
                         organAdapter.notifyItemChanged(index, "start")

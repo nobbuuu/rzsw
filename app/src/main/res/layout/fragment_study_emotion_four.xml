@@ -29,7 +29,7 @@
         android:id="@+id/oneIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/dp_43"
+        android:layout_marginTop="@dimen/dp_53"
         android:layout_marginEnd="@dimen/dp_60"
         android:src="@mipmap/img_cold"
         app:layout_constraintEnd_toStartOf="@+id/guideline"
@@ -66,7 +66,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/dp_90"
-        android:layout_marginTop="@dimen/dp_43"
+        android:layout_marginTop="@dimen/dp_53"
         android:src="@mipmap/img_hot"
         app:layout_constraintStart_toEndOf="@+id/guideline"
         app:layout_constraintTop_toBottomOf="@+id/titleTv" />

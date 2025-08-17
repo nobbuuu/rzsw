@@ -14,7 +14,7 @@ class ExerciseRoomThreeFragment :
     }
 
     override fun getForewordRaw(): Int {
-        return R.raw.l236dr
+        return R.raw.l240dr
     }
 
     override fun getContentRaw(): IntArray {

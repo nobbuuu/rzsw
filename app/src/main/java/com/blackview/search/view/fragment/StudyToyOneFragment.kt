@@ -14,7 +14,7 @@ class StudyToyOneFragment :
     }
 
     override fun getContentRaw(): IntArray {
-        return intArrayOf(R.raw.l227tp1, R.raw.l227tp2, R.raw.l227tp3, R.raw.l227tp4)
+        return intArrayOf(R.raw.in_the_toy_room_doll, R.raw.in_the_toy_room_puppet, R.raw.in_the_toy_room_building_block, R.raw.in_the_toy_room_picture_book)
     }
 
     override fun getForewordRaw(): Int = R.raw.l227dr

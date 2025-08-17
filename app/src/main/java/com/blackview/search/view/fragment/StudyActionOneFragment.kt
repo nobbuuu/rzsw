@@ -14,7 +14,7 @@ class StudyActionOneFragment : BaseStudyFragment<StudyExerciseViewModel, Fragmen
     }
 
     override fun getContentRaw(): IntArray {
-        return intArrayOf(R.raw.l217tp1, R.raw.l217tp2, R.raw.l217tp3, R.raw.l217tp4)
+        return intArrayOf(R.raw.my_actions_speak, R.raw.my_actions_sing, R.raw.my_actions_eat, R.raw.my_actions_drink)
     }
 
     override fun getForewordRaw(): Int = R.raw.l217dr
