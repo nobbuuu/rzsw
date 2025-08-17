@@ -21,13 +21,13 @@
         android:layout_marginTop="@dimen/dp_80"
         android:background="@mipmap/bg_subject_title"
         android:gravity="center"
-        android:text="小朋友，一起来了解医院吧！"
+        android:text="@string/study_hospital_three_title_cn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.blackview.search.widget.ToggleImageView
-        android:id="@+id/oneIv"
+        android:id="@+id/threeIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="40dp"
@@ -42,22 +42,22 @@
         android:layout_marginBottom="@dimen/dp_6"
         android:gravity="center_horizontal"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="@+id/oneIv"
+        app:layout_constraintBottom_toBottomOf="@+id/threeIv"
         app:layout_constraintEnd_toEndOf="@+id/linearLayout2"
-        app:layout_constraintTop_toTopOf="@+id/oneIv"
+        app:layout_constraintTop_toTopOf="@+id/threeIv"
         app:layout_constraintVertical_bias="0.525">
 
         <TextView
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="轮椅" />
+            android:text="@string/wheelchair_cn" />
 
         <TextView
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="wheelchair" />
+            android:text="@string/wheelchair_en" />
     </LinearLayout>
 
     <com.blackview.search.widget.ToggleImageView
@@ -65,10 +65,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcImg="@mipmap/img_crutch"
-        app:layout_constraintBottom_toBottomOf="@+id/threeIv"
+        app:layout_constraintBottom_toBottomOf="@+id/oneIv"
         app:layout_constraintEnd_toEndOf="@+id/fourIv"
         app:layout_constraintStart_toStartOf="@+id/fourIv"
-        app:layout_constraintTop_toTopOf="@+id/threeIv" />
+        app:layout_constraintTop_toTopOf="@+id/oneIv" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -85,22 +85,22 @@
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="腋杖" />
+            android:text="@string/crutch_cn" />
 
         <TextView
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="crutch" />
+            android:text="@string/crutch_en" />
     </LinearLayout>
 
     <com.blackview.search.widget.ToggleImageView
-        android:id="@+id/threeIv"
+        android:id="@+id/oneIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/oneIv"
-        app:layout_constraintEnd_toEndOf="@+id/oneIv"
-        app:layout_constraintStart_toStartOf="@+id/oneIv"
+        app:layout_constraintBottom_toTopOf="@+id/threeIv"
+        app:layout_constraintEnd_toEndOf="@+id/threeIv"
+        app:layout_constraintStart_toStartOf="@+id/threeIv"
         app:layout_constraintTop_toBottomOf="@+id/titleTv"
         app:srcImg="@mipmap/img_stretcher" />
 
@@ -111,28 +111,28 @@
         android:layout_marginEnd="@dimen/dp_36"
         android:gravity="center_horizontal"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="@+id/threeIv"
-        app:layout_constraintEnd_toStartOf="@+id/threeIv"
-        app:layout_constraintTop_toTopOf="@+id/threeIv">
+        app:layout_constraintBottom_toBottomOf="@+id/oneIv"
+        app:layout_constraintEnd_toStartOf="@+id/oneIv"
+        app:layout_constraintTop_toTopOf="@+id/oneIv">
 
         <TextView
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="担架" />
+            android:text="@string/stretcher_cn" />
 
         <TextView
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="stretcher" />
+            android:text="@string/stretcher_en" />
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/dp_20"
+        android:layout_marginStart="@dimen/dp_30"
         android:gravity="center_horizontal"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="@+id/fourIv"
@@ -143,13 +143,13 @@
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="助行器" />
+            android:text="@string/walker_cn" />
 
         <TextView
             style="@style/contentText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="walker" />
+            android:text="@string/walker_en" />
     </LinearLayout>
 
     <com.blackview.search.widget.ToggleImageView
@@ -157,7 +157,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="84dp"
-        app:layout_constraintBottom_toBottomOf="@+id/oneIv"
+        app:layout_constraintBottom_toBottomOf="@+id/threeIv"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:srcImg="@mipmap/img_walker" />
 

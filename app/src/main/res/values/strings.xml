@@ -873,4 +873,25 @@
     <string name="study_school_ruler_en">ruler</string>
     <string name="study_school_pencil_cn">铅笔</string>
     <string name="study_school_pencil_en">pencil</string>
+    
+    <!-- fragment_study_hospital_two.xml 相关字符串 -->
+    <string name="gauze_cn">纱布</string>
+    <string name="gauze_en">gauze</string>
+    <string name="cotton_swab_cn">棉签</string>
+    <string name="cotton_swab_en">cotton swab</string>
+    <string name="band_aid_cn">创可贴</string>
+    <string name="band_aid_en">Band-Aid</string>
+    <string name="medicine_cn">药</string>
+    <string name="medicine_en">medicine</string>
+    
+    <!-- fragment_study_hospital_three.xml 相关字符串 -->
+    <string name="study_hospital_three_title_cn">小朋友，一起来了解医院吧！</string>
+    <string name="wheelchair_cn">轮椅</string>
+    <string name="wheelchair_en">wheelchair</string>
+    <string name="crutch_cn">腋杖</string>
+    <string name="crutch_en">crutch</string>
+    <string name="stretcher_cn">担架</string>
+    <string name="stretcher_en">stretcher</string>
+    <string name="walker_cn">助行器</string>
+    <string name="walker_en">walker</string>
 </resources>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/bg_at_school_front_4">
+    android:background="@mipmap/bg_in_the_hospital_front_2">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
@@ -21,7 +21,7 @@
         android:layout_marginTop="@dimen/dp_80"
         android:background="@mipmap/bg_subject_title"
         android:gravity="center"
-        android:text="@string/study_school_title_cn"
+        android:text="@string/study_career_plan_title_cn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -30,11 +30,12 @@
         android:id="@+id/threeIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="76dp"
+        android:layout_marginBottom="88dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline"
-        app:srcImg="@mipmap/img_notebook" />
+        app:layout_constraintHorizontal_bias="0.374"
+        app:layout_constraintStart_toStartOf="@+id/titleTv"
+        app:srcImg="@mipmap/img_gauze" />
 
     <LinearLayout
         android:id="@+id/linearLayout5"
@@ -51,16 +52,16 @@
         app:layout_constraintVertical_bias="0.525">
 
         <TextView
-            style="@style/contentText"
+            style="@style/contentText_white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/study_school_notebook_cn" />
+            android:text="@string/gauze_cn" />
 
         <TextView
-            style="@style/contentText"
+            style="@style/contentText_white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/study_school_notebook_en" />
+            android:text="@string/gauze_en" />
     </LinearLayout>
 
 
@@ -83,7 +84,7 @@
         android:id="@+id/twoIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcImg="@mipmap/img_eraser"
+        app:srcImg="@mipmap/img_cotton_swab"
         app:layout_constraintBottom_toBottomOf="@+id/oneIv"
         app:layout_constraintEnd_toEndOf="@+id/fourIv"
         app:layout_constraintStart_toStartOf="@+id/fourIv"
@@ -101,16 +102,16 @@
         app:layout_constraintTop_toTopOf="@+id/twoIv">
 
         <TextView
-            style="@style/contentText"
+            style="@style/contentText_white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/study_school_eraser_cn" />
+            android:text="@string/cotton_swab_cn" />
 
         <TextView
-            style="@style/contentText"
+            style="@style/contentText_white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/study_school_eraser_en" />
+            android:text="@string/cotton_swab_en" />
     </LinearLayout>
 
     <com.blackview.search.widget.ToggleImageView
@@ -121,7 +122,7 @@
         app:layout_constraintEnd_toEndOf="@+id/threeIv"
         app:layout_constraintStart_toStartOf="@+id/threeIv"
         app:layout_constraintTop_toBottomOf="@+id/titleTv"
-        app:srcImg="@mipmap/img_ruler" />
+        app:srcImg="@mipmap/img_band_aid" />
 
     <LinearLayout
         android:id="@+id/linearLayout2"
@@ -135,16 +136,16 @@
         app:layout_constraintTop_toTopOf="@+id/oneIv">
 
         <TextView
-            style="@style/contentText"
+            style="@style/contentText_white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/study_school_ruler_cn" />
+            android:text="@string/band_aid_cn" />
 
         <TextView
-            style="@style/contentText"
+            style="@style/contentText_white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/study_school_ruler_en" />
+            android:text="@string/band_aid_en" />
     </LinearLayout>
 
     <LinearLayout
@@ -160,25 +161,26 @@
         app:layout_constraintTop_toTopOf="@+id/fourIv">
 
         <TextView
-            style="@style/contentText"
+            style="@style/contentText_white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/study_school_pencil_cn" />
+            android:text="@string/medicine_cn" />
 
         <TextView
-            style="@style/contentText"
+            style="@style/contentText_white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/study_school_pencil_en" />
+            android:text="@string/medicine_en" />
     </LinearLayout>
 
     <com.blackview.search.widget.ToggleImageView
         android:id="@+id/fourIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="128dp"
         app:layout_constraintBottom_toBottomOf="@+id/threeIv"
+        app:layout_constraintEnd_toEndOf="@+id/titleTv"
+        app:layout_constraintHorizontal_bias="0.525"
         app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:srcImg="@mipmap/img_pencil" />
+        app:srcImg="@mipmap/img_medicine" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

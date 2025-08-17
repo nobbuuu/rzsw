@@ -4,13 +4,13 @@ import com.blackview.search.R
 import com.blackview.search.core.BaseExerciseFragment
 import com.blackview.search.databinding.FragmentExerciseHospital1Binding
 import com.blackview.search.databinding.FragmentExerciseHospital2Binding
-import com.blackview.search.databinding.FragmentExerciseHospitalThreeBinding
+import com.blackview.search.databinding.FragmentExerciseHospital3Binding
 import com.blackview.search.databinding.FragmentExerciseVehicleOneBinding
 import com.blackview.search.viewmodel.StudyExerciseViewModel
 import com.blackview.search.widget.ToggleImageView
 
 class ExerciseHospitalThreeFragment :
-    BaseExerciseFragment<StudyExerciseViewModel, FragmentExerciseHospitalThreeBinding>() {
+    BaseExerciseFragment<StudyExerciseViewModel, FragmentExerciseHospital3Binding>() {
 
     override fun getToggleViews(): List<ToggleImageView> {
         return listOf(mBinding.setp2Iv, mBinding.setp1Iv, mBinding.setp3Iv, mBinding.setp4Iv)

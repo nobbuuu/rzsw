@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/bg_in_the_supermarket_back_5">
+    android:background="@mipmap/bg_in_the_supermarket_back4">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"

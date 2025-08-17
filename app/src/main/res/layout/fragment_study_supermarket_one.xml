@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/bg_in_the_supermarket_front_6">
+    android:background="@mipmap/bg_in_the_supermarket_front1">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
@@ -27,7 +27,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.blackview.search.widget.ToggleImageView
-        android:id="@+id/oneIv"
+        android:id="@+id/threeIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="60dp"
@@ -45,10 +45,10 @@
         android:gravity="center_horizontal"
         android:orientation="vertical"
         app:layout_constraintHorizontal_bias="0.7"
-        app:layout_constraintBottom_toBottomOf="@+id/oneIv"
+        app:layout_constraintBottom_toBottomOf="@+id/threeIv"
         app:layout_constraintEnd_toStartOf="@+id/left_barrier"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/oneIv"
+        app:layout_constraintTop_toTopOf="@+id/threeIv"
         app:layout_constraintVertical_bias="0.525">
 
         <TextView
@@ -70,7 +70,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:barrierDirection="start"
-        app:constraint_referenced_ids="threeIv,oneIv" />
+        app:constraint_referenced_ids="oneIv,threeIv" />
 
 
     <androidx.constraintlayout.widget.Barrier
@@ -85,10 +85,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcImg="@mipmap/img_cash_register"
-        app:layout_constraintBottom_toBottomOf="@+id/threeIv"
+        app:layout_constraintBottom_toBottomOf="@+id/oneIv"
         app:layout_constraintEnd_toEndOf="@+id/fourIv"
         app:layout_constraintStart_toStartOf="@+id/fourIv"
-        app:layout_constraintTop_toTopOf="@+id/threeIv" />
+        app:layout_constraintTop_toTopOf="@+id/oneIv" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -115,12 +115,12 @@
     </LinearLayout>
 
     <com.blackview.search.widget.ToggleImageView
-        android:id="@+id/threeIv"
+        android:id="@+id/oneIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/oneIv"
-        app:layout_constraintEnd_toEndOf="@+id/oneIv"
-        app:layout_constraintStart_toStartOf="@+id/oneIv"
+        app:layout_constraintBottom_toTopOf="@+id/threeIv"
+        app:layout_constraintEnd_toEndOf="@+id/threeIv"
+        app:layout_constraintStart_toStartOf="@+id/threeIv"
         app:layout_constraintTop_toBottomOf="@+id/titleTv"
         app:srcImg="@mipmap/img_cashier" />
 
@@ -130,10 +130,10 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="@+id/threeIv"
+        app:layout_constraintBottom_toBottomOf="@+id/oneIv"
         app:layout_constraintEnd_toEndOf="@+id/linearLayout5"
         app:layout_constraintStart_toStartOf="@+id/linearLayout5"
-        app:layout_constraintTop_toTopOf="@+id/threeIv">
+        app:layout_constraintTop_toTopOf="@+id/oneIv">
 
         <TextView
             style="@style/contentText_white"
@@ -177,7 +177,7 @@
         android:id="@+id/fourIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/oneIv"
+        app:layout_constraintBottom_toBottomOf="@+id/threeIv"
         app:layout_constraintEnd_toEndOf="@+id/titleTv"
         app:layout_constraintHorizontal_bias="0.567"
         app:layout_constraintStart_toStartOf="@+id/guideline"
