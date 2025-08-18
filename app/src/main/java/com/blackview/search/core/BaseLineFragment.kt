@@ -25,13 +25,6 @@ import com.blackview.search.widget.ToggleImageView
 
 abstract class BaseLineFragment<VM : BaseViewModel, DB : ViewBinding> :
     BaseVoiceAgainFragment<VM, DB>() {
-    // 使用ID定义正确配对
-    private val correctPairs = listOf(
-        R.id.step1Iv to R.id.img3,
-        R.id.step2Iv to R.id.img4,
-        R.id.step3Iv to R.id.img1,
-        R.id.step4Iv to R.id.img2
-    )
     private val connectedPairs = mutableSetOf<Pair<Int, Int>>()
 
     private val replyTrue = listOf<Int>(
@@ -125,14 +118,14 @@ abstract class BaseLineFragment<VM : BaseViewModel, DB : ViewBinding> :
 
         // 检查是否是正确的配对
         val normalizedPair = if (id1 < id2) id1 to id2 else id2 to id1
-        val isCorrect = correctPairs.any {
+        val isCorrect = getCorrectPairs().any {
             (it.first == id1 && it.second == id2) || (it.first == id2 && it.second == id1)
         }
         if (isCorrect) {
             drawConnection(firstSelectedView!!, view)
             connectedPairs.add(normalizedPair)
             // 检查是否所有配对都已完成
-            if (connectedPairs.size == correctPairs.size) {
+            if (connectedPairs.size == getCorrectPairs().size) {
                 getLineView().postDelayed({
                     val stars = CommonUtils.parseStars(failNum)
                     val completeDialog = CompleteDialog(requireActivity(), subject?.id, stars) {
@@ -207,8 +200,6 @@ abstract class BaseLineFragment<VM : BaseViewModel, DB : ViewBinding> :
     private fun resetGame() {
         // 清除所有连线
         getLineView().clearLines()
-        // 重置状态
-        connectedPairs.clear()
         // 重置状态
         connectedPairs.clear()
         firstSelectedView = null

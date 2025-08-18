@@ -18,7 +18,7 @@ class StudyClothOneFragment :
         return intArrayOf(R.raw.clothing_coat, R.raw.clothing_arctic_jacket, R.raw.clothing_jacket, R.raw.clothing_down_jacket)
     }
 
-    override fun getForewordRaw(): Int = R.raw.l243dr
+    override fun getForewordRaw(): Int = R.raw.l253dr
 
     override fun updateStar(star: Int) {
         val subject = arguments?.getSerializable("subject") as SubjectBean

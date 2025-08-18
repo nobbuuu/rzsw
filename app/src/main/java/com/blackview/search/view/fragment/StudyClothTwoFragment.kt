@@ -23,7 +23,7 @@ class StudyClothTwoFragment :
         )
     }
 
-    override fun getForewordRaw(): Int = R.raw.l243dr
+    override fun getForewordRaw(): Int = R.raw.l253dr
 
     override fun updateStar(star: Int) {
         val subject = arguments?.getSerializable("subject") as SubjectBean
