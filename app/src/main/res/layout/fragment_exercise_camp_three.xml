@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_camp_back_3">
+
+    <com.ruffian.library.widget.RTextView
+        android:id="@+id/selectTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_25"
+        android:paddingStart="@dimen/dp_88"
+        android:paddingTop="@dimen/dp_13"
+        android:paddingEnd="@dimen/dp_88"
+        android:paddingBottom="@dimen/dp_13"
+        android:text="@string/exercise_camp_fishing_title_cn"
+        android:textSize="18sp"
+        app:background_normal="#FF952B"
+        app:corner_radius="@dimen/dp_88"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:text_color_normal="@color/white" />
+
+    <TextView
+        android:id="@+id/titleTv"
+        style="@style/exerciseTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_8"
+        android:background="@mipmap/bg_subject_title"
+        android:gravity="center"
+        android:text="@string/exercise_camp_fishing_desc_cn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selectTv" />
+
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/setp2Iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="62dp"
+        app:isDrag="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleTv"
+        app:srcImg="@mipmap/img_barrel" />
+
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/setp1Iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="106dp"
+        app:isDrag="true"
+        android:layout_marginTop="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/setp2Iv"
+        app:srcImg="@mipmap/img_net" />
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/setp6Iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:isDrag="true"
+        app:layout_constraintStart_toStartOf="@+id/setp5Iv"
+        app:layout_constraintTop_toTopOf="@+id/setp5Iv"
+        app:srcImg="@mipmap/img_fishing_rod_2" />
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/setp5Iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="42dp"
+        app:isDrag="true"
+        app:layout_constraintStart_toEndOf="@+id/setp2Iv"
+        app:layout_constraintTop_toBottomOf="@+id/titleTv"
+        app:srcImg="@mipmap/img_fishing_rod_4" />
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/setp4Iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="92dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleTv"
+        app:srcImg="@mipmap/img_bait" />
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/setp7Iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:isDrag="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="84dp"
+        app:layout_constraintStart_toEndOf="@+id/setp6Iv"
+        app:layout_constraintTop_toTopOf="@+id/setp5Iv"
+        app:srcImg="@mipmap/img_fish_hook_1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

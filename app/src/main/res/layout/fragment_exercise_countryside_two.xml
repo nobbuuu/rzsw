@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_in_the_countryside_back_2">
+
+    <com.ruffian.library.widget.RTextView
+        android:id="@+id/selectTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_25"
+        android:paddingStart="@dimen/dp_88"
+        android:paddingTop="@dimen/dp_13"
+        android:paddingEnd="@dimen/dp_88"
+        android:paddingBottom="@dimen/dp_13"
+        android:text="@string/exercise_countryside_farm_title_cn"
+        android:textSize="18sp"
+        app:background_normal="#FF952B"
+        app:corner_radius="@dimen/dp_88"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:text_color_normal="@color/white" />
+
+    <TextView
+        android:id="@+id/titleTv"
+        style="@style/exerciseTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_8"
+        android:background="@mipmap/bg_subject_title"
+        android:gravity="center"
+        android:text="@string/exercise_countryside_farm_desc_cn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selectTv" />
+
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/setp1Iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="146dp"
+        app:isDrag="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcImg="@mipmap/img_wheat_2" />
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/setp9Iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="285dp"
+        android:layout_marginStart="299dp"
+        app:isDrag="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcImg="@mipmap/img_hay_2" />
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/setp2Iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="215dp"
+        android:layout_marginStart="165dp"
+        app:isDrag="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcImg="@mipmap/img_oats_2" />
+
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/setp3Iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="14dp"
+        app:layout_constraintEnd_toStartOf="@+id/setp4Iv"
+        app:layout_constraintTop_toTopOf="@+id/setp4Iv"
+        app:srcImg="@mipmap/img_oats_1" />
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/setp4Iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="36dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleTv"
+        app:srcImg="@mipmap/img_wheat_1" />
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/setp5Iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:isDrag="true"
+        android:layout_marginBottom="75dp"
+        android:layout_marginStart="175dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcImg="@mipmap/img_barley_2" />
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/setp6Iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:isDrag="true"
+        android:layout_marginStart="310dp"
+        android:layout_marginBottom="143dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcImg="@mipmap/img_field_2" />
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/setp10Iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:isDrag="true"
+        android:layout_marginStart="443dp"
+        android:layout_marginBottom="213dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcImg="@mipmap/img_field_1" />
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/setp7Iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/setp3Iv"
+        app:layout_constraintHorizontal_bias="0.557"
+        app:layout_constraintTop_toBottomOf="@+id/setp3Iv"
+        app:srcImg="@mipmap/img_barley_1" />
+
+    <com.blackview.search.widget.ToggleImageView
+        android:id="@+id/setp8Iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/setp4Iv"
+        app:layout_constraintTop_toTopOf="@+id/setp7Iv"
+        app:srcImg="@mipmap/img_hay_3" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

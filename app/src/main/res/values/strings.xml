@@ -894,4 +894,143 @@
     <string name="stretcher_en">stretcher</string>
     <string name="walker_cn">助行器</string>
     <string name="walker_en">walker</string>
+    
+    <!-- Weather Study -->
+    <string name="study_weather_title_cn">小朋友，一起来认识天气吧！</string>
+    <string name="study_weather_foggy_cn">多雾天</string>
+    <string name="study_weather_thunder_cn">打雷天</string>
+    <string name="study_weather_cloudy_cn">多云天</string>
+    <string name="study_weather_windy_cn">刮风天</string>
+    
+    <!-- Mountaineering Study -->
+    <string name="study_mountaineering_title_cn">小朋友，一起去登山吧！</string>
+    <string name="study_mountaineering_stream_cn">溪流</string>
+    <string name="study_mountaineering_valley_cn">山谷</string>
+    <string name="study_mountaineering_cave_cn">洞穴</string>
+    <string name="study_mountaineering_waterfall_cn">瀑布</string>
+    <string name="study_mountaineering_watch_cn">手表</string>
+    <string name="study_mountaineering_compass_cn">指南针</string>
+    <string name="study_mountaineering_map_cn">地图</string>
+    <string name="study_mountaineering_telescope_cn">望远镜</string>
+    <string name="study_mountaineering_water_bottle_cn">运动水壶</string>
+    <string name="study_mountaineering_rope_cn">登山绳</string>
+    <string name="study_mountaineering_backpack_cn">登山包</string>
+    <string name="study_mountaineering_marmot_cn">土拨鼠</string>
+    <string name="study_mountaineering_sheep_cn">岩羊</string>
+    <string name="study_mountaineering_sparrow_cn">麻雀</string>
+    
+    <!-- Farm Study -->
+    <string name="study_farm_title_cn">小朋友，一起去农场玩吧！</string>
+    <string name="study_farm_stable_cn">马厩</string>
+    <string name="study_farm_barn_cn">谷仓</string>
+    <string name="study_farm_farmhouse_cn">农舍</string>
+    <string name="study_farm_hoe_cn">锄头</string>
+    <string name="study_farm_rake_cn">耙子</string>
+    <string name="study_farm_tractor_cn">拖拉机</string>
+    <string name="study_farm_fence_cn">栅栏</string>
+    <string name="study_farm_lamb_cn">羔羊</string>
+    <string name="study_farm_sheepdog_cn">牧羊犬</string>
+    <string name="study_farm_goat_cn">山羊</string>
+    <string name="study_farm_chick_cn">小鸡</string>
+    <string name="study_farm_egg_cn">鸡蛋</string>
+    <string name="study_farm_rooster_cn">公鸡</string>
+    <string name="study_farm_hen_cn">母鸡</string>
+    
+    <!-- Countryside Study -->
+    <string name="study_countryside_title_cn">小朋友，一起去乡村游玩吧！</string>
+    <string name="study_countryside_pond_cn">池塘</string>
+    <string name="study_countryside_orchard_cn">果园</string>
+    <string name="study_countryside_village_cn">村庄</string>
+    <string name="study_countryside_farmland_cn">农田</string>
+    <string name="study_countryside_barley_cn">大麦</string>
+    <string name="study_countryside_hay_cn">干草</string>
+    <string name="study_countryside_oat_cn">燕麦</string>
+    <string name="study_countryside_wheat_cn">小麦</string>
+    <string name="study_countryside_caterpillar_cn">毛毛虫</string>
+    <string name="study_countryside_snail_cn">蜗牛</string>
+    <string name="study_countryside_spider_cn">蜘蛛</string>
+    <string name="study_countryside_beetle_cn">甲虫</string>
+    
+    <!-- Camp Study -->
+    <string name="study_camp_title_cn">小朋友，一起去露营吧！</string>
+    <string name="study_camp_lighter_cn">打火机</string>
+    <string name="study_camp_sleeping_bag_cn">睡袋</string>
+    <string name="study_camp_flashlight_cn">手电筒</string>
+    <string name="study_camp_tent_cn">帐篷</string>
+    <string name="study_camp_lotus_cn">荷花</string>
+    <string name="study_camp_willow_cn">柳树</string>
+    <string name="study_camp_hook_cn">鱼钩</string>
+    <string name="study_camp_rod_cn">钓竿</string>
+    <string name="study_camp_bait_cn">鱼饵</string>
+    <string name="study_camp_owl_cn">猫头鹰</string>
+    <string name="study_camp_bonfire_cn">篝火</string>
+    <string name="study_camp_firefly_cn">萤火虫</string>
+    <string name="study_camp_torch_cn">火把</string>
+    
+    <!-- Vehicle Study -->
+    <string name="study_vehicle_title_cn">小朋友，一起来认识交通工具吧！</string>
+    <string name="study_vehicle_microplane_cn">微型飞机</string>
+    <string name="study_vehicle_airship_cn">飞艇</string>
+    <string name="study_vehicle_balloon_cn">热气球</string>
+    <string name="study_vehicle_glider_cn">滑翔机</string>
+    <string name="study_vehicle_subway_cn">地铁</string>
+    <string name="study_vehicle_cable_car_cn">缆车</string>
+    <string name="study_vehicle_train_cn">火车</string>
+    <string name="study_vehicle_tram_cn">有轨电车</string>
+    <string name="study_vehicle_tricycle_cn">三轮车</string>
+    <string name="study_vehicle_suv_cn">越野车</string>
+    <string name="study_vehicle_rv_cn">野营车</string>
+    <string name="study_vehicle_motorcycle_cn">摩托车</string>
+    <string name="study_vehicle_sedan_cn">小轿车</string>
+    <string name="study_vehicle_van_cn">小型面包车</string>
+    <string name="study_vehicle_convertible_cn">敞篷车</string>
+    <string name="study_vehicle_sports_car_cn">跑车</string>
+    <string name="study_vehicle_sailboat_cn">帆船</string>
+    <string name="study_vehicle_yacht_cn">游艇</string>
+    <string name="study_vehicle_canoe_cn">独木舟</string>
+    <string name="study_vehicle_cruise_cn">邮轮</string>
+    
+    <!-- Exercise titles -->
+    <string name="exercise_weather_title_cn">我的相册</string>
+    <string name="exercise_weather_desc_cn">这些照片都是什么天气里拍的呢？</string>
+    <string name="exercise_mountaineering_treasure_title_cn">寻宝游戏</string>
+    <string name="exercise_mountaineering_treasure_desc_cn">行动起来，找到宝藏吧！</string>
+    <string name="exercise_mountaineering_equipment_title_cn">挑选登山用品</string>
+    <string name="exercise_mountaineering_equipment_desc_cn">为小动物们挑选登山用品吧！</string>
+    <string name="exercise_mountaineering_prepare_title_cn">准备登山</string>
+    <string name="exercise_mountaineering_prepare_desc_cn">挑选登山用具，做登山前最后的准备吧！</string>
+    <string name="exercise_mountaineering_painting_title_cn">山顶写生</string>
+    <string name="exercise_mountaineering_painting_desc_cn">看看画家都画了哪些动物吧！</string>
+    <string name="exercise_farm_home_title_cn">动物的家</string>
+    <string name="exercise_farm_home_desc_cn">请你找到小动物们的家吧！</string>
+    <string name="exercise_farm_bread_title_cn">送面包</string>
+    <string name="exercise_farm_bread_desc_cn">把面包送给大家吧！</string>
+    <string name="exercise_farm_shepherd_title_cn">小小牧民</string>
+    <string name="exercise_farm_shepherd_desc_cn">做一天牧民吧！</string>
+    <string name="exercise_farm_chicken_title_cn">小鸡一家</string>
+    <string name="exercise_farm_chicken_desc_cn">认识小鸡一家吧！</string>
+    <string name="exercise_countryside_scenery_title_cn">乡村的风景</string>
+    <string name="exercise_countryside_scenery_desc_cn">快来看看乡村的风景吧！</string>
+    <string name="exercise_countryside_farm_title_cn">小小农场</string>
+    <string name="exercise_countryside_farm_desc_cn">勤劳的小朋友，一起干农活啦！</string>
+    <string name="exercise_countryside_insect_title_cn">昆虫塔防</string>
+    <string name="exercise_countryside_insect_desc_cn">给昆虫们安排合适的位置，保卫家园吧！</string>
+    <string name="exercise_camp_site_title_cn">露营营地</string>
+    <string name="exercise_camp_site_desc_cn">这里有一处营地，一起去看看吧！</string>
+    <string name="exercise_camp_reflection_title_cn">奇妙的倒影</string>
+    <string name="exercise_camp_reflection_desc_cn">湖水中的倒影和实体对不上号了，把倒影和正确的实体连起来吧！</string>
+    <string name="exercise_camp_fishing_title_cn">钓鱼游戏</string>
+    <string name="exercise_camp_fishing_desc_cn">一起来钓鱼吧！</string>
+    <string name="exercise_camp_forest_title_cn">夜晚的森林</string>
+    <string name="exercise_camp_forest_desc_cn">夜晚的森林都有什么呢？</string>
+    
+    <!-- Missing Exercise Resources -->
+    <string name="exercise_camp_forest_night_title_cn">夜晚的森林</string>
+    <string name="exercise_camp_forest_night_desc_cn">夜晚的森林都有什么呢？</string>
+    <string name="exercise_countryside_insect_defense_title_cn">昆虫塔防</string>
+    <string name="exercise_countryside_insect_defense_desc_cn">给昆虫们安排合适的位置，保卫家园吧！</string>
+    <string name="exercise_farm_egg_match_title_cn">小鸡一家</string>
+    <string name="exercise_farm_egg_match_desc_cn">认识小鸡一家吧！</string>
+    <string name="exercise_farm_chicken_family_title_cn">小鸡一家</string>
+    <string name="exercise_farm_chicken_family_desc_cn">认识小鸡一家吧！</string>
 </resources>
