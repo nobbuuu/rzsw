@@ -10,7 +10,7 @@ class ExerciseEmotionTwoFragment :
     BaseExerciseFragment<StudyExerciseViewModel, FragmentExerciseEmotionTwoBinding>() {
 
     override fun getToggleViews(): List<ToggleImageView> {
-        return listOf(mBinding.surprisedBigIv, mBinding.nervousBigIv, mBinding.worriedIv, mBinding.shyIv)
+        return listOf(mBinding.surprisedBigIv, mBinding.shyIv, mBinding.nervousBigIv, mBinding.worriedIv)
     }
 
     override fun getForewordRaw(): Int {
